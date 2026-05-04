@@ -8,6 +8,7 @@ import AosInitializer from "@/libs/aos";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 import ScrollTop from "@/components/ScrollToTop";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: {
@@ -43,6 +44,9 @@ export default function RootLayout({
         
         {/* Scroll to Top Button */}
         <ScrollTop />
+        
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
       </body>
     </html>
   );
