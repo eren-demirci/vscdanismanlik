@@ -9,18 +9,21 @@ import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 import ScrollTop from "@/components/ScrollToTop";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s',
-    default: 'Consulo Creative Business Consulting Template',
+    template: "%s",
+    default: "Consulo Creative Business Consulting Template",
   },
-  description: "Consulo is a creative business consulting template designed for corporate entities and professional businesses.",
+  description:
+    "Consulo is a creative business consulting template designed for corporate entities and professional businesses.",
   openGraph: {
-    title: 'Consulo Creative Business Consulting Template',
-    description: 'A versatile HTML template designed for corporate entities and professional businesses.',
-    url: 'https://themeforest.net/user/spreethemes/portfolio',
-    type: 'website',
+    title: "Consulo Creative Business Consulting Template",
+    description:
+      "A versatile HTML template designed for corporate entities and professional businesses.",
+    url: "https://themeforest.net/user/spreethemes/portfolio",
+    type: "website",
   },
 };
 
@@ -35,18 +38,20 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
-        
+
         {/* Modal and Drawer Overlay */}
         <drawer-opener id="drawer-overlay"></drawer-opener>
 
         {/* AOS Init */}
         <AosInitializer />
-        
+
         {/* Scroll to Top Button */}
         <ScrollTop />
-        
+
         {/* Vercel Speed Insights */}
         <SpeedInsights />
+        {/* Vercel Analytics */}
+        <Analytics />
       </body>
     </html>
   );
