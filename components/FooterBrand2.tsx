@@ -10,13 +10,13 @@ const FooterBrand2 = () => {
             data-aos-anchor=".footer-top"
         >
             <Logo 
-                src={LogoImage.src}
+                src={"/logo.svg"}
                 width={189}
                 height={32}
                 url="/home-6"
                 cls="footer-logo"
-                alt="Consulo logo"
-                ariaLabel="Consulo logo" 
+                alt="VSC Danışmanlık logo"
+                ariaLabel="VSC Danışmanlık logo"
                 loading="lazy"
             />
             <Social 

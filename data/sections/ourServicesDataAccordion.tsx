@@ -3,10 +3,10 @@ import { SectionProps } from "@/types/sectionProps";
 export const OurServicesDataAccordion: SectionProps = {
     wrapperCls: "mt-100 section-padding",
     container: "container",
-    subheading: "Our Services",
-    heading: "Solutions tailored to your business needs",
+    subheading: "Hizmetlerimiz",
+    heading: "İşletmenize Özel Bütüncül Danışmanlık Çözümleri",
     button: {
-        label: "More Services",
+        label: "Tüm Hizmetler",
         href: "/services",
         type: "secondary"
     },

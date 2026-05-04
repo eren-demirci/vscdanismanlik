@@ -28,16 +28,16 @@ const ServiceSidebar = ({ slug }: {slug?: string;}) => {
             <aside className="service-sidebar">
                 {categories.length > 0 &&
                     <SidebarCategories 
-                        title="Services List"
+                        title="Hizmet Listesi"
                         categories={categories}
                         rootUrl="/services"
                     />
                 }
 
-                <SidebarPhone 
-                    heading="Contact with us <br/> for any advice"
-                    text="Need help? Talk to an expert"
-                    phone="+12345.6789.333"
+                <SidebarPhone
+                    heading="Danışmanlık için <br/> bize ulaşın"
+                    text="Uzman desteği için hemen arayın"
+                    phone="0555 555 55 55"
                     image={{
                         src: SidebarPhoneImage.src,                      
                         width: 1000,

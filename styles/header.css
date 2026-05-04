@@ -104,6 +104,11 @@ sticky-header[data-sticky-type="always"] {
   align-items: center;
 }
 
+.header-logo img {
+  height: 30px;
+  width: auto;
+}
+
 .header-actions {
   justify-self: flex-end;
   gap: 24px;

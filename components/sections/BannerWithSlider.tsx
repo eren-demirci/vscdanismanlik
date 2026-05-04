@@ -134,7 +134,7 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
                                     >
                                         <Icons.PhoneLarge />
                                         <div className="hero-call">
-                                            <div className="text text-14">Need help?</div>
+                                            <div className="text text-14">Yardımcı Olalım</div>
                                             <div className="text text-16">{phone}</div>
                                         </div>
                                     </Link>

@@ -2,7 +2,7 @@ import { PricingProps } from "@/types/pricing";
 
 export const PricingTableData: PricingProps[] = [
   {
-    title: "Basic",
+    title: "Basit",
     description: "Pricing plan for Digital Transformation",
     price: "$29.00",
     period: "/Monthly",

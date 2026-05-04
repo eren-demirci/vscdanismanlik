@@ -5,11 +5,11 @@ import ImageMobile from "@/public/img/slider/hero2-575.jpg";
 
 export const AboutData: SectionProps = {
     container: "container-fluid",
-    subheading: "Questions",
-    heading: "Our story, our mission that make us different",
-    text: "The solar solution company specializes in providing innovative, eco-friendly energy systems harness the power, reducing carbon footprints and energy for clients worldwide.",
+    subheading: "Hakkımızda",
+    heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle 2026 yılında kurulmuştur. Sürdürülebilirlik, kurumsal finans, mali müşavirlik, muhasebe ve vergi alanlarında bütüncül ve katma değer yaratan hizmetler sunmayı amaçlayan şirketimiz; değişen iş dünyasının dinamiklerine uyum sağlayan, stratejik bakış açısına sahip çözümler geliştirmektedir.",
     button: {
-        label: "Learn More About Us",
+        label: "Daha Fazla Bilgi",
         href: "/about-us",
         type: "primary"
     },
@@ -19,7 +19,7 @@ export const AboutData: SectionProps = {
         srcMobile: ImageMobile.src,
         width: 1920,
         height: 1000,
-        alt: "Image",
+        alt: "VSC Danışmanlık",
         loading: "lazy",
     }
 }

@@ -7,7 +7,7 @@ const HeaderActions2 = () => {
     return (
         <div className="header-actions flex items-center">
             <SlimButton 
-                label="Get in Touch"
+                label="İletişime Geç"
                 href="/contact-us"
                 ariaLabel="contact us"
                 cls="button--primary"

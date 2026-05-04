@@ -10,19 +10,20 @@ import Footer from "@/components/sections/Footer";
 import ScrollTop from "@/components/ScrollToTop";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import Header2 from "@/components/HeaderStyle2";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s",
-    default: "Consulo Creative Business Consulting Template",
+    template: "%s | VSC Danışmanlık",
+    default: "VSC Danışmanlık A.Ş.",
   },
   description:
-    "Consulo is a creative business consulting template designed for corporate entities and professional businesses.",
+    "VSC Danışmanlık A.Ş., sürdürülebilirlik, kurumsal finans, vergi, denetim ve yönetim danışmanlığı alanlarında bütüncül çözümler sunar.",
   openGraph: {
-    title: "Consulo Creative Business Consulting Template",
+    title: "VSC Danışmanlık A.Ş.",
     description:
-      "A versatile HTML template designed for corporate entities and professional businesses.",
-    url: "https://themeforest.net/user/spreethemes/portfolio",
+      "Sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, bağımsız denetim ve yönetim danışmanlığında güvenilir iş ortağınız.",
+    url: "https://vscdanismanlik.com",
     type: "website",
   },
 };
@@ -33,9 +34,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <body className={fonts}>
-        <Header />
+        <Header2 />
         <main>{children}</main>
         <Footer />
 

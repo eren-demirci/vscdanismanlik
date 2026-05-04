@@ -1,43 +1,55 @@
 import Icons from "../components/Icons";
 
 export const MenuService = {
-    title: "Our Services",
+    title: "Hizmetlerimiz",
     menus: [
         {
-            title: "Launch with Consulo",
-            path: "/services"
+            title: "Sürdürülebilirlik",
+            path: "/services/surdurulebilirlik"
         },
         {
-            title: "Migrate to Consulo",
-            path: "/projects"
+            title: "Kurumsal Finansman",
+            path: "/services/kurumsal-finansman"
         },
         {
-            title: "Partner Services",
-            path: "/contact-us"
+            title: "Vergi Danışmanlığı",
+            path: "/services/vergi-danismanligi"
         },
         {
-            title: "Professional Services",
-            path: "/projects/business-development"
+            title: "Bağımsız Denetim",
+            path: "/services/bagimsiz-denetim"
+        },
+        {
+            title: "Muhasebe ve Mali Danışmanlık",
+            path: "/services/muhasebe-ve-mali-danismanlik"
+        },
+        {
+            title: "İş Hukuku ve Sosyal Güvenlik",
+            path: "/services/is-hukuku-ve-sosyal-guvenlik"
+        },
+        {
+            title: "Yönetim Danışmanlığı",
+            path: "/services/yonetim-danismanligi"
         }
     ]
 }
 
 export const MenuContact = {
-    title: "Quick Contact",
+    title: "Hızlı İletişim",
     menus: [
         {
-            title: "Peel House, 30 The Downs",
+            title: "Maslak Mah. Bilim Sk. Sun Plaza No:5A İç Kapı No:40 Sarıyer / İstanbul",
             path: null,
             icon: <Icons.Location />
         },
         {
-            title: "+01234567890",
-            path: "tel:+001234567890",
+            title: "0555 555 55 55",
+            path: "tel:+905555555555",
             icon: <Icons.Phone />
         },
         {
-            title: "consulo@email.com",
-            path: "mailto:consulo@email.com",
+            title: "info@vscdanismanlik.com",
+            path: "mailto:info@vscdanismanlik.com",
             icon: <Icons.Envelope />
         }
     ]

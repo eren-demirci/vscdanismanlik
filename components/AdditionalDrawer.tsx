@@ -10,7 +10,7 @@ const AdditionalDrawer = () => {
         <div className="theme-drawer drawer-additional" data-position="right">
             <div className="drawer-headings">
                 <Logo 
-                    src={LogoImage.src}
+                    src={"/logo.svg"}
                     width={189}
                     height={32}
                     url="/"

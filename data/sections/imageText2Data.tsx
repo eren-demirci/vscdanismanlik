@@ -1,44 +1,42 @@
 import { SectionProps } from "@/types/sectionProps";
 import Icons from "@/components/Icons";
-import Image1 from '@/public/img/image-text/img2.png';
-import Image2 from '@/public/img/image-text/img-small.png';
 
 export const ImageText2Data: SectionProps = {
     wrapperCls: "mt-100",
     container: "container",
-    subheading: "Our Company",
-    heading: "Redesigning business for solutions",
-    text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",
+    subheading: "Hakkımızda",
+    heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle 2026 yılında kurulmuştur. Değer odaklı yaklaşımımız ve güvenilir iş ortaklığı anlayışımızla müşterilerimizin uzun vadeli hedeflerine ulaşmalarını destekliyoruz.",
     textList: [
         {
             icon: <Icons.Ambition />,
-            title: "Our ambition",
-            text: "Businesses off all size thrive in an our businesses."
+            title: "Misyonumuz",
+            text: "Şirketlerin bugünkü performansını güçlendirirken geleceğe daha dirençli ve şeffaf bir yapıyla ilerlemelerine rehberlik etmek."
         },
         {
             icon: <Icons.Purpose />,
-            title: "Our purpose",
-            text: "Businesses off all size thrive in an our businesses."
+            title: "Vizyonumuz",
+            text: "Değer odaklı yaklaşım ve analitik bakış açısıyla müşterilerimizin kalıcı değer yaratmasına katkı sağlamak."
         }
     ],
     button: {
-        label: "More About Us",
+        label: "Daha Fazla Bilgi",
         href: "/about-us",
         type: "primary"
     },
     imageList: [
         {
-            src: Image1.src,
+            src: "/ai-generated/a-professional-portrait-oriented-photogr_CrG5IFJBTjysZ0DP6l_D9g_xYwxj9m6TM65RKiwBL32ig_cover_sd.jpeg",
             width: 992,
             height: 863,
-            alt: 'Image',
+            alt: 'VSC Danışmanlık',
             loading: 'lazy'
         },
         {
-            src: Image2.src,
+            src: "/ai-generated/close-up-of-business-handshake-in-modern_7RBwaq15RbK3fvhFa8G22w_05OisZbNTgO98HE9WUijGg_cover_sd.jpeg",
             width: 195,
             height: 202,
-            alt: 'Image',
+            alt: 'VSC Danışmanlık',
             loading: 'lazy'
         }
     ]

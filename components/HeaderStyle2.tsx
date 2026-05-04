@@ -17,9 +17,9 @@ const Header2 = () => {
           <div className="header-grid">
             {/* Logo */}
             <Logo 
-              src={LogoImage.src}
+              src={"/logo.svg"}
               width={189}
-              height={32}
+              height={25}
               url="/home-2"
               cls="header-logo"
               alt="Consulo logo"

@@ -102,7 +102,7 @@ const AccordionHorizontal = ({ items }: { items: ServiceProps[] }) => {
                 </div>
                 <div className="service-button">
                   <Link href={`/services/${item.slug}`} className="button button--primary">
-                    + View Details
+                    + Detayları Gör
                   </Link>
                 </div>
               </div>

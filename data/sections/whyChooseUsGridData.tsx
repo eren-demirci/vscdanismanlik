@@ -1,54 +1,51 @@
 import { SectionProps } from "@/types/sectionProps";
-import WhyChooseUsImage from "@/public/img/why-choose-us/1.jpg";
-import WhyChooseUsImageMobile from "@/public/img/why-choose-us/575.jpg";
-import PromoImage from "@/public/img/why-choose-us/2.jpg";
 import Icons from "@/components/Icons";
 
 export const WhyChooseUsGridData: SectionProps = {
     wrapperCls: "mt-100 section-padding",
     container: "container",
     image: {
-        src: WhyChooseUsImage.src,
-        srcMobile: WhyChooseUsImageMobile.src,
+        src: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
+        srcMobile: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
         width: 1000,
         height: 742,
         loading: "lazy",
-        alt: "Choose us image"
+        alt: "VSC Danışmanlık ofis"
     },
-    subheading: "Why Choose Us",
-    heading: "Supporting Growth on a Global Scale",
-    text: "We provide dependable and tailored consulting services that help your business navigate challenges, seize opportunities.",
+    subheading: "Neden VSC?",
+    heading: "Stratejik Danışmanlıkta Güvenilir İş Ortağınız",
+    text: "VSC Danışmanlık Grubu olarak, ortaklarımızın farklı kurumsal yapılarda edindiği bilgi birikimini ve saha deneyimini tek bir çatı altında birleştiriyoruz.",
     button: {
-        label: "More About Us",
+        label: "Daha Fazla Bilgi",
         href: "/about-us",
         type: "primary"
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "25",
+        text: "7+",
     },
     promotions: [
         {
             icon: <Icons.Mission />,
-            title: "Our Mission",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Misyonumuz",
+            text: "Şirketlerin bugünkü performansını güçlendirirken geleceğe daha dirençli ve şeffaf yapıyla ilerlemelerine rehberlik etmek.",
         },
         {
             icon: <Icons.Vision />,
-            title: "Our Vision",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Vizyonumuz",
+            text: "Değer odaklı yaklaşım ve analitik bakış açısıyla müşterilerimizin kalıcı değer yaratmasına katkı sağlamak.",
         },
         {
             icon: <Icons.Awards />,
-            title: "Our Awards",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Uzmanlığımız",
+            text: "Sürdürülebilirlik'ten kurumsal finansa, vergi danışmanlığından yönetim danışmanlığına geniş uzmanlık yelpazesi.",
         },
     ],
     promoImage: {
-        src: PromoImage.src,
+        src: "/ai-generated/professional-business-meeting-in-modern-_cdKaNB6PRVCN38XuyqFKdw_aocR0YSfRTCW7dMk6XScWw_sd.jpeg",
         width: 800,
         height: 834,
         loading: "lazy",
-        alt: "Choose us image"
+        alt: "VSC Danışmanlık ekip toplantısı"
     },
 }

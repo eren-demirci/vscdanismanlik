@@ -8,13 +8,13 @@ export const OurServicesData: SectionProps = {
         src: BackgroundImage.src,
         width: 1920,
         height: 883,
-        alt: "Service background image",
+        alt: "Hizmetler arka plan görseli",
         loading: "lazy"
     },
-    subheading: "Our Services",
-    heading: "Grow client base to boost business",
+    subheading: "Hizmetlerimiz",
+    heading: "Bütüncül ve Katma Değer Yaratan Danışmanlık Hizmetleri",
     button: {
-        label: "More Services",
+        label: "Tüm Hizmetler",
         href: "/services",
         type: "primary"
     },

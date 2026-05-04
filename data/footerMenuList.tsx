@@ -5,95 +5,99 @@ interface MenuType {
 
 export const QuickLink: MenuType[] = [
     {
-        title: 'About Us',
+        title: 'Hakkımızda',
         path: '/about-us'
     },
     {
-        title: 'Our Team',
-        path: '/teams'
+        title: 'Hizmetlerimiz',
+        path: '/services'
     },
     {
-        title: 'Pricing Plans',
-        path: '/pricing-plan'
+        title: 'Duyurular',
+        path: '/blogs/category/duyurular'
     },
     {
-        title: 'Blogs',
-        path: '/blogs'
+        title: 'Haberler',
+        path: '/blogs/category/haberler'
     },
     {
-        title: 'Contact Us',
+        title: 'İletişim',
         path: '/contact-us'
     }
 ];
 
 export const Services: MenuType[] = [
     {
-        title: 'UI/UX Design',
-        path: '/projects'
+        title: 'Sürdürülebilirlik',
+        path: '/services/surdurulebilirlik'
     },
     {
-        title: 'App Development',
-        path: '/projects'
+        title: 'Kurumsal Finansman',
+        path: '/services/kurumsal-finansman'
     },
     {
-        title: 'Digital Marketing',
-        path: '/services'
+        title: 'Vergi Danışmanlığı',
+        path: '/services/vergi-danismanligi'
     },
     {
-        title: 'Web Development',
-        path: '/pricing-plan'
+        title: 'Bağımsız Denetim',
+        path: '/services/bagimsiz-denetim'
     },
     {
-        title: 'Cyber Security',
-        path: '/projects/business-development'
+        title: 'Muhasebe ve Mali Danışmanlık',
+        path: '/services/muhasebe-ve-mali-danismanlik'
+    },
+    {
+        title: 'İş Hukuku ve Sosyal Güvenlik',
+        path: '/services/is-hukuku-ve-sosyal-guvenlik'
+    },
+    {
+        title: 'Yönetim Danışmanlığı',
+        path: '/services/yonetim-danismanligi'
     }
 ];
 
 export const Information: MenuType[] = [
     {
-        title: 'Working Process',
-        path: '/services'
-    },
-    {
-        title: 'Privacy Policy',
+        title: 'Gizlilik Politikası',
         path: '/privacy-policy'
     },
     {
-        title: 'Terms & Conditions',
+        title: 'Kullanım Koşulları',
         path: '/terms-condition'
     },
     {
-        title: 'FAQ',
+        title: 'SSS',
         path: '/faq'
     }
 ];
 
 export const MenuContact: MenuType[] = [
     {
-        title: 'consulo@yourcompany.com',
-        path: 'mailto:consulo@yourcompany.com'
+        title: 'info@vscdanismanlik.com',
+        path: 'mailto:info@vscdanismanlik.com'
     },
     {
-        title: '+1 (437) 555-0198',
-        path: 'tel:+1 (437) 555-0198'
+        title: '0555 555 55 55',
+        path: 'tel:+905555555555'
     },
     {
-        title: '123 Maple Avenue, Toronto, ON M5H 2N2, Canada',
+        title: 'Maslak Mah. Bilim Sk. Sun Plaza No:5A İç Kapı No:40 Sarıyer / İstanbul',
         path: '#'
     }
 ];
 
 export const MenuPolicies: MenuType[] = [
     {
-        title: 'Privacy Policy',
+        title: 'Gizlilik Politikası',
         path: '/privacy-policy'
     },
     {
-        title: 'FAQ',
+        title: 'SSS',
         path: '/faq'
     },
     {
-        title: 'Contact',
+        title: 'İletişim',
         path: '/contact-us'
     }
 ];
