@@ -24,10 +24,14 @@ function sortByDateDesc(posts: ArticleType[]): ArticleType[] {
 }
 
 const FeaturedBlog = async ({ data }: { data: SectionProps }) => {
-  const [news, announcements] = await Promise.all([
+  const [newsResult, announcementsResult] = await Promise.allSettled([
     getNewsArticles(6),
     getAnnouncementArticles(),
   ]);
+
+  const news = newsResult.status === "fulfilled" ? newsResult.value : [];
+  const announcements =
+    announcementsResult.status === "fulfilled" ? announcementsResult.value : [];
 
   const posts = sortByDateDesc([...announcements, ...news]).slice(0, 3);
   if (posts.length === 0) return null;
