@@ -2,6 +2,23 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.ntv.com.tr",
+      },
+      {
+        protocol: "https",
+        hostname: "image.hurimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "im.haberturk.com",
+      },
+    ],
+  },
   turbopack: {
     rules: {
       '*.svg': {
@@ -10,7 +27,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  webpack(config, { isServer }) {
+  webpack(config) {
     // This is an example for adding options to @svgr/webpack if needed
     // For basic usage, the turbopack rule might suffice.
     config.module.rules.push({

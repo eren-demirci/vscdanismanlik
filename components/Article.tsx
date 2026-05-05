@@ -4,7 +4,6 @@ import Authors from '@/data/author.json';
 import Image from "next/image";
 import Icons from "./Icons";
 import { formatDate } from "@/utils/formatDate";
-import Link from "next/link";
 import parse from 'html-react-parser';
 
 interface ArticleProps {
@@ -14,7 +13,7 @@ interface ArticleProps {
 const Article = ({
     article
 }: ArticleProps) => {
-    const { image, title, authorId, comments } = article;    
+    const { image, title, authorId } = article;    
     const author: AuthorType | undefined = Authors.find((author: AuthorType) => author.id === authorId);
 
     return (
@@ -50,16 +49,6 @@ const Article = ({
                             </div>
                         }
 
-                        {comments &&
-                            <Link
-                                className="card-blog-meta-item text text-18"
-                                href="#blog-comments"
-                                aria-label="Blog Comments"
-                            >
-                                <Icons.Comment />
-                                {comments < 10 ? '0': ''}{comments} Comments
-                            </Link>
-                        }
                     </div>
 
                     <h2 className="card-blog-heading heading text-50">

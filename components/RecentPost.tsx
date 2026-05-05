@@ -6,12 +6,17 @@ import { formatDate } from "@/utils/formatDate";
 
 const RecentPost = ({
     title,
-    slug
+    slug,
+    posts,
 }: RecentPostType) => {
-    const posts = Posts;
-    const recentPosts = posts
+    const sourcePosts = posts && posts.length > 0 ? posts : Posts;
+    const recentPosts = sourcePosts
     .filter((post) => post.slug !== slug)
-    .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+    .sort((a, b) => {
+        const aTime = a.created_at ? new Date(a.created_at).getTime() : 0;
+        const bTime = b.created_at ? new Date(b.created_at).getTime() : 0;
+        return bTime - aTime;
+    })
     .slice(0, 3);
 
     return (

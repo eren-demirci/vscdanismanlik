@@ -1,0 +1,29 @@
+services:
+  app:
+    container_name: vsc-danismanlik
+    build:
+      context: .
+      args:
+        DATABASE_URL: ${DATABASE_URL}
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env.production
+    depends_on:
+      - postgres
+    command: npm start
+  postgres:
+    image: postgres:latest
+    container_name: vsc-postgres
+    environment:
+      POSTGRES_USER: vsc_user
+      POSTGRES_PASSWORD: vsc_password
+      POSTGRES_DB: vsc_database
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/init-news.sql:/docker-entrypoint-initdb.d/01-init-news.sql:ro
+      - ./db/migrations/20260505_add_content_html_to_news.sql:/docker-entrypoint-initdb.d/02-add-content-html.sql:ro
+      - ./db/migrations/20260505_add_image_url_to_news.sql:/docker-entrypoint-initdb.d/03-add-image-url.sql:ro

@@ -23,7 +23,9 @@ const ServiceDetails = ({
         image,
         content,
         slug,
+        faqs,
     } = data || {};
+    const faqData = faqs?.length ? faqs : ServiceAccordionData;
 
     return (
         <div className="page-service-details mt-100 mb-100">
@@ -40,7 +42,7 @@ const ServiceDetails = ({
                         <ServiceSidebar slug={slug} />
                     </div>
                     <div className="col-span-12 lg:col-span-7">
-                        <div className="service-details-content">
+                        <article className="service-details-content" itemScope itemType="https://schema.org/Service">
                             {image &&
                                 <div className="details-media radius18" data-aos="fade-up">
                                     <Image
@@ -48,24 +50,31 @@ const ServiceDetails = ({
                                         width={1000}
                                         height={596}
                                         loading="lazy"
-                                        alt="image"
+                                        alt={title || "Hizmet görseli"}
                                     />
                                 </div>
                             }
                             
                             {title &&
-                                <h2 className="heading text-50" data-aos="fade-up">
+                                <h2 className="heading text-50 service-main-title" data-aos="fade-up" itemProp="name">
                                     {title}
                                 </h2>
                             }
 
-                            {content && <>{parse(content)}</>}
+                            {content && <div className="service-rich-content" itemProp="description">{parse(content)}</div>}
 
-                            <Accordion 
-                                cls="service-faq"
-                                data={ServiceAccordionData}
-                            />
-                        </div>
+                            {faqData?.length ? (
+                                <>
+                                    <h3 className="heading text-40 service-faq-title" data-aos="fade-up">
+                                        Sık Sorulan Sorular
+                                    </h3>
+                                    <Accordion
+                                        cls="service-faq"
+                                        data={faqData}
+                                    />
+                                </>
+                            ) : null}
+                        </article>
                     </div>
                 </div>
             </div>

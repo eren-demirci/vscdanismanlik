@@ -63,9 +63,9 @@ const FaqForm = ({ heading }: { heading?: string; }) => {
                 <TextField 
                     cls="text-16"
                     id="FaqForm-name"
-                    label="Your Name"
+                    label="Adınız Soyadınız"
                     type="text"
-                    placeholder="Your Name*"
+                    placeholder="Adınız Soyadınız*"
                     name="name"
                     required={true}
                     aos="fade-up"
@@ -74,9 +74,9 @@ const FaqForm = ({ heading }: { heading?: string; }) => {
                 <TextField 
                     cls="text-16"
                     id="FaqForm-email"
-                    label="Your Email"
+                    label="E-posta Adresiniz"
                     type="email"
-                    placeholder="Your Email*"
+                    placeholder="E-posta Adresiniz*"
                     name="email"
                     required={false}
                     aos="fade-up"
@@ -85,8 +85,8 @@ const FaqForm = ({ heading }: { heading?: string; }) => {
                 <TextArea 
                     cls="text-16"
                     id="FaqForm-body"
-                    label="Write your message"
-                    placeholder="Write your message*"
+                    label="Mesajınız"
+                    placeholder="Mesajınızı yazın*"
                     name="message"
                     aos="fade-up"
                     required={true}
@@ -96,9 +96,9 @@ const FaqForm = ({ heading }: { heading?: string; }) => {
                     <button
                         type="button"
                         className="button button--primary loading"
-                        aria-label="Ask QuestionSending message"
+                        aria-label="Mesaj gönderiliyor"
                     >
-                        Sending...
+                        Gönderiliyor...
                         <span className="svg-wrapper icon-20">
                             <Icons.ArrowCircleStraight />
                         </span>
@@ -107,9 +107,9 @@ const FaqForm = ({ heading }: { heading?: string; }) => {
                     <button
                         type="submit"
                         className="button button--primary"
-                        aria-label="Ask Question Now"
+                        aria-label="Soruyu gönder"
                     >
-                        Ask Question Now
+                        Soruyu Gönder
                         <span className="svg-wrapper icon-20">
                             <Icons.ArrowCircleStraight />
                         </span>

@@ -6,6 +6,7 @@ const SidebarTags = ({
     title,
     tags,
     rootUrl,
+    getHref,
 }: TagType) => {
     return (
         <div className="sidebar-widget radius18" data-aos="fade-up">
@@ -15,7 +16,7 @@ const SidebarTags = ({
                     <li key={`tag-${index}`}>
                         <Link
                             className="subheading subheading-bg text-18"
-                            href={`${rootUrl}/${createHandle(tag)}`}
+                            href={getHref ? getHref(tag) : `${rootUrl}/${createHandle(tag)}`}
                             aria-label={tag}
                         >
                             {tag}

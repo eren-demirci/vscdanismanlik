@@ -9,6 +9,7 @@ const PAGE_TITLE: string = 'Our Blog';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }
+export const dynamic = "force-dynamic";
 
 const Blog = () => {
     return(

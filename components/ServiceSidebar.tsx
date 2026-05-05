@@ -6,18 +6,20 @@ import SidebarCategories from "./SidebarCategories";
 import SidebarPhone from "./SidebarPhone";
 import SidebarPdfDownload from "./SidebarPdfDownload";
 import DrawerOpener from "./DrawerOpener";
+import type { SidebarCategoryItem } from "@/types/categories";
 
 
 const ServiceSidebar = async ({ slug }: {slug?: string;}) => {
     const services = await getAllServices();
     const filteredServices = services.filter(item => item.slug != slug);
-    const categories: string[] = Array.from(
-        new Set(
-            filteredServices
-                .map((service) => service.title)
-                .filter((title): title is string => Boolean(title))
-        )
-    );
+    const currentService = services.find((item) => item.slug === slug);
+    const brochureUrl = currentService?.brochure_url?.trim();
+    const categories: SidebarCategoryItem[] = filteredServices
+        .filter((service): service is typeof service & { title: string; slug: string } => Boolean(service.title && service.slug))
+        .map((service) => ({
+            label: service.title,
+            slug: service.slug,
+        }));
 
     return (
         <div className="sidebar-filter drawer-service-sidebar">
@@ -53,10 +55,14 @@ const ServiceSidebar = async ({ slug }: {slug?: string;}) => {
                     }}
                 />
                 
-                <SidebarPdfDownload 
-                    heading="Download Our Brochures"
-                    text="Business is a marketing discipline focused on growing visibility organ (non-paid) technic required."
-                />
+                {brochureUrl ? (
+                    <SidebarPdfDownload
+                        heading="Download Our Brochures"
+                        text="Business is a marketing discipline focused on growing visibility organ (non-paid) technic required."
+                        href={brochureUrl}
+                        buttonLabel={currentService?.brochure_label}
+                    />
+                ) : null}
             </aside>
         </div>
     )

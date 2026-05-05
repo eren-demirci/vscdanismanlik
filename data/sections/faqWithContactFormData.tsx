@@ -3,11 +3,11 @@ import { SectionProps } from "@/types/sectionProps";
 export const FaqWithContactFormData: SectionProps = {
     wrapperCls: "mt-100 mb-100",
     container: "container",
-    subheading: "Questions",
-    heading: "Frequently Asked Questions",
-    text: "If you need immediate assistance, click the button below to chat live with a Customer Service Customer live with representative.",
+    subheading: "Sorular",
+    heading: "Sıkça Sorulan Sorular",
+    text: "Hızlı destek almak isterseniz aşağıdaki formu doldurun. Ekibimiz en kısa sürede sizinle iletişime geçsin.",
     button: {
-        label: "Ask Your Question",
+        label: "Sorunuzu İletin",
         href: "/faq",
         type: "primary"
     }

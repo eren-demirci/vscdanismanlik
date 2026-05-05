@@ -9,107 +9,86 @@ const TermsConditionSection = () => {
                     <div className="card-blog-list" data-aos="fade-up">
                         <div className="card-blog-content">
                             <h2 className="card-blog-heading heading text-50 text-center">
-                                Our Terms & Conditions
+                                Kullanım Koşulları
                             </h2>
 
                             <div className="blog-description">
                                 <p>
-                                    This website is operated by Consulo. Throughout the site,
-                                    the terms “we”, “us” and “our” refer to Consulo. Consulo
-                                    offers this website, including all information, tools and
-                                    services available from this site to you, the user,
-                                    conditioned upon your acceptance of all terms, conditions,
-                                    policies and notices stated here.
+                                    Bu sayfa, `vscdanismanlik.com` alan adlı internet sitesi
+                                    için kullanım koşullarını düzenler. Siteyi kullanan her
+                                    ziyaretçi, aşağıdaki koşulları kabul etmiş sayılır.
                                 </p>
 
+                                <h3>1. Hizmetin Kapsamı</h3>
                                 <p>
-                                    Please read these Terms of Service carefully before
-                                    accessing or using our website. By accessing or using any
-                                    part of the site, you agree to be bound by these Terms of
-                                    Service. If you do not agree to all the terms and conditions
-                                    of this agreement, then you may not access the website or
-                                    use any services. If these Terms of Service are considered
-                                    an offer, acceptance is expressly limited to these Terms of
-                                    Service.
+                                    VSC Danışmanlık A.Ş. bu site üzerinden sürdürülebilirlik,
+                                    kurumsal finansman, vergi danışmanlığı, bağımsız denetim,
+                                    muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik,
+                                    yönetim danışmanlığı alanlarına ilişkin tanıtım ve iletişim
+                                    hizmeti sunar.
                                 </p>
 
-                                <h3>What is Lorem Ipsum?</h3>
+                                <h3>2. Bilgilendirme Niteliği</h3>
 
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a
-                                    type specimen book. It has survived not only five centuries,
-                                    but also the leap into electronic typesetting, remaining
-                                    essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum
-                                    passages, and more recently with desktop publishing software
-                                    like Aldus PageMaker including versions of Lorem Ipsum.
+                                    Sitede yer alan içerikler genel bilgilendirme amaçlıdır.
+                                    Bu içerikler, tek başına hukuki, mali, vergisel veya
+                                    yatırım tavsiyesi olarak değerlendirilemez.
                                 </p>
 
-                                <h3>Why do we use it?</h3>
+                                <h3>3. Kullanıcı Sorumlulukları</h3>
                                 <p>
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at
-                                    its layout. The point of using Lorem Ipsum is that it has a
-                                    more-or-less normal distribution of letters, as opposed to
-                                    using 'Content here, content here', making it look like
-                                    readable English. Many desktop publishing packages and web
-                                    page editors now use Lorem Ipsum as their default model
-                                    text, and a search for 'lorem ipsum' will uncover many web
-                                    sites still in their infancy. Various versions have evolved
-                                    over the years, sometimes by accident, sometimes on purpose
-                                    (injected humour and the like).
+                                    Kullanıcı; siteyi hukuka ve dürüstlük kurallarına uygun
+                                    şekilde kullanacağını, üçüncü kişilerin haklarını ihlal
+                                    etmeyeceğini, zararlı yazılım veya otomasyon ile sisteme
+                                    müdahale etmeyeceğini kabul eder.
                                 </p>
 
-                                <h3>Where does it come from?</h3>
+                                <h3>4. Fikri Mülkiyet</h3>
                                 <p>
-                                    Contrary to popular belief, Lorem Ipsum is not simply random
-                                    text. It has roots in a piece of classical Latin literature
-                                    from 45 BC, making it over 2000 years old. Richard
-                                    McClintock, a Latin professor at Hampden-Sydney College in
-                                    Virginia, looked up one of the more obscure Latin words,
-                                    consectetur, from a Lorem Ipsum passage, and going through
-                                    the cites of the word in classical literature, discovered
-                                    the undoubtable source. Lorem Ipsum comes from sections
-                                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                                    Extremes of Good and Evil) by Cicero, written in 45 BC. This
-                                    book is a treatise on the theory of ethics, very popular
-                                    during the Renaissance. The first line of Lorem Ipsum,
-                                    "Lorem ipsum dolor sit amet..", comes from a line in section
-                                    1.10.32.
-                                </p>
-                                <p>
-                                    The standard chunk of Lorem Ipsum used since the 1500s is
-                                    reproduced below for those interested. Sections 1.10.32 and
-                                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
-                                    also reproduced in their exact original form, accompanied by
-                                    English versions from the 1914 translation by H. Rackham.
+                                    Site içeriğindeki metin, görsel, logo, marka ve tasarımların
+                                    tüm hakları VSC Danışmanlık A.Ş.’ye veya ilgili hak
+                                    sahiplerine aittir. Yazılı izin olmaksızın çoğaltılamaz,
+                                    yayımlanamaz, ticari amaçla kullanılamaz.
                                 </p>
 
+                                <h3>5. Üçüncü Taraf Bağlantılar</h3>
                                 <p>
-                                    Use both direct conversations and indirect observations to
-                                    get visibility into employees challenges and concerns. Use
-                                    every opportunity to make clear to employees that you
-                                    support and care them. To facilitate regular conversations
-                                    between managers and employees, provide.
+                                    Sitede üçüncü taraf bağlantılar bulunabilir. Bu bağlantıların
+                                    içerik, güvenlik ve gizlilik uygulamalarından VSC Danışmanlık
+                                    A.Ş. sorumlu değildir.
                                 </p>
 
+                                <h3>6. Sorumluluğun Sınırlandırılması</h3>
                                 <p>
-                                    The third Monday of January is supposed to be the most
-                                    depressing day of the year. Whether you believe that or not,
-                                    the long nights, cold weather, and trying to keep to new
-                                    year resolutions are all probably getting to you a little by
-                                    now. To make matters worse many will still be recovering
-                                    from their Christmas spending. So how can you make today
+                                    Site içeriği güncel ve doğru tutulmaya çalışılsa da kesintisiz
+                                    erişim, hatasız içerik veya belirli bir amaca uygunluk
+                                    taahhüdü verilmez. Kullanımdan doğabilecek dolaylı zararlardan
+                                    şirket sorumlu tutulamaz.
                                 </p>
 
+                                <h3>7. Değişiklik Hakkı</h3>
                                 <p>
-                                    Vast numbers of employees now work remotely, and it's too
-                                    late to develop a set of remote-work policies if you didn't
-                                    already have one. But there are ways to make the remote-work
-                                    experience productive and engaging for employees
+                                    VSC Danışmanlık A.Ş., bu koşulları önceden bildirim
+                                    yapmaksızın güncelleme hakkını saklı tutar. Güncel metin
+                                    yayımlandığı tarihten itibaren geçerlidir.
+                                </p>
+
+                                <h3>8. Uygulanacak Hukuk ve Yetki</h3>
+                                <p>
+                                    İşbu kullanım koşullarında Türkiye Cumhuriyeti hukuku
+                                    uygulanır. Uyuşmazlıklarda İstanbul (Merkez) Mahkemeleri ve
+                                    İcra Daireleri yetkilidir.
+                                </p>
+
+                                <h3>9. İletişim</h3>
+                                <p>
+                                    VSC Danışmanlık A.Ş.
+                                    <br />
+                                    Maslak Mah. Bilim Sk. Sun Plaza No: 5A İç Kapı No: 40
+                                    Sarıyer / İstanbul
+                                    <br />
+                                    Telefon: 0555 555 55 55
                                 </p>
                             </div>
                         </div>

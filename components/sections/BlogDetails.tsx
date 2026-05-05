@@ -2,8 +2,6 @@ import '@/styles/blog.css';
 import '@/styles/blog-details.css';
 import { ArticleType } from '@/types/article';
 import Article from "../Article";
-import Comments from "../Comments";
-import CommentForm from "../CommentForm";
 import BlogSidebar from "../BlogSidebar";
 import Share from '../Share';
 import Icons from '../Icons';
@@ -21,6 +19,22 @@ const BlogDetails = ({
     article
 }: BlogDetailsType) => {
     const { tags }: { tags: string[] } = article;
+    const tagItems = tags.map((rawTag) => {
+        const handle = createHandle(rawTag);
+        const label = handle === "haberler" ? "Haber" : handle === "duyurular" ? "Duyuru" : rawTag;
+        return { rawTag, label, handle };
+    });
+
+    const buildTagHref = (rawTag: string, handle: string) => {
+        if (article.category === "Haberler") {
+            if (handle === "haberler") return "/blogs/category/haberler";
+            return `/blogs/category/haberler?tags=${handle}`;
+        }
+        if (article.category === "Duyurular") {
+            return `/blogs/category/duyurular?q=${encodeURIComponent(rawTag)}`;
+        }
+        return `/blogs/tags/${handle}`;
+    };
 
     return (
         <div className="page-blog-details mt-100 mb-100">
@@ -40,16 +54,16 @@ const BlogDetails = ({
                         <div className="blog-share" data-aos="fade-up">
                             {tags.length > 0 && 
                                 <div className="blog-share-item">
-                                    <h2 className="label heading text-16 fw-500">Tags:</h2>
+                                    <h2 className="label heading text-16 fw-500">Etiketler:</h2>
                                     <ul className="sidebar-tags list-unstyled">
-                                        {tags.map((tag, index) => (
+                                        {tagItems.map((item, index) => (
                                             <li key={`tag-${index}`}>
                                                 <Link
                                                     className="subheading subheading-bg text-18"
-                                                    href={`/blogs/tags/${createHandle(tag)}`}
-                                                    aria-label={tag}
+                                                    href={buildTagHref(item.rawTag, item.handle)}
+                                                    aria-label={item.label}
                                                 >
-                                                    {tag}
+                                                    {item.label}
                                                 </Link>
                                             </li>
                                         ))}                                            
@@ -58,17 +72,18 @@ const BlogDetails = ({
                             }
 
                             <div className="blog-share-item">
-                                <h2 className="label heading text-16 fw-500">Share:</h2>
+                                <h2 className="label heading text-16 fw-500">Paylaş:</h2>
                                 <Share title={article.title} />
                             </div>
                         </div>
-
-                        <Comments />
-                        <CommentForm />
                     </div>
 
                     <div className="col-span-12 lg:col-span-5">
-                        <BlogSidebar slug={article.slug} />
+                        <BlogSidebar
+                            slug={article.slug}
+                            isNewsPage={article.category === "Haberler"}
+                            hideTagsSection={true}
+                        />
                     </div>
                 </div>
             </div>

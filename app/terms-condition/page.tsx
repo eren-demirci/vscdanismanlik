@@ -6,7 +6,7 @@ import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import TermsConditionSection from '@/components/sections/TermsCondition';
 
-const PAGE_TITLE: string = 'Terms & Conditions';
+const PAGE_TITLE: string = 'Kullanım Koşulları';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }

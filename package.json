@@ -1,5 +1,5 @@
 {
-  "name": "consulo",
+  "name": "vsc-danismanlik",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,9 +14,11 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "aos": "^2.3.4",
+    "fast-xml-parser": "^5.2.5",
     "html-react-parser": "^5.2.6",
     "next": "16.0.7",
     "nodemailer": "^7.0.6",
+    "pg": "^8.16.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "swiper": "^12.0.2",
@@ -27,6 +29,7 @@
     "@tailwindcss/postcss": "^4",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
+    "@types/pg": "^8.15.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",

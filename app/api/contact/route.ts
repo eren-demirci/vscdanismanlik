@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
 
     if (!name || !email || !message) {
       return NextResponse.json(
-        { error: "All fields are required" }, 
+        { error: "Lütfen tüm alanları doldurun." }, 
         { status: 400 }
       );
     }
@@ -54,9 +54,9 @@ export async function POST(req: NextRequest) {
     // Send email
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ success: true, message: "Thanks for contacting us. We'll get back to you as soon as possible." });
+    return NextResponse.json({ success: true, message: "Mesajınız için teşekkürler. En kısa sürede size dönüş yapacağız." });
   } catch (error: any) {
     console.error("Email sending failed:", error);
-    return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
+    return NextResponse.json({ error: "Mesaj gönderilirken bir hata oluştu." }, { status: 500 });
   }
 }

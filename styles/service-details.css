@@ -86,6 +86,82 @@
   margin-block-start: 40px;
 }
 
+.service-main-title {
+  margin-block: 40px 0;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+.service-rich-content {
+  margin-top: 28px;
+}
+
+.service-rich-content > *:first-child {
+  margin-top: 0;
+}
+
+.service-rich-content p {
+  color: var(--color-foreground, rgba(28, 37, 57, 0.9));
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.18rem);
+  line-height: 1.78;
+  margin: 0;
+}
+
+.service-rich-content p + p {
+  margin-top: 18px;
+}
+
+.service-rich-content h1,
+.service-rich-content h2,
+.service-rich-content h3,
+.service-rich-content h4 {
+  color: var(--color-foreground-heading, rgba(28, 37, 57, 1));
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 38px 0 16px;
+}
+
+.service-rich-content h1 {
+  font-size: clamp(1.6rem, 1.35rem + 0.9vw, 2.3rem);
+  line-height: 1.2;
+}
+
+.service-rich-content h2 {
+  font-size: clamp(1.45rem, 1.25rem + 0.75vw, 2rem);
+  line-height: 1.2;
+}
+
+.service-rich-content h3 {
+  font-size: clamp(1.2rem, 1.05rem + 0.45vw, 1.6rem);
+  line-height: 1.28;
+}
+
+.service-rich-content h4 {
+  font-size: clamp(1.08rem, 1rem + 0.22vw, 1.3rem);
+  line-height: 1.35;
+}
+
+.service-rich-content ul,
+.service-rich-content ol {
+  margin: 18px 0 0;
+  padding-left: 22px;
+}
+
+.service-rich-content li {
+  color: var(--color-foreground, rgba(28, 37, 57, 0.9));
+  font-size: clamp(1rem, 0.95rem + 0.2vw, 1.13rem);
+  line-height: 1.7;
+}
+
+.service-rich-content li + li {
+  margin-top: 10px;
+}
+
+.service-rich-content strong {
+  color: var(--color-foreground-heading, rgba(28, 37, 57, 1));
+  font-weight: 700;
+}
+
 .service-details-content .choose-us-desc > .text-lists,
 .service-details-content .choose-us-desc > .heading + .text {
   margin-block-start: 30px;
@@ -130,8 +206,14 @@
 }
 
 .service-faq {
-  margin-block-start: 40px;
+  margin-block-start: 52px;
   display: block;
+}
+
+.service-faq-title {
+  margin-top: 52px;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
 }
 
 .service-faq > div + div {
@@ -200,5 +282,15 @@
   .service-details-content .choose-us-desc {
     padding-inline-start: 0;
     margin-block-start: 40px;
+  }
+
+  .service-main-title {
+    margin-top: 28px;
+  }
+
+  .service-rich-content h2,
+  .service-rich-content h3,
+  .service-rich-content h4 {
+    margin-top: 28px;
   }
 }

@@ -6,7 +6,7 @@ import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import PrivacyPolicySection from '@/components/sections/PrivacyPolicy';
 
-const PAGE_TITLE: string = 'Privacy Policy';
+const PAGE_TITLE: string = 'Gizlilik Politikası';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }

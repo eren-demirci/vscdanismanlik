@@ -9,7 +9,7 @@ import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import FaqWithContactForm from '@/components/sections/FaqWithContactForm';
 
 
-const PAGE_TITLE: string = 'FAQS';
+const PAGE_TITLE: string = 'Sıkça Sorulan Sorular';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }

@@ -12,6 +12,19 @@
   height: var(--height);
 }
 
+.page-banner.page-banner-premium {
+  --color-overlay: linear-gradient(
+    140deg,
+    rgba(11, 22, 45, 0.55) 0%,
+    rgba(8, 17, 36, 0.22) 45%,
+    rgba(14, 33, 66, 0.62) 100%
+  );
+  background:
+    radial-gradient(120% 140% at 15% 10%, rgba(115, 149, 230, 0.25) 0%, rgba(115, 149, 230, 0) 58%),
+    radial-gradient(90% 120% at 85% 15%, rgba(70, 118, 214, 0.2) 0%, rgba(70, 118, 214, 0) 62%),
+    linear-gradient(120deg, #0b1c39 0%, #102a51 48%, #0d1f3f 100%);
+}
+
 .page-banner-content {
   display: flex;
   width: 100%;

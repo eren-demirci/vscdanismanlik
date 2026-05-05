@@ -2,5 +2,7 @@ import { ImageProps } from "./image";
 
 export interface BreadcrumbType {
     title: string;
-    image: ImageProps;
+    breadcrumbTitle?: string;
+    image?: ImageProps;
+    variant?: "default" | "premium";
 }

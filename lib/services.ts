@@ -9,11 +9,79 @@ type Frontmatter = {
   icon?: string;
   image?: string;
   description?: string;
+  brochure_url?: string;
+  brochure_label?: string;
   list?: { title: string }[];
   created_at?: string;
 };
 
 const servicesDir = path.join(process.cwd(), "content", "services");
+
+function extractFaqSection(markdown: string): {
+  bodyWithoutFaq: string;
+  faqs: NonNullable<ServiceProps["faqs"]>;
+} {
+  const lines = markdown.split(/\r?\n/);
+  const faqHeadingIndex = lines.findIndex((line) =>
+    /^##\s+Sık Sorulan Sorular\s*$/i.test(line.trim())
+  );
+
+  if (faqHeadingIndex === -1) {
+    return { bodyWithoutFaq: markdown, faqs: [] };
+  }
+
+  let faqSectionEnd = lines.length;
+  for (let i = faqHeadingIndex + 1; i < lines.length; i += 1) {
+    if (/^##\s+/.test(lines[i].trim())) {
+      faqSectionEnd = i;
+      break;
+    }
+  }
+
+  const faqLines = lines.slice(faqHeadingIndex + 1, faqSectionEnd);
+  const faqs: NonNullable<ServiceProps["faqs"]> = [];
+  let activeQuestion: string | null = null;
+  let answerParts: string[] = [];
+
+  const flushFaq = () => {
+    if (!activeQuestion) return;
+    const answer = answerParts.join(" ").trim();
+    if (!answer) return;
+    faqs.push({
+      title: activeQuestion,
+      text: answer,
+    });
+  };
+
+  for (const rawLine of faqLines) {
+    const line = rawLine.trim();
+    if (!line) {
+      continue;
+    }
+
+    if (line.startsWith("### ")) {
+      flushFaq();
+      activeQuestion = line.slice(4).trim();
+      answerParts = [];
+      continue;
+    }
+
+    if (activeQuestion) {
+      answerParts.push(line.replace(/^\-\s+/, ""));
+    }
+  }
+  flushFaq();
+
+  const bodyWithoutFaqLines = [
+    ...lines.slice(0, faqHeadingIndex),
+    ...lines.slice(faqSectionEnd),
+  ];
+
+  return {
+    bodyWithoutFaq: bodyWithoutFaqLines.join("\n").trim(),
+    faqs,
+  };
+}
 
 function escapeHtml(input: string): string {
   return input
@@ -122,6 +190,7 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
 
   const frontmatterText = fmMatch[1];
   const markdownBody = fmMatch[2] ?? "";
+  const { bodyWithoutFaq, faqs } = extractFaqSection(markdownBody);
   const lines = frontmatterText.split(/\r?\n/);
 
   const frontmatter: Partial<Frontmatter> = {};
@@ -155,6 +224,8 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
       else if (key === "icon") frontmatter.icon = value;
       else if (key === "image") frontmatter.image = value;
       else if (key === "description") frontmatter.description = value;
+      else if (key === "brochure_url") frontmatter.brochure_url = value;
+      else if (key === "brochure_label") frontmatter.brochure_label = value;
       else if (key === "created_at") frontmatter.created_at = value;
     }
     i += 1;
@@ -171,9 +242,12 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
     icon: frontmatter.icon,
     image: frontmatter.image,
     description: frontmatter.description,
+    brochure_url: frontmatter.brochure_url,
+    brochure_label: frontmatter.brochure_label,
     list: frontmatter.list ?? [],
+    faqs,
     created_at: frontmatter.created_at,
-    content: markdownToHtml(markdownBody),
+    content: markdownToHtml(bodyWithoutFaq),
   };
 }
 

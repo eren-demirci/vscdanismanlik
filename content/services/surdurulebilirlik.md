@@ -3,7 +3,7 @@ id: 1
 slug: surdurulebilirlik
 title: Sürdürülebilirlik
 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'><path d='M20 4C11.163 4 4 11.163 4 20s7.163 16 16 16 16-7.163 16-16S28.837 4 20 4zm0 2c7.732 0 14 6.268 14 14s-6.268 14-14 14S6 27.732 6 20 12.268 6 20 6zm0 3a11 11 0 100 22A11 11 0 0020 9zm-1 3.17V20h-5a6 6 0 006 6v-2a4 4 0 01-4-4h4V12.17z' fill='currentColor'/></svg>"
-image: /img/service/service-details.jpg
+image: /img/service/covers/surdurulebilirlik-cover.svg
 description: Sürdürülebilirlik danışmanlığı: GRI ve TSRS uyumlu raporlama, karbon ayak izi ölçümü, CBAM hazırlığı ve strateji geliştirme.
 list:
   - title: GRI Uyumlu Sürdürülebilirlik Raporlaması

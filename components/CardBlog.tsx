@@ -62,7 +62,7 @@ const CardBlog = ({
 
                 <div className="buttons">
                     <div className="button button--primary">
-                        Read More
+                        Detayları Oku
                         <Icons.ArrowRotate />
                     </div>
                 </div>

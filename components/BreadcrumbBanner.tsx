@@ -1,16 +1,15 @@
 import Link from "next/link";
 import '@/styles/page-banner.css';
-import Picture from "./Picture";
 import Icons from "./Icons";
 import { BreadcrumbType } from "@/types/breadcrumb";
 
 const BreadcrumbBanner = ({
     title,
-    image
+    breadcrumbTitle,
+    variant = "premium",
 }: BreadcrumbType) => {
     return (
-        <div className="page-banner overlay">            
-            <Picture image={image} />
+        <div className={`page-banner overlay ${variant === "premium" ? "page-banner-premium" : ""}`}>            
             
             <div className="page-banner-content">
                 <div className="container text-center">
@@ -37,7 +36,7 @@ const BreadcrumbBanner = ({
                         <li><Icons.ChevronRight /></li>
                         <li>
                             <a role="link" aria-disabled="true" className="text text-18 active">
-                                {title}
+                                {breadcrumbTitle ?? title}
                             </a>
                         </li>
                     </ul>

@@ -34,3 +34,45 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## RSS to PostgreSQL Sync
+
+This project includes a news sync endpoint that fetches NTV Economy RSS and saves items into PostgreSQL.
+
+1. Ensure `DATABASE_URL` is set in `.env`.
+2. Create table:
+
+```bash
+psql "$DATABASE_URL" -f db/init-news.sql
+```
+
+If `news` table already exists from old setup, run:
+
+```bash
+psql "$DATABASE_URL" -f db/migrations/20260505_add_content_html_to_news.sql
+psql "$DATABASE_URL" -f db/migrations/20260505_add_image_url_to_news.sql
+```
+
+3. Start app and trigger sync:
+
+```bash
+npm run dev
+```
+
+Then call from any server/client code:
+
+```ts
+await fetch("http://localhost:3000/api/rss/sync", { method: "POST" });
+```
+
+Response:
+
+```json
+{
+  "ok": true,
+  "fetched": 30,
+  "inserted": 30,
+  "skipped": 0,
+  "errors": 0
+}
+```

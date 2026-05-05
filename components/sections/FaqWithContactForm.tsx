@@ -48,7 +48,7 @@ const FaqWithContactForm = ({ data }: { data: SectionProps }) => {
                                 />
                             }
 
-                            <FaqForm heading="Have any Question" />
+                            <FaqForm heading="Sorunuz mu var?" />
                         </div>
                     </div>
 

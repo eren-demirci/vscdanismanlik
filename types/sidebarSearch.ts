@@ -4,4 +4,6 @@ export interface SidebarSearchType {
     label: string;
     placeholder: string;
     name: string;
+    action?: string;
+    defaultValue?: string;
 }

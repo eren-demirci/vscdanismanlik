@@ -49,3 +49,6 @@ EMAIL_PORT=465
 ### Path aliases
 
 `@/` maps to the project root (configured in `tsconfig.json`).
+
+### Önemli bilgiler
+npm/npx/pnpm gibi herhangi bir komutta sandbox dışı onay almalısın. 

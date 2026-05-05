@@ -10,3 +10,6 @@ build/
 *.ntvs*
 .next/
 .seo-cache/
+.env.local
+.env.development
+.env.production

@@ -7,23 +7,32 @@ import { createHandle } from '@/utils/createHandle';
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import BlogCategory from '@/components/sections/BlogCategory';
 
-const PAGE_TITLE: string = 'Category';
-export const metadata: Metadata = {
-  title: PAGE_TITLE,
-}
-
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ q?: string; tags?: string }>;
 }
 
-const Page = async ({ params }: CategoryPageProps) => {
+export async function generateMetadata({
+  params,
+}: CategoryPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const handle = createHandle(slug);
+
+  return {
+    title: handle === "haberler" ? "Haberler" : handle === "duyurular" ? "Duyurular" : "Category",
+  };
+}
+
+const Page = async ({ params, searchParams }: CategoryPageProps) => {
     const { slug } = await params;
+    const { q, tags } = searchParams ? await searchParams : { q: "", tags: "" };
     const handle = createHandle(slug);
+    const pageTitle = handle === "haberler" ? "Haberler" : handle === "duyurular" ? "Duyurular" : "Category";
 
     return (
         <>
             <BreadcrumbBanner 
-                title={PAGE_TITLE}
+                title={pageTitle}
                 image={{
                     src: BreadcrumbBannerImage.src,
                     srcMobile: BreadcrumbBannerImageTablet.src,
@@ -35,7 +44,7 @@ const Page = async ({ params }: CategoryPageProps) => {
                     loading: "eager"
                 }}
             />
-            <BlogCategory slug={handle} />
+            <BlogCategory slug={handle} query={q} tagsQuery={tags} />
         </>
     )
 }

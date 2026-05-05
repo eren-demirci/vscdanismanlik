@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SidebarSearchType } from "@/types/sidebarSearch";
 import Icons from "./Icons";
 
@@ -10,17 +10,19 @@ const SidebarSearch = ({
     label,
     placeholder,
     name,
+    action,
+    defaultValue,
 }: SidebarSearchType) => {
-    const [query, setQuery] = useState('');
+    const [query, setQuery] = useState(defaultValue ?? "");
 
-    const submitHandler = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-    }
+    useEffect(() => {
+        setQuery(defaultValue ?? "");
+    }, [defaultValue]);
 
     return (
         <div className="sidebar-widget radius18" data-aos="fade-up">
             {title && <h2 className="sidebar-heading heading text-24">{title}</h2>}
-            <form onSubmit={submitHandler} className="form-blog-search">
+            <form action={action} method="get" className="form-blog-search">
                 <label htmlFor={id} className="visually-hidden">
                     {label}
                 </label>
