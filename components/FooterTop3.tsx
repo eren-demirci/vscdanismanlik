@@ -23,7 +23,7 @@ const FooterTop3 = ({
               </div>
               <div className="max-md:col-span-12 max-lg:col-span-6">
                 <FooterMenu 
-                    heading="Quick Link"
+                    heading="Hızlı Bağlantılar"
                     menus={QuickLink}
                 />
               </div>
@@ -34,7 +34,7 @@ const FooterTop3 = ({
                   data-aos-anchor=".footer-top"
                 >
                     <FooterMenu 
-                        heading="Services"
+                        heading="Hizmetlerimiz"
                         menus={Services}
                     />
                 </div>
@@ -46,7 +46,7 @@ const FooterTop3 = ({
                   data-aos-anchor=".footer-top"
                 >
                     <FooterMenu 
-                        heading="Information"
+                        heading="Kurumsal"
                         menus={MenuContact}
                     />
                 </div>

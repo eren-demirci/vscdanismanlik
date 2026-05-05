@@ -1,5 +1,3 @@
-"use client";
-
 import "@/styles/image-with-text.css";
 import "@/styles/our-services.css";
 import "@/styles/card-working-process.css";
@@ -7,12 +5,12 @@ import Subheading from "../Subheading";
 import Heading from "../Heading";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-import ServiceList from "@/data/services.json";
+import { getAllServices } from "@/lib/services";
 import CardService3 from "../CardService3";
 import { SectionProps } from "@/types/sectionProps";
 
-const OurServicesSix2 = ({ data }: { data: SectionProps }) => {
-  const serviceList = ServiceList;
+const OurServicesSix2 = async ({ data }: { data: SectionProps }) => {
+  const serviceList = await getAllServices();
   if (serviceList.length == 0) return null;
 
   const { container, subheading, heading, button } = data || {};

@@ -2,15 +2,13 @@ import type { Metadata } from 'next';
 import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
 import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg';
 import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
-import { PricingPlan2Data } from '@/data/sections/pricingPlan2Data';
-import { TeamSlider2Data } from '@/data/sections/teamSlider2Data';
+import { ContactData } from '@/data/sections/contactData';
 
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import Services from '@/components/sections/Services';
-import PricingPlan from '@/components/sections/PricingPlan';
-import TeamSlider from '@/components/sections/TeamSlider';
+import ContactSection from '@/components/sections/Contact';
 
-const PAGE_TITLE: string = 'Our Service';
+const PAGE_TITLE: string = 'Hizmetlerimiz';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }
@@ -19,7 +17,7 @@ const PageServices = () => {
     return(
         <>
             {/* Breadcrumb Banner */}
-            <BreadcrumbBanner 
+            <BreadcrumbBanner
                 title={PAGE_TITLE}
                 image={{
                     src: BreadcrumbBannerImage.src,
@@ -39,14 +37,8 @@ const PageServices = () => {
                 container="container"
             />
 
-            {/* Pricing Plan */}
-            <PricingPlan data={PricingPlan2Data} />
-
-            {/* Our Team */}
-            <TeamSlider 
-                data={TeamSlider2Data} 
-                pagination={true}
-            />
+            {/* Contact */}
+            <ContactSection data={ContactData} />
         </>
     )
 }

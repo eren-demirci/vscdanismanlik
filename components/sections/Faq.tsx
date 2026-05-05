@@ -1,12 +1,10 @@
 import { SectionProps } from "@/types/sectionProps";
-import BackgroundImage from "@/public/img/faq/question.png";
 import { FaqAccordion } from "@/data/faqAccordion";
 import Subheading from "../Subheading";
 import Heading from "../Heading";
 import Text from "../Text";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-import Image from "next/image";
 import Accordion from "../Accordion";
 
 const Faq = ({ data }: { data: SectionProps }) => {
@@ -73,15 +71,7 @@ const Faq = ({ data }: { data: SectionProps }) => {
                                 </div>
                             }
 
-                            <div className="image-absolute" data-aos="zoom-in">
-                                <Image 
-                                    src={BackgroundImage.src}
-                                    width={104} 
-                                    height={180} 
-                                    loading="lazy" 
-                                    alt="Image" 
-                                />
-                            </div>
+
                         </div>
                     </div>
 

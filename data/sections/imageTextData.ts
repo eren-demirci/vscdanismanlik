@@ -1,14 +1,14 @@
 import { SectionProps } from "@/types/sectionProps";
-import Image1 from '@/public/img/image-text/img1.png';
+import Image1 from '@/public/img/why-choose-us/bg.jpg';
 
 export const ImageTextData: SectionProps = {
     wrapperCls: "mt-100",
     container: "container",
-    subheading: "Our Company",
-    heading: "Redesigning business for solutions",
-    text: "Our mission is to empowers businesses off all size to thrive in an our businesses ever changing marketplace.",
+    subheading: "Hakkımızda",
+    heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle 2026 yılında kurulmuştur. Amacımız; şirketlerin bugünkü performanslarını güçlendirirken, geleceğe daha dirençli, şeffaf ve sürdürülebilir bir yapıyla ilerlemelerine rehberlik etmektir.",
     button: {
-        label: "More About Us",
+        label: "İletişime Geçin",
         href: "/contact-us",
         type: "primary"
     },
@@ -16,18 +16,18 @@ export const ImageTextData: SectionProps = {
         src: Image1.src,
         width: 992,
         height: 863,
-        alt: 'Image',
+        alt: 'VSC Danışmanlık',
         loading: 'lazy'
     },
     textList: [
         {
-            text: "Integrate a diverse range of ideas"
+            text: "Sürdürülebilirlik, kurumsal finans ve vergi alanlarında bütüncül hizmet"
         },
         {
-            text: "Deliver the highest quality outcomes"
+            text: "Değer odaklı yaklaşım ve analitik bakış açısı"
         },
         {
-            text: "Believe in powerof implication"
+            text: "Güvenilir iş ortaklığı anlayışıyla uzun vadeli çözümler"
         }
     ]
 }

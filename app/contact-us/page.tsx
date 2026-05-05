@@ -8,7 +8,7 @@ import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import ContactSection from '@/components/sections/Contact';
 import MapSection from '@/components/sections/Map';
 
-const PAGE_TITLE: string = 'Contact Us';
+const PAGE_TITLE: string = 'İletişim';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }

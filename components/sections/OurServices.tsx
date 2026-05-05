@@ -1,17 +1,15 @@
-'use client';
-
 import "@/styles/multicolumn.css";
 import Image from "next/image";
 import Subheading from "../Subheading";
 import Heading from "../Heading";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-import ServiceList from "@/data/services.json";
+import { getAllServices } from "@/lib/services";
 import CardService from "../CardService";
 import { SectionProps } from "@/types/sectionProps";
 
-const OurServices = ({ data }: { data: SectionProps }) => {
-    const serviceList = ServiceList;
+const OurServices = async ({ data }: { data: SectionProps }) => {
+    const serviceList = await getAllServices();
     if(serviceList.length == 0) return null;
 
     const {

@@ -6,6 +6,20 @@
   margin-block-start: 40px;
 }
 
+.section-contact-form .svg-wrapper {
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-form .svg-wrapper svg {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  color: #ffffff;
+}
+
 .contact-form-headings .heading + .text {
   margin-block-start: 15px;
 }

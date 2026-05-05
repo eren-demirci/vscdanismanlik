@@ -1,34 +1,30 @@
 [
   {
     "id": 1,
-    "name": "John Carter",
-    "role": "CEO, BTech",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
-    "rating": 5,
-    "image": "/img/testimonial/t1.jpg"
+    "name": "Ahmet Yılmaz",
+    "role": "Genel Müdür, İnşaat Sektörü",
+    "review": "VSC Danışmanlık ekibi, sürdürülebilirlik raporlama sürecimizde bize çok değerli bir rehberlik sağladı. GRI standartlarına uyumlu raporumuzu zamanında ve eksiksiz hazırlamalarına rağmen süreç boyunca son derece şeffaf ve profesyonel bir tutum sergilediler.",
+    "rating": 5
   },
   {
     "id": 2,
-    "name": "Sophia Ahmed",
-    "role": "Manager, PixelPro",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
-    "rating": 5,
-    "image": "/img/testimonial/t2.jpg"
+    "name": "Elif Kaya",
+    "role": "CFO, Üretim Şirketi",
+    "review": "Vergi danışmanlığı ve tam tasdik hizmetlerinde gösterdikleri uzmanlık gerçekten etkileyici. Karmaşık vergi meselellerini açık ve anlaşılır biçimde aktarıyor, çözüm odaklı yaklaşımlarıyla süreçleri kolaylaştırıyorlar.",
+    "rating": 5
   },
   {
     "id": 3,
-    "name": "Liam Johnson",
-    "role": "Designer, Innovix",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
-    "rating": 5,
-    "image": "/img/testimonial/t3.jpg"
+    "name": "Mehmet Demir",
+    "role": "Yönetim Kurulu Üyesi, Holding",
+    "review": "Şirket birleşme sürecimizde hem alıcı tarafında danışmanlık hem de finansal durum tespiti hizmetleri aldık. Detaycı yaklaşımları ve piyasa bilgileri sayesinde süreci başarıyla tamamladık. Kendileriyle çalışmaktan çok memnunuz.",
+    "rating": 5
   },
   {
     "id": 4,
-    "name": "Emily Brown",
-    "role": "Developer, SoftMind",
-    "review": "Working with several word themes templates the last years only can say this is best in every level use it for my reviews that I have already are company and the reviews that I have already are all excellent. Not only the design.",
-    "rating": 5,
-    "image": "/img/testimonial/t4.jpg"
+    "name": "Zeynep Arslan",
+    "role": "İnsan Kaynakları Direktörü, Teknoloji Firması",
+    "review": "İş hukuku ve bordro hizmetleri konusunda son derece güvenilir bir iş ortağı bulduk. Yabancı uyruklu çalışanlarımızın izin süreçleri dahil tüm SGK ve bordro operasyonlarını eksiksiz yönetiyorlar.",
+    "rating": 5
   }
 ]

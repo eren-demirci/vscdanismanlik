@@ -1,5 +1,5 @@
 import { SectionProps } from "@/types/sectionProps";
-import WhyChooseUsBg from "@/public/img/why-choose-us/bg.jpg";
+import WhyChooseUsBg from "@/public/img/image-text/img1.png";
 import WhyChooseUsImage from "@/public/img/why-choose-us/1.jpg";
 import WhyChooseUsImageMobile from "@/public/img/why-choose-us/575.jpg";
 import PromoImage from "@/public/img/why-choose-us/2.jpg";
@@ -23,33 +23,33 @@ export const WhyChooseUsGridBgData: SectionProps = {
         loading: "lazy",
         alt: "Choose us image"
     },
-    subheading: "Why Choose Us",
-    heading: "Supporting Growth on a Global Scale",
-    text: "We provide dependable and tailored consulting services that help your business navigate challenges, seize opportunities.",
+    subheading: "Neden Biz?",
+    heading: "Stratejik Ortaklık, Kalıcı Değer",
+    text: "Müşterilerimizin yalnızca mevcut ihtiyaçlarına yanıt vermekle kalmıyor, uzun vadeli hedeflerine ulaşmalarını destekleyecek güçlü ve sürdürülebilir iş modelleri oluşturmalarına katkı sağlıyoruz.",
     button: {
-        label: "More About Us",
-        href: "/about-us",
+        label: "İletişime Geçin",
+        href: "/contact-us",
         type: "primary"
     },
     rotatingLogo: {
         logo: <Icons.ChooseRotatingLogo />,
-        text: "25",
+        text: "∞",
     },
     promotions: [
         {
             icon: <Icons.Mission />,
-            title: "Our Mission",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Misyonumuz",
+            text: "Değer odaklı yaklaşım ve analitik bakış açısıyla müşterilerimize kalıcı değer yaratmak.",
         },
         {
             icon: <Icons.Vision />,
-            title: "Our Vision",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Vizyonumuz",
+            text: "Türkiye'nin lider çok disiplinli danışmanlık grubu olmak; şeffaflık ve sürdürülebilirlik ilkeleriyle büyümek.",
         },
         {
             icon: <Icons.Awards />,
-            title: "Our Awards",
-            text: "Our mission is push engage boundaries, enga audiences, and driv engage.",
+            title: "Değerlerimiz",
+            text: "Güvenilirlik, bağımsızlık ve uzman iş ortaklığı anlayışıyla her müşteriye özel çözümler.",
         },
     ],
     promoImage: {

@@ -9,14 +9,19 @@ export const ContactData: SectionProps = {
     text: "Uzman danışmanlarımızla tanışmak ve işletmenize özel çözümler keşfetmek için bizimle iletişime geçin.",
     promotions: [
         {
-            icon: <Icons.ThumbsUp />,
-            title: "7 Hizmet Alanı",
-            text: "Sürdürülebilirlik'ten yönetim danışmanlığına geniş bir uzmanlık yelpazesi",
+            icon: <Icons.Location />,
+            title: "Adres",
+            text: "Sun Plaza, Bilim Sokak No:5 Kat:7, 34398 Maslak/İstanbul",
         },
         {
-            icon: <Icons.Support />,
-            title: "2026'dan Beri Aktif",
-            text: "Deneyimli ortaklardan oluşan güçlü bir danışmanlık grubu",
+            icon: <Icons.Phone />,
+            title: "Telefon",
+            text: "+90 (212) 000 00 00",
+        },
+        {
+            icon: <Icons.Email />,
+            title: "E-posta",
+            text: "info@vscdanismanlik.com",
         },
     ],
     block: {

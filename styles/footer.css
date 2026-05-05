@@ -18,6 +18,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-logo img {
+  filter: brightness(0) invert(1);
+}
+
 footer .social-link {
   background-color: #1c2539;
   transition: 0.3s;

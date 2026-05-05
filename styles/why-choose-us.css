@@ -10,6 +10,14 @@
   position: relative;
 }
 
+.why-choose-us .media-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.72);
+  z-index: 1;
+}
+
 .choose-media {
   height: 100%;
 }

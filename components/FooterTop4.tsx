@@ -45,19 +45,19 @@ const FooterTop4 = ({
               </div>
               <div className="max-sm:col-span-12 max-md:col-span-6 max-lg:col-span-3">                
                 <FooterMenu 
-                  heading="Quick Link"
+                  heading="Hızlı Bağlantılar"
                   menus={QuickLink}
                 />
               </div>
               <div className="max-sm:col-span-12 max-md:col-span-6 max-lg:col-span-3">
                 <FooterMenu 
-                  heading="Services"
+                  heading="Hizmetlerimiz"
                   menus={Services}
                 />
               </div>
               <div className="max-sm:col-span-12 max-md:col-span-6 max-lg:col-span-3">
                 <FooterMenu 
-                  heading="Information"
+                  heading="Kurumsal"
                   menus={Information}
                 />
               </div>

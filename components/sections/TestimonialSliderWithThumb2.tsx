@@ -9,16 +9,20 @@ import "swiper/css/thumbs";
 
 import "@/styles/testimonial.css";
 import { SectionProps } from "@/types/sectionProps";
+import { TestimonialProps } from "@/types/testimonialProps";
 import Subheading from "../Subheading";
 import Heading from "../Heading";
 import CardTestimonialContent from "../CardTestimonialContent";
 import TestimonialList from "@/data/testimonials.json";
 import Image from "next/image";
 
+const FALLBACK_TESTIMONIAL_IMAGE = "/img/team/t1.jpg";
+
 const TestimonialSliderWithThumb2 = ({ data }: { data: SectionProps }) => {
   const [thumbSwiper, setThumbSwiper] = useState<any>(null);
-  const testimonialList = TestimonialList;
+  const testimonialList: TestimonialProps[] = TestimonialList as TestimonialProps[];
   if (testimonialList.length == 0) return null;
+  const getImage = (index: number) => testimonialList[index]?.image || FALLBACK_TESTIMONIAL_IMAGE;
 
   const { wrapperCls, container, subheading, heading } = data || {};
 
@@ -36,7 +40,7 @@ const TestimonialSliderWithThumb2 = ({ data }: { data: SectionProps }) => {
                     el: ".custom-pagination-thumb-img",
                     clickable: true,
                     renderBullet: (index, className) =>
-                      `<div class="${className} custom-bullet"><img src="${testimonialList[index].image}" alt="thumb-${index}" /></div>`,
+                      `<div class="${className} custom-bullet"><img src="${getImage(index)}" alt="thumb-${index}" /></div>`,
                   }}
                   className="swiper"
                 >
@@ -44,7 +48,7 @@ const TestimonialSliderWithThumb2 = ({ data }: { data: SectionProps }) => {
                     <SwiperSlide key={`testimonial-main-${index}`}>
                       <div className="main-img radius18">
                         <Image
-                          src={item.image}
+                          src={item.image || FALLBACK_TESTIMONIAL_IMAGE}
                           width={1000}
                           height={1096}
                           loading="lazy"

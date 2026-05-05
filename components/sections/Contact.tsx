@@ -153,59 +153,59 @@ const ContactSection = ({ data }: { data: SectionProps }) => {
                                     cls="form contact-form main-contact-form" 
                                     onSubmitHandler={handleSubmit}
                                 >
-                                    <TextField 
+                                    <TextField
                                         cls="text-16"
                                         id="ContactForm-name"
-                                        label="Your Name"
+                                        label="Adınız"
                                         type="text"
-                                        placeholder="Your Name*"
+                                        placeholder="Adınız*"
                                         name="name"
                                         required={true}
                                     />
 
-                                    <TextField 
+                                    <TextField
                                         cls="text-16"
                                         id="ContactForm-email"
-                                        label="Your Email"
+                                        label="E-posta Adresiniz"
                                         type="email"
-                                        placeholder="Email Here*"
+                                        placeholder="E-posta Adresiniz*"
                                         name="email"
                                         required={false}
                                     />
 
-                                    <TextField 
+                                    <TextField
                                         cls="text-16"
                                         id="ContactForm-service"
-                                        label="Service Type"
+                                        label="Hizmet Türü"
                                         type="text"
-                                        placeholder="Service Type"
+                                        placeholder="Hizmet Türü"
                                         name="service"
                                         required={false}
                                     />
 
-                                    <TextArea 
+                                    <TextArea
                                         cls="text-16"
                                         id="ContactForm-body"
-                                        label="Your Comment"
-                                        placeholder="Your Comment*"
+                                        label="Mesajınız"
+                                        placeholder="Mesajınız*"
                                         name="message"
                                         required={true}
                                     />
 
                                     <div
-                                        className="form-button" 
+                                        className="form-button"
                                         data-aos="fade-up"
                                     >
                                         {loading ? (
-                                            <SecondaryButton 
+                                            <SecondaryButton
                                                 cls="loading"
-                                                label="Sending..."
-                                                ariaLabel="Sending message"
+                                                label="Gönderiliyor..."
+                                                ariaLabel="Mesaj gönderiliyor"
                                             />
                                         ) : (
-                                            <SecondaryButton 
-                                                label="Send Message"
-                                                ariaLabel="Send Message"
+                                            <SecondaryButton
+                                                label="Mesaj Gönder"
+                                                ariaLabel="Mesaj Gönder"
                                             />
                                         )}
                                     </div>

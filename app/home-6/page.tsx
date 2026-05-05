@@ -60,7 +60,6 @@ const Home6 = () => {
       <FeaturedBlog3 data={FeaturedBlog2Data} />
 
       {/* Contact Form */}
-      <FooterContactForm container="container" />
     </>
   );
 };

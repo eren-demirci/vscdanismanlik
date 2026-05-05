@@ -1,6 +1,6 @@
 import Icons from "./Icons";
-import Services from "@/data/services.json";
 import SidebarPhoneImage from "@/public/img/service/secvice-contact.jpg";
+import { getAllServices } from "@/lib/services";
 
 import SidebarCategories from "./SidebarCategories";
 import SidebarPhone from "./SidebarPhone";
@@ -8,10 +8,16 @@ import SidebarPdfDownload from "./SidebarPdfDownload";
 import DrawerOpener from "./DrawerOpener";
 
 
-const ServiceSidebar = ({ slug }: {slug?: string;}) => {
-    const services = Services;
+const ServiceSidebar = async ({ slug }: {slug?: string;}) => {
+    const services = await getAllServices();
     const filteredServices = services.filter(item => item.slug != slug);
-    const categories: string[] = Array.from(new Set(filteredServices.flatMap(service => service.title)));
+    const categories: string[] = Array.from(
+        new Set(
+            filteredServices
+                .map((service) => service.title)
+                .filter((title): title is string => Boolean(title))
+        )
+    );
 
     return (
         <div className="sidebar-filter drawer-service-sidebar">

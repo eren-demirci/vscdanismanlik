@@ -3,12 +3,12 @@ import { SectionProps } from "@/types/sectionProps";
 export const Faq2Data: SectionProps = {
     wrapperCls: "mt-100 mb-100",
     container: "container",
-    subheading: "Questions",
-    heading: "Have any questions? here some answers.",
-    text: "In relation to websites and apps, UI design considers the look, interactivity of the making product. It's all about making sure that the user interface.",
+    subheading: "Sıkça Sorulan Sorular",
+    heading: "Aklınızdaki soruları yanıtlıyoruz.",
+    text: "VSC Danışmanlık hizmetleri hakkında merak ettiklerinizi aşağıda bulabilirsiniz. Daha fazla bilgi için iletişim formumuzdan bize ulaşabilirsiniz.",
     button: {
-        label: "Ask Your Question",
-        href: "/faq",
+        label: "Soru Sorun",
+        href: "/contact-us",
         type: "primary"
     }
 }

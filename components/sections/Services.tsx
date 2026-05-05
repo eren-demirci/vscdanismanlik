@@ -1,14 +1,14 @@
 import "@/styles/multicolumn.css";
 import { ServiceSectionType } from "@/types/serviceSection";
-import ServiceList from "@/data/services.json";
+import { getAllServices } from "@/lib/services";
 import CardService from "../CardService";
 import NotFoundMsg from "../NotFoundMsg";
 
-const Services = ({
+const Services = async ({
     wrapperCls,
     container,
 }: ServiceSectionType) => {
-    const serviceList = ServiceList;
+    const serviceList = await getAllServices();
 
     if(serviceList.length == 0) {
         return <NotFoundMsg message="No services found" />;

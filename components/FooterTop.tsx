@@ -22,8 +22,8 @@ const FooterTop = ({
                 <FooterBrand />
               </div>
               <div className="max-md:col-span-12 max-lg:col-span-6">
-                <FooterMenu 
-                    heading="Quick Link"
+                <FooterMenu
+                    heading="Hızlı Bağlantılar"
                     menus={QuickLink}
                 />
               </div>
@@ -33,8 +33,8 @@ const FooterTop = ({
                   data-aos="fade-up"
                   data-aos-anchor=".footer-top"
                 >
-                    <FooterMenu 
-                        heading="Services"
+                    <FooterMenu
+                        heading="Hizmetlerimiz"
                         menus={Services}
                     />
                 </div>
@@ -45,8 +45,8 @@ const FooterTop = ({
                   data-aos="fade-up"
                   data-aos-anchor=".footer-top"
                 >
-                    <FooterMenu 
-                        heading="Information"
+                    <FooterMenu
+                        heading="Kurumsal"
                         menus={Information}
                     />
                 </div>

@@ -31,7 +31,7 @@ const BreadcrumbBanner = ({
                                 className="text text-18"
                                 aria-label="Home Page"
                             >
-                                Home
+                                Ana Sayfa
                             </Link>
                         </li>
                         <li><Icons.ChevronRight /></li>
