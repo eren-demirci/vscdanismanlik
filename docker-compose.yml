@@ -14,7 +14,7 @@ services:
     networks:
       - vsc-network
   postgres:
-    image: postgres:latest
+    image: postgres:17
     container_name: vsc-postgres
     environment:
       POSTGRES_USER: vsc_user
