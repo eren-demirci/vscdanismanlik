@@ -14,7 +14,7 @@ import SecondaryButton from "../buttons/SecondaryButton";
 import { getNewsArticles } from "@/lib/news";
 import { getAnnouncementArticles } from "@/lib/announcements";
 
-type FeaturedBlogMode = "duyurular" | "haberler";
+type FeaturedBlogMode = "duyurular" | "haberler" | "both";
 
 function sortByDateDesc(posts: ArticleType[]): ArticleType[] {
   return [...posts].sort((a, b) => {
@@ -25,17 +25,25 @@ function sortByDateDesc(posts: ArticleType[]): ArticleType[] {
   });
 }
 
-const FeaturedBlog = async ({ data, mode }: { data: SectionProps; mode: FeaturedBlogMode }) => {
+const FeaturedBlog = async ({ data, mode = "both" }: { data: SectionProps; mode?: FeaturedBlogMode }) => {
   let posts: ArticleType[] = [];
 
   if (mode === "duyurular") {
     const result = await Promise.allSettled([getAnnouncementArticles()]);
     const announcements = result[0].status === "fulfilled" ? result[0].value : [];
     posts = sortByDateDesc(announcements).slice(0, 3);
-  } else {
+  } else if (mode === "haberler") {
     const result = await Promise.allSettled([getNewsArticles(6)]);
     const news = result[0].status === "fulfilled" ? result[0].value : [];
     posts = sortByDateDesc(news).slice(0, 3);
+  } else {
+    const [newsResult, announcementsResult] = await Promise.allSettled([
+      getNewsArticles(6),
+      getAnnouncementArticles(),
+    ]);
+    const news = newsResult.status === "fulfilled" ? newsResult.value : [];
+    const announcements = announcementsResult.status === "fulfilled" ? announcementsResult.value : [];
+    posts = sortByDateDesc([...announcements, ...news]).slice(0, 3);
   }
 
   if (posts.length === 0) return null;
