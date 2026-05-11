@@ -11,6 +11,8 @@ services:
       - .env
     depends_on:
       - postgres
+    networks:
+      - vsc-network
   postgres:
     image: postgres:latest
     container_name: vsc-postgres
@@ -26,7 +28,13 @@ services:
       - ./db/migrations/20260505_add_content_html_to_news.sql:/docker-entrypoint-initdb.d/02-add-content-html.sql:ro
       - ./db/migrations/20260505_add_image_url_to_news.sql:/docker-entrypoint-initdb.d/03-add-image-url.sql:ro
       - ./db/init-duyurular.sql:/docker-entrypoint-initdb.d/04-init-duyurular.sql:ro
+    networks:
+      - vsc-network
 
 volumes:
   postgres_data:
+
+networks:
+  vsc-network:
+    driver: bridge
 
