@@ -46,6 +46,13 @@ const BlogCategory = async ({
         })
         : sourceFilteredPosts;
 
+    const emptyMessage =
+        slug === "duyurular"
+            ? "Henüz duyuru bulunamadı."
+            : slug === "haberler"
+                ? "Henüz haber bulunamadı."
+                : null;
+
     return (
         <div className={`page-blog mt-100 mb-100`}>
             <div className="container">
@@ -63,15 +70,15 @@ const BlogCategory = async ({
                                 <div className="grid grid-cols-12 md:gap-1 product-grid">
                                     {filteredPosts.map((article) => {
                                         const author: AuthorType | undefined = Authors.find((author: AuthorType) => author.id === article.authorId);
-                                
-                                        return(                            
+
+                                        return(
                                             <div
                                                 className="col-span-12 md:col-span-12 lg:col-span-12"
                                                 data-aos="fade-up"
                                                 data-aos-delay="100"
                                                 key={`article-${article.id}`}
                                             >
-                                                <CardBlog 
+                                                <CardBlog
                                                     article={article}
                                                     width={1000}
                                                     height={707}
@@ -94,6 +101,8 @@ const BlogCategory = async ({
                             </div>
                         </div>
                     </>
+                ) : emptyMessage ? (
+                    <p className="text-center text-20 py-20">{emptyMessage}</p>
                 ) : (
                     notFound()
                 )}
