@@ -28,6 +28,7 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
         text,
         button,
         phone,
+        phones,
         logoIconName,
         slides,
         navigation
@@ -124,7 +125,23 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
                                     />
                                 }
 
-                                {phone && 
+                                {(phones && phones.length > 0) ? (
+                                    <div
+                                        className="hero-phone-call"
+                                        data-aos="fade-up"
+                                        data-aos-delay="50"
+                                    >
+                                        <Icons.PhoneLarge />
+                                        <div className="hero-call">
+                                            <div className="text text-14">Yardımcı Olalım</div>
+                                            {phones.map((p, i) => (
+                                                <Link key={i} href={`tel:${p.replace(/\s/g, '')}`} className="text text-16 block hover:underline">
+                                                    {p}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ) : phone ? (
                                     <Link
                                         href={`tel:${phone}`}
                                         className="hero-phone-call"
@@ -138,7 +155,7 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
                                             <div className="text text-16">{phone}</div>
                                         </div>
                                     </Link>
-                                }
+                                ) : null}
                             </div>
                         </div>
                     </div>

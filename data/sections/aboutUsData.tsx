@@ -7,7 +7,7 @@ export const AboutData: SectionProps = {
     container: "container-fluid",
     subheading: "Hakkımızda",
     heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
-    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle 2026 yılında kurulmuştur. Sürdürülebilirlik, kurumsal finans, mali müşavirlik, muhasebe ve vergi alanlarında bütüncül ve katma değer yaratan hizmetler sunmayı amaçlayan şirketimiz; değişen iş dünyasının dinamiklerine uyum sağlayan, stratejik bakış açısına sahip çözümler geliştirmektedir.",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle kurulmuştur. Sürdürülebilirlik, kurumsal finans, mali müşavirlik, muhasebe ve vergi alanlarında bütüncül ve katma değer yaratan hizmetler sunmayı amaçlayan şirketimiz; değişen iş dünyasının dinamiklerine uyum sağlayan, stratejik bakış açısına sahip çözümler geliştirmektedir.",
     button: {
         label: "Daha Fazla Bilgi",
         href: "/about-us",

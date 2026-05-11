@@ -11,6 +11,7 @@ type Frontmatter = {
   description?: string;
   brochure_url?: string;
   brochure_label?: string;
+  phone?: string;
   list?: { title: string }[];
   created_at?: string;
 };
@@ -226,6 +227,7 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
       else if (key === "description") frontmatter.description = value;
       else if (key === "brochure_url") frontmatter.brochure_url = value;
       else if (key === "brochure_label") frontmatter.brochure_label = value;
+      else if (key === "phone") frontmatter.phone = value;
       else if (key === "created_at") frontmatter.created_at = value;
     }
     i += 1;
@@ -244,6 +246,7 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
     description: frontmatter.description,
     brochure_url: frontmatter.brochure_url,
     brochure_label: frontmatter.brochure_label,
+    phone: frontmatter.phone,
     list: frontmatter.list ?? [],
     faqs,
     created_at: frontmatter.created_at,

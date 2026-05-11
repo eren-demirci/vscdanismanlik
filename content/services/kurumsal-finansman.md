@@ -11,6 +11,7 @@ list:
   - title: Borç ve Sermaye Danışmanlığı
   - title: Halka Arz Danışmanlığı
   - title: Finansal Yeniden Yapılandırma ve Modelleme
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 Kurumsal finansman danışmanlığı, yalnızca bir işlem tamamlama hizmeti değil; şirketinizin değerini doğru konumlandıran, risklerini görünür kılan ve büyüme kararlarını veriyle destekleyen stratejik bir yönetim sürecidir. VSC Danışmanlık olarak alıcı veya satıcı tarafındaki birleşme-satın alma işlemlerinden halka arz hazırlıklarına, sermaye yapısı optimizasyonundan yeniden yapılandırmaya kadar tüm kritik finansman kararlarında uçtan uca destek sağlıyoruz.

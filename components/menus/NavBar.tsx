@@ -39,15 +39,21 @@ const NavBar = () => {
               className={`nav-item${link.megamenu || link.megamenutwocolumn ? " nav-item-static" : ""}`}
               key={`link-${index}`}
             >
-              <ParentLink
-                title={link.title}
-                path={link.path}
-                dropdown={
-                  link.dropdown || link.megamenu || link.megamenutwocolumn
-                    ? true
-                    : false
-                }
-              />
+              {link.isModal ? (
+                <DrawerOpener cls="menu-link menu-link-main" data-drawer={link.modalTarget!}>
+                  {link.title}
+                </DrawerOpener>
+              ) : (
+                <ParentLink
+                  title={link.title}
+                  path={link.path}
+                  dropdown={
+                    link.dropdown || link.megamenu || link.megamenutwocolumn
+                      ? true
+                      : false
+                  }
+                />
+              )}
 
               {link.dropdown && (
                 <div className="header-submenu menu-absolute submenu-color">

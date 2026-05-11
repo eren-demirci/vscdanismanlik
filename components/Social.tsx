@@ -9,24 +9,9 @@ interface SocialProps {
 
 const menuSocial = [
     {
-        label: "Facebook",
-        href: "https://web.facebook.com",
-        icon: <Icons.FaceBook />
-    },
-    {
         label: "Linkedin",
-        href: "https://www.linkedin.com/",
+        href: "https://www.linkedin.com/company/vscdanismanlik",
         icon: <Icons.LinkedIn />
-    },
-    {
-        label: "Twitter",
-        href: "https://x.com/",
-        icon: <Icons.Twitter />
-    },
-    {
-        label: "Instagram",
-        href: "https://www.instagram.com/",
-        icon: <Icons.Instagram />
     }
 ]
 

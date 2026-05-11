@@ -6,7 +6,7 @@ export const ImageTextData: SectionProps = {
     container: "container",
     subheading: "Hakkımızda",
     heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
-    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle 2026 yılında kurulmuştur. Amacımız; şirketlerin bugünkü performanslarını güçlendirirken, geleceğe daha dirençli, şeffaf ve sürdürülebilir bir yapıyla ilerlemelerine rehberlik etmektir.",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle kurulmuştur. Amacımız; şirketlerin bugünkü performanslarını güçlendirirken, geleceğe daha dirençli, şeffaf ve sürdürülebilir bir yapıyla ilerlemelerine rehberlik etmektir.",
     button: {
         label: "İletişime Geçin",
         href: "/contact-us",

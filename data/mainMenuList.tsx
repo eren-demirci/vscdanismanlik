@@ -1,6 +1,8 @@
 interface NavMenuItem {
     title: string;
     path: string;
+    isModal?: boolean;
+    modalTarget?: string;
     dropdown?: NavMenuItem[];
     megamenu?: { heading: string; title?: string; path: string; dropdown?: NavMenuItem[] }[];
     megamenutwocolumn?: { title: string; path: string; dropdown?: { title: string; text?: string; path: string; imageUrl?: string; imageUrlMobile?: string; showbutton?: boolean }[] }[];
@@ -59,6 +61,12 @@ const Menus: NavMenuItem[] = [
     {
         title: 'İletişim',
         path: '/contact-us'
+    },
+    {
+        title: 'Kariyer',
+        path: '#',
+        isModal: true,
+        modalTarget: '.modal-kariyer'
     }
 ]
 

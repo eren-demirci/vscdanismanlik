@@ -18,6 +18,7 @@ declare module 'react' {
       'testimonial-slider';
       'service-slider';
       'modal-video';
+      'modal-kariyer';
       'testicolumn-slider';
       'new-banner'
     }

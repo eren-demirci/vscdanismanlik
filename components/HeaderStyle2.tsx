@@ -4,6 +4,7 @@ import LogoImage from "@/public/img/logo.png";
 import NavBar from "./menus/NavBar";
 import HeaderActions2 from "./HeaderActions2";
 import AdditionalDrawer from "./AdditionalDrawer";
+import KariyerModal from "./KariyerModal";
 import StickyHeader from "./StickyHeader";
 
 const Header2 = () => {
@@ -37,6 +38,9 @@ const Header2 = () => {
 
         {/* Additional Drawer */}
         <AdditionalDrawer />
+
+        {/* Kariyer Modal */}
+        <KariyerModal />
       </>
     )
 }

@@ -11,6 +11,7 @@ list:
   - title: Transfer Fiyatlandırması ve Örtülü Sermaye
   - title: Tam Tasdik (YMM) ve Tasdik Hizmetleri
   - title: Vergi Uyuşmazlık Danışmanlığı
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 Vergi danışmanlığı, yalnızca beyan dönemlerinde destek almak değil; şirketinizin mali risklerini azaltan, nakit akışını koruyan ve mevzuata uyumu sürdürülebilir hale getiren stratejik bir yönetim alanıdır. VSC Danışmanlık olarak kurumların ve gerçek kişilerin vergi süreçlerini mevzuat, operasyon ve finansal hedefler ekseninde birlikte ele alıyor; denetimden planlamaya, tasdikten uyuşmazlık yönetimine kadar uçtan uca çözüm sunuyoruz.

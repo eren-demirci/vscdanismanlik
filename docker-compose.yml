@@ -3,8 +3,6 @@ services:
     container_name: vsc-danismanlik
     build:
       context: .
-      args:
-        DATABASE_URL: ${DATABASE_URL}
     ports:
       - "3031:3000"
     environment:
@@ -13,7 +11,6 @@ services:
       - .env
     depends_on:
       - postgres
-    command: npm start
   postgres:
     image: postgres:latest
     container_name: vsc-postgres
@@ -27,3 +24,4 @@ services:
       - ./db/init-news.sql:/docker-entrypoint-initdb.d/01-init-news.sql:ro
       - ./db/migrations/20260505_add_content_html_to_news.sql:/docker-entrypoint-initdb.d/02-add-content-html.sql:ro
       - ./db/migrations/20260505_add_image_url_to_news.sql:/docker-entrypoint-initdb.d/03-add-image-url.sql:ro
+      - ./db/init-duyurular.sql:/docker-entrypoint-initdb.d/04-init-duyurular.sql:ro

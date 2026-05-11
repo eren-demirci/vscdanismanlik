@@ -12,6 +12,7 @@ export interface BannerSliderType {
     logoIconName?: keyof typeof Icons;
     button?: ButtonProps;
     phone?: string;
+    phones?: string[];
     slides: SlideWithThumbType[];
     navigation?: boolean;
 }

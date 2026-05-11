@@ -6,7 +6,7 @@ import DrawerOpener from "./DrawerOpener";
 const HeaderActions2 = () => {
     return (
         <div className="header-actions flex items-center">
-            <SlimButton 
+            <SlimButton
                 label="İletişime Geç"
                 href="/contact-us"
                 ariaLabel="contact us"

@@ -1,6 +1,5 @@
 import '@/styles/error.css';
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
@@ -8,16 +7,16 @@ import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg
 import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
 import Icons from '@/components/Icons';
 
-const PAGE_TITLE: string = 'Error';
+const PAGE_TITLE: string = 'Sayfa Bulunamadı';
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }
- 
+
 export default function NotFound() {
     return (
         <>
-            <BreadcrumbBanner 
+            <BreadcrumbBanner
                 title={PAGE_TITLE}
                 image={{
                     src: BreadcrumbBannerImage.src,
@@ -26,7 +25,7 @@ export default function NotFound() {
                     width: 1920,
                     height: 520,
                     cls: "media media-bg",
-                    alt: "Banner Image",
+                    alt: "Banner Görseli",
                     loading: "eager"
                 }}
             />
@@ -34,27 +33,19 @@ export default function NotFound() {
             <div className="section-error section-padding">
               <div className="container">
                 <div className="section-headings text-center">
-                  <div className="error-media" data-aos="zoom-in-up">
-                    <Image
-                      src="/img/error/error.png"
-                      alt="404 error image"
-                      width={658}
-                      height={277}
-                      loading="lazy"
-                    />
-                  </div>
-
                   <p className="text text-18" data-aos="fade-up">
-                    Sorry, the page you&apos;re looking for doesn&apos;t exist. If you think something is broken, report a porblem. 
+                    Aradığınız sayfa bulunamadı. Ana sayfaya dönerek devam edebilir ya da{' '}
+                    <a href="mailto:info@vscdanismanlik.com">info@vscdanismanlik.com</a>{' '}
+                    adresinden bize ulaşabilirsiniz.
                   </p>
 
                   <div className="buttons" data-aos="fade-up">
                     <Link
                       href="/"
                       className="button button--primary"
-                      aria-label="Back to Home"
+                      aria-label="Ana Sayfaya Dön"
                     >
-                      Back to Home
+                      Ana Sayfaya Dön
                       <span className="svg-wrapper">
                         <Icons.ArrowCircle />
                       </span>

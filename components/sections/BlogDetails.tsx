@@ -75,6 +75,20 @@ const BlogDetails = ({
                                 <h2 className="label heading text-16 fw-500">Paylaş:</h2>
                                 <Share title={article.title} />
                             </div>
+
+                            {article.sourceUrl && (article.category === "Duyurular" || article.category === "Haberler") && (
+                                <div className="blog-share-item" style={{ marginTop: "1.5rem" }}>
+                                    <a
+                                        href={article.sourceUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="subheading text-16 fw-500"
+                                        style={{ display: "inline-flex", alignItems: "center", gap: "0.4em" }}
+                                    >
+                                        Yazının kaynağını görüntülemek için tıklayın →
+                                    </a>
+                                </div>
+                            )}
                         </div>
                     </div>
 

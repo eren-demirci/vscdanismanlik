@@ -17,6 +17,7 @@ export interface ServiceProps {
     content?: string;
     brochure_url?: string;
     brochure_label?: string;
+    phone?: string;
     list?: ServiceListProps[];
     faqs?: ServiceFaqProps[];
     created_at?: string;

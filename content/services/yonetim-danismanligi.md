@@ -12,6 +12,7 @@ list:
   - title: Turquality ve Kurumsal Gelişim
   - title: İnsan Kaynakları ve Operasyon Dönüşümü
   - title: Uluslararası Büyüme
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 Yönetim danışmanlığı, yalnızca iyileştirme önerisi sunmak değil; şirketinizin stratejisini sahaya indirecek, süreçleri hızlandıracak ve sürdürülebilir büyümeyi destekleyecek yönetim sistemini kurmaktır. VSC Danışmanlık olarak stratejiden operasyona, organizasyondan uluslararası büyümeye kadar kritik karar alanlarında ölçülebilir ve uygulanabilir dönüşüm çözümleri sunuyoruz.

@@ -105,7 +105,7 @@ const WhyChooseUsGrid = ({ data }: { data: SectionProps }) => {
                                     </div>
                                 }
 
-                                {rotatingLogo &&
+                                {/* rotatingLogo &&
                                     <div className="choose-logo">
                                         <div 
                                             className="choose-rotating-logo" 
@@ -122,7 +122,7 @@ const WhyChooseUsGrid = ({ data }: { data: SectionProps }) => {
                                             }
                                         </div>
                                     </div>
-                                }
+                                */}
                             </div>
                         </div>
                     </div>

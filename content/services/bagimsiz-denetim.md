@@ -12,6 +12,7 @@ list:
   - title: Hata, Hile ve Usulsüzlük Denetimi
   - title: Uygunluk Denetimi
   - title: İç Denetim ve Kurumsal Raporlama
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 Bağımsız denetim, yalnızca yasal bir yükümlülük değil; şirketinizin finansal doğruluğunu, kurumsal şeffaflığını ve paydaş güvenini güçlendiren kritik bir yönetim aracıdır. VSC Danışmanlık olarak mali tablo denetiminden iç denetime, uygunluk kontrollerinden kurumsal raporlama süreçlerine kadar denetimi karar kalitesini artıran stratejik bir çerçevede ele alıyoruz.

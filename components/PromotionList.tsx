@@ -20,7 +20,7 @@ const PromotionList = ({ items }: { items: PromotionProps[] }) => {
 
           {item.text && (
             <div className="promotion-text text text-16">
-              {parser(item.text)}
+              {typeof item.text === "string" ? parser(item.text) : item.text}
             </div>
           )}
         </li>

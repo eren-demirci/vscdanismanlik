@@ -12,6 +12,7 @@ list:
   - title: Bordrolama Hizmetleri
   - title: Emeklilik ve Asgari İşçilik Planlama
   - title: Yabancı Uyruklu Çalışma İzni
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 İş hukuku ve sosyal güvenlik danışmanlığı, yalnızca yasal zorunlulukların takibi değil; iş gücü maliyetini optimize eden, işveren riskini azaltan ve insan kaynakları süreçlerini sürdürülebilir hale getiren stratejik bir yönetim alanıdır. VSC Danışmanlık olarak şirketlerin iş hukuku uyumu, bordro süreçleri ve sosyal güvenlik yükümlülüklerini bütüncül bir yaklaşımla yönetmesine destek veriyoruz.

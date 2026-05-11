@@ -2,6 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { createHandle } from "@/utils/createHandle";
 import { ArticleType } from "@/types/article";
+import { db } from "@/lib/db";
 
 type Frontmatter = {
   id: number;
@@ -181,16 +182,67 @@ function parseAnnouncementMarkdown(fileContent: string): ArticleType {
   };
 }
 
+const SOURCE_LABELS: Record<string, string> = {
+  sgk: "SGK",
+  gib: "GİB",
+  ticaret: "Ticaret Bakanlığı",
+};
+
+type DbDuyuruRow = {
+  id: string;
+  title: string;
+  link: string;
+  excerpt: string | null;
+  content_html: string | null;
+  image_url: string | null;
+  pub_date: Date | null;
+  source: string;
+  created_at: Date;
+};
+
+async function getDbDuyurular(): Promise<ArticleType[]> {
+  try {
+    const result = await db.query<DbDuyuruRow>(
+      `SELECT id, title, link, excerpt, content_html, image_url, pub_date, source, created_at
+       FROM duyurular
+       ORDER BY COALESCE(pub_date, created_at) DESC
+       LIMIT 200`,
+    );
+    return result.rows.map((row) => {
+      const sourceLabel = SOURCE_LABELS[row.source] ?? row.source;
+      const dbId = Number(row.id);
+      const slug = `${createHandle(row.title)}-${dbId}`;
+      return {
+        id: dbId + 1_000_000, // offset to avoid clash with markdown file IDs
+        title: row.title,
+        slug,
+        excerpt: row.excerpt ?? undefined,
+        content: row.content_html ?? "",
+        category: "Duyurular",
+        image: row.image_url ?? null,
+        tags: ["Duyurular", sourceLabel],
+        comments: 0,
+        authorId: null,
+        created_at: (row.pub_date ?? row.created_at).toISOString(),
+        video: null,
+        sourceUrl: row.link,
+      };
+    });
+  } catch {
+    return [];
+  }
+}
+
 export async function getAnnouncementArticles(): Promise<ArticleType[]> {
   let files: string[] = [];
   try {
     files = await fs.readdir(announcementsDir);
   } catch {
-    return [];
+    files = [];
   }
 
   const markdownFiles = files.filter((name) => name.endsWith(".md"));
-  const announcements = await Promise.all(
+  const mdAnnouncements = await Promise.all(
     markdownFiles.map(async (fileName) => {
       const filePath = path.join(announcementsDir, fileName);
       const fileContent = await fs.readFile(filePath, "utf8");
@@ -200,7 +252,7 @@ export async function getAnnouncementArticles(): Promise<ArticleType[]> {
 
   const ids = new Set<number>();
   const slugs = new Set<string>();
-  for (const item of announcements) {
+  for (const item of mdAnnouncements) {
     if (ids.has(item.id)) {
       throw new Error(`Duplicate announcement id detected: ${item.id}`);
     }
@@ -211,7 +263,11 @@ export async function getAnnouncementArticles(): Promise<ArticleType[]> {
     if (item.slug) slugs.add(item.slug);
   }
 
-  return announcements.sort((a, b) => {
+  const dbAnnouncements = await getDbDuyurular();
+
+  const allItems = [...mdAnnouncements, ...dbAnnouncements];
+
+  return allItems.sort((a, b) => {
     const aTime = a.created_at ? new Date(a.created_at).getTime() : 0;
     const bTime = b.created_at ? new Date(b.created_at).getTime() : 0;
     if (aTime === bTime) return b.id - a.id;

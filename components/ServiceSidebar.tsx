@@ -45,7 +45,7 @@ const ServiceSidebar = async ({ slug }: {slug?: string;}) => {
                 <SidebarPhone
                     heading="Danışmanlık için <br/> bize ulaşın"
                     text="Uzman desteği için hemen arayın"
-                    phone="0555 555 55 55"
+                    phone={currentService?.phone ?? "0312 999 09 09"}
                     image={{
                         src: SidebarPhoneImage.src,                      
                         width: 1000,

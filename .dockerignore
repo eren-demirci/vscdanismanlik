@@ -10,3 +10,7 @@ build/
 *.suo
 *.ntvs*
 .next/
+.git/
+.gitignore
+*.md
+.turbo/

@@ -37,7 +37,7 @@ import Comment from "@/public/icons/comment.svg";
 import Reply from "@/public/icons/reply.svg";
 import SliderNavPrev from "@/public/icons/slider-prev.svg";
 import SliderNavNext from "@/public/icons/slider-next.svg";
-import LogoRotate from "@/public/icons/logo-rotate.svg";
+import LogoRotate from "@/public/icons/logo-rotate-01.svg";
 import Purpose from "@/public/icons/purpose.svg";
 import Ambition from "@/public/icons/ambition.svg";
 import Plus from "@/public/icons/plus.svg";

@@ -11,4 +11,5 @@ export interface ArticleType {
     comments?: number;
     authorId?: number | null;
     created_at?: string;
+    sourceUrl?: string;
 }

@@ -16,7 +16,13 @@ export const ContactData: SectionProps = {
         {
             icon: <Icons.Phone />,
             title: "Telefon",
-            text: "+90 (212) 000 00 00",
+            text: (
+                <>
+                    <a href="tel:+905539811698">+90 553 981 16 98</a><br />
+                    <a href="tel:+905369768157">+90 536 976 81 57</a><br />
+                    <a href="tel:+905309119986">+90 530 911 99 86</a>
+                </>
+            ),
         },
         {
             icon: <Icons.Email />,

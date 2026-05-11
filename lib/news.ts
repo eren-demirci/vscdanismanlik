@@ -5,6 +5,7 @@ import { ArticleType } from "@/types/article";
 type NewsRow = {
   id: number;
   title: string;
+  link: string;
   description: string | null;
   content_html: string | null;
   image_url: string | null;
@@ -45,13 +46,14 @@ function mapNewsRowToArticle(row: NewsRow): ArticleType {
     comments: 0,
     authorId: null,
     created_at: row.pub_date ? row.pub_date.toISOString() : undefined,
+    sourceUrl: row.link,
   };
 }
 
 export async function getNewsArticles(limit = 50): Promise<ArticleType[]> {
   const result = await db.query<NewsRow>(
     `
-      SELECT id, title, description, content_html, image_url, pub_date, source
+      SELECT id, title, link, description, content_html, image_url, pub_date, source
       FROM news
       ORDER BY pub_date DESC NULLS LAST, created_at DESC
       LIMIT $1
@@ -73,7 +75,7 @@ export async function getNewsArticleBySlug(
 
   const result = await db.query<NewsRow>(
     `
-      SELECT id, title, description, content_html, image_url, pub_date, source
+      SELECT id, title, link, description, content_html, image_url, pub_date, source
       FROM news
       WHERE id = $1
       LIMIT 1

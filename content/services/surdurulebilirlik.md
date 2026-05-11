@@ -6,11 +6,21 @@ icon: "<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0
 image: /img/service/covers/surdurulebilirlik-cover.svg
 description: Sürdürülebilirlik danışmanlığı: GRI ve TSRS uyumlu raporlama, karbon ayak izi ölçümü, CBAM hazırlığı ve strateji geliştirme.
 list:
-  - title: GRI Uyumlu Sürdürülebilirlik Raporlaması
-  - title: TSRS Uyum ve Finansal Etki Açıklamaları
-  - title: Kurumsal Karbon Ayak İzi (Scope 1-2-3)
-  - title: CBAM Hazırlık ve Uyum Danışmanlığı
-  - title: EcoVadis ve Tedarik Zinciri Sürdürülebilirliği
+  - title: GRI Standartları Uyumlu Sürdürülebilirlik Raporlaması
+  - title: TSRS Standartları Uyumlu Sürdürülebilirlik Raporlaması
+  - title: Entegre Sürdürülebilirlik Raporlaması
+  - title: Sürdürülebilirlik Etki (Impact) Raporlaması
+  - title: Kurumsal Karbon Ayak İzi Hesaplaması
+  - title: Kurumsal Su Ayak İzi Hesaplaması
+  - title: Sınırda Karbon Düzenleme Mekanizması (CBAM) Danışmanlığı
+  - title: EcoVadis Danışmanlığı
+  - title: Sürdürülebilirlik Kapsamlı Politika ve Strateji Geliştirme
+  - title: Sürdürülebilirlik Odaklı Risk ve Fırsat Analizi
+  - title: Sürdürülebilirlik Kapsamlı Modüler Eğitimler
+  - title: Sürdürülebilirlik Projelerinin Geliştirilmesi ve Yönetimi
+  - title: Tedarik Zincirinde Sürdürülebilirlik Yönetimi
+  - title: Etik Hat Hizmetleri
+phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
 Sürdürülebilirlik danışmanlığı, yalnızca rapor yazma süreci değil; şirketinizin risklerini azaltan, rekabet gücünü artıran ve finansmana erişimini kolaylaştıran stratejik bir dönüşüm programıdır. Kurumunuzun faaliyet alanına, tedarik zinciri yapısına ve regülasyon yükümlülüklerine göre uçtan uca bir yol haritası tasarlıyoruz. GRI ve TSRS uyumlu raporlama, karbon ayak izi hesaplama, ESG performans göstergeleri ve uygulama planı ile sürdürülebilirliği ölçülebilir bir yönetim sistemine dönüştürüyoruz.
@@ -19,13 +29,20 @@ Sürdürülebilirlik danışmanlığı, yalnızca rapor yazma süreci değil; ş
 
 Her kurumun başlangıç seviyesi farklıdır. Bu nedenle ilk aşamada mevcut durum analizi yapıyor, veri olgunluğunu ölçüyor ve kısa, orta, uzun vadeli öncelikleri belirliyoruz. Sonrasında yönetim kuruluna raporlanabilir, denetlenebilir ve yatırımcı beklentileriyle uyumlu bir sistem kuruyoruz.
 
-- **GRI Uyumlu Raporlama:** Paydaş öncelikleri, önemlilik analizi ve performans göstergeleriyle standartlara uygun rapor üretimi.
-- **TSRS Uyum Süreci:** Finansal etki odaklı iklim ve sürdürülebilirlik açıklamaları için veri, süreç ve kontrol tasarımı.
-- **Entegre Raporlama:** Finansal ve finansal olmayan verileri tek hikayede birleştirerek karar kalitesini artıran rapor altyapısı.
-- **Karbon Ayak İzi Hesaplama:** Scope 1, Scope 2 ve uygun olduğunda Scope 3 emisyonlarının metodolojik hesaplanması.
-- **Su Ayak İzi Analizi:** Su tüketimi, verimlilik ve risk alanlarını belirleyen veri temelli değerlendirme.
-- **CBAM Hazırlığı:** Sınırda Karbon Düzenleme Mekanizması için ürün bazlı emisyon verisi, doğrulama süreci ve raporlama hazırlığı.
-- **EcoVadis Hazırlığı:** Politika, kanıt doküman ve puan artırma planı ile değerlendirme sürecinin yönetimi.
+- **GRI Standartları Uyumlu Sürdürülebilirlik Raporlaması:** Paydaş öncelikleri, önemlilik analizi ve GRI Standartları çerçevesinde performans göstergelerini kapsayan eksiksiz rapor üretimi.
+- **TSRS Standartları Uyumlu Sürdürülebilirlik Raporlaması:** Finansal etki odaklı iklim ve sürdürülebilirlik açıklamaları için veri, süreç ve kontrol altyapısının tasarımı.
+- **Entegre Sürdürülebilirlik Raporlaması:** Finansal ve finansal olmayan verileri tek hikayede birleştirerek yönetim kalitesini ve yatırımcı güvenini artıran rapor altyapısı.
+- **Sürdürülebilirlik Etki (Impact) Raporlaması:** Şirketin çevre, toplum ve yönetişim alanlarındaki somut etkisini ölçen ve paydaşlara aktaran etki odaklı raporlama çerçevesi.
+- **Kurumsal Karbon Ayak İzi Hesaplaması:** Scope 1, Scope 2 ve uygun olduğunda Scope 3 emisyonlarının uluslararası metodolojilere uygun hesaplanması ve doğrulanması.
+- **Kurumsal Su Ayak İzi Hesaplaması:** Su tüketimi, geri kazanım oranları ve su stresi risklerini belirleyen veri temelli değerlendirme.
+- **Sınırda Karbon Düzenleme Mekanizması (CBAM) Danışmanlığı:** İhracat yapan şirketler için ürün bazlı emisyon verisi hazırlığı, doğrulama süreci ve CBAM raporlama yükümlülüklerine uyum.
+- **EcoVadis Danışmanlığı:** Politika dokümanları, kanıt hazırlığı ve puan artırma stratejisiyle EcoVadis değerlendirme sürecinin uçtan uca yönetimi.
+- **Sürdürülebilirlik Kapsamlı Politika ve Strateji Geliştirme:** Kurumun vizyon ve hedefleriyle uyumlu, uygulanabilir sürdürülebilirlik politikaları ve uzun vadeli strateji belgelerinin hazırlanması.
+- **Sürdürülebilirlik Odaklı Risk ve Fırsat Analizi:** İklim değişikliği, regülasyon baskısı ve tedarik zinciri riskleri başta olmak üzere ESG kaynaklı risklerin sistematik değerlendirmesi ve fırsata dönüştürülmesi.
+- **Sürdürülebilirlik Kapsamlı Modüler Eğitimler:** Yönetim kurulundan operasyon ekiplerine kadar tüm kademelere yönelik, ihtiyaca özel tasarlanmış sürdürülebilirlik farkındalık ve teknik eğitimleri.
+- **Sürdürülebilirlik Projelerinin Geliştirilmesi ve Yönetimi:** Enerji verimliliği, döngüsel ekonomi ve sosyal etki projeleri dahil olmak üzere sürdürülebilirlik girişimlerinin planlanması, izlenmesi ve raporlanması.
+- **Tedarik Zincirinde Sürdürülebilirlik Yönetimi:** Tedarikçi ESG değerlendirmesi, sürdürülebilir tedarik politikaları ve tedarik zinciri şeffaflığı için sistem ve süreç tasarımı.
+- **Etik Hat Hizmetleri:** Çalışanların ihlal, usulsüzlük ve etik dışı davranışları güvenli ve anonim biçimde bildirebildiği ihbar mekanizması kurulumu ve yönetimi.
 
 ## Neden Kurumsal Sürdürülebilirlik Yönetimi Gereklidir?
 
@@ -52,6 +69,14 @@ Evet. Birçok kurumda GRI ile paydaş odaklı etki raporlaması yapılırken, TS
 ### CBAM için hangi hazırlıklar kritik?
 
 Ürün bazlı emisyon verisinin doğruluğu, veri izlenebilirliği ve tedarik zinciri kayıtlarının standardizasyonu kritik önemdedir. Erken hazırlık, ihracat tarafında maliyet ve uyum riskini azaltır.
+
+### EcoVadis puanını artırmak ne kadar sürer?
+
+Mevcut belge altyapısı ve politika olgunluğuna göre değişir. Temel politikaların hazırlanması ve kanıt dosyalarının düzenlenmesiyle kısa sürede anlamlı puan artışı sağlanabilir.
+
+### Etik hat kurulumu zorunlu mu?
+
+AB Tedarikçi Uyum Direktifi ve kurumsal yönetişim beklentileri kapsamında etik hat giderek daha fazla zorunluluk haline gelmektedir. Tedarikçi yeterlilik süreçlerinde de sorgulanan bir kriter olarak öne çıkmaktadır.
 
 ## Kazandığınız Değer
 
