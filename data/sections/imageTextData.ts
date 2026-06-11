@@ -1,6 +1,4 @@
 import { SectionProps } from "@/types/sectionProps";
-import Image1 from '@/public/img/why-choose-us/bg.jpg';
-
 export const ImageTextData: SectionProps = {
     wrapperCls: "mt-100",
     container: "container",
@@ -13,11 +11,13 @@ export const ImageTextData: SectionProps = {
         type: "primary"
     },
     image: {
-        src: Image1.src,
+        src: "/img/vsc/about-meeting-room.jpg",
         width: 992,
         height: 863,
         alt: 'VSC Danışmanlık',
-        loading: 'lazy'
+        loading: 'lazy',
+        objectFit: 'cover',
+        objectPosition: 'center center'
     },
     textList: [
         {

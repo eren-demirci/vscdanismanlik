@@ -35,6 +35,10 @@ const ImageText2 = ({ data }: { data: SectionProps }) => {
                                     height={image1.height}
                                     loading={image1.loading}
                                     alt={image1.alt ? image1.alt : 'Image'}
+                                    style={{
+                                        objectFit: image1.objectFit,
+                                        objectPosition: image1.objectPosition,
+                                    }}
                                 />
                             }
 
@@ -49,6 +53,10 @@ const ImageText2 = ({ data }: { data: SectionProps }) => {
                                         height={image2.height}
                                         loading={image2.loading}
                                         alt={image2.alt ? image2.alt : 'Image'}
+                                        style={{
+                                            objectFit: image2.objectFit,
+                                            objectPosition: image2.objectPosition,
+                                        }}
                                     />
                                 </div>
                             }

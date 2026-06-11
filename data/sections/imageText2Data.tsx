@@ -26,18 +26,22 @@ export const ImageText2Data: SectionProps = {
     },
     imageList: [
         {
-            src: "/ai-generated/a-professional-portrait-oriented-photogr_CrG5IFJBTjysZ0DP6l_D9g_xYwxj9m6TM65RKiwBL32ig_cover_sd.jpeg",
+            src: "/img/vsc/home-about-document-review.jpg",
             width: 992,
             height: 863,
             alt: 'VSC Danışmanlık',
-            loading: 'lazy'
+            loading: 'lazy',
+            objectFit: 'cover',
+            objectPosition: 'center center'
         },
         {
-            src: "/ai-generated/close-up-of-business-handshake-in-modern_7RBwaq15RbK3fvhFa8G22w_05OisZbNTgO98HE9WUijGg_cover_sd.jpeg",
+            src: "/img/vsc/home-about-signature-detail.jpg",
             width: 195,
             height: 202,
             alt: 'VSC Danışmanlık',
-            loading: 'lazy'
+            loading: 'lazy',
+            objectFit: 'cover',
+            objectPosition: 'center center'
         }
     ]
 }

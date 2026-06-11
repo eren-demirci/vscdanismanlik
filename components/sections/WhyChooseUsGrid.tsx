@@ -48,12 +48,16 @@ const WhyChooseUsGrid = ({ data }: { data: SectionProps }) => {
                                             srcSet={image.srcMobile}
                                         />
                                     }
-                                <Image 
+                                <Image
                                     src={image.src}
                                     alt={image.alt ? image.alt : 'Image'}
                                     width={image.width}
                                     height={image.height}
                                     loading={image.loading}
+                                    style={{
+                                        objectFit: image.objectFit,
+                                        objectPosition: image.objectPosition,
+                                    }}
                                 />
                                 </picture>
                             }
@@ -169,12 +173,16 @@ const WhyChooseUsGrid = ({ data }: { data: SectionProps }) => {
                             data-aos="fade-up" 
                             data-aos-delay="400"
                         >
-                            <Image 
+                            <Image
                                 src={promoImage.src}
                                 alt={promoImage.alt ? promoImage.alt : 'Image'}
                                 width={promoImage.width}
                                 height={promoImage.height}
                                 loading={promoImage.loading}
+                                style={{
+                                    objectFit: promoImage.objectFit,
+                                    objectPosition: promoImage.objectPosition,
+                                }}
                             />
                         </div>
                     }

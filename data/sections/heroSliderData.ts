@@ -29,15 +29,21 @@ export const HeroSlidesData = [
 
 export const BannerSlides = [
     {
-      thumb: "/ai-generated/professional-business-meeting-in-modern-_cdKaNB6PRVCN38XuyqFKdw_aocR0YSfRTCW7dMk6XScWw_sd.jpeg",
-      image: "/ai-generated/professional-business-meeting-in-modern-_cdKaNB6PRVCN38XuyqFKdw_aocR0YSfRTCW7dMk6XScWw_sd.jpeg",
+      thumb: "/img/vsc/home-hero-finance-desk.jpg",
+      image: "/img/vsc/home-hero-finance-desk.jpg",
+      objectPosition: "center center",
+      thumbObjectPosition: "center center",
     },
     {
-      thumb: "/ai-generated/a-photorealistic-image-of-a-modern-corpo_iLYCtD6aTyKZI2Ba1WaThQ_qhzYJ_QmR0mPVABuTddc3w_sd.jpeg",
-      image: "/ai-generated/a-photorealistic-image-of-a-modern-corpo_iLYCtD6aTyKZI2Ba1WaThQ_qhzYJ_QmR0mPVABuTddc3w_sd.jpeg",
+      thumb: "/img/vsc/home-hero-strategy-overview.jpg",
+      image: "/img/vsc/home-hero-strategy-overview.jpg",
+      objectPosition: "center center",
+      thumbObjectPosition: "center center",
     },
     {
-      thumb: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
-      image: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
+      thumb: "/img/vsc/home-hero-cityline.jpg",
+      image: "/img/vsc/home-hero-cityline.jpg",
+      objectPosition: "center center",
+      thumbObjectPosition: "center center",
     },
 ];

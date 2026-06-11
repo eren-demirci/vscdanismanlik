@@ -5,12 +5,14 @@ export const WhyChooseUsGridData: SectionProps = {
     wrapperCls: "mt-100 section-padding",
     container: "container",
     image: {
-        src: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
-        srcMobile: "/ai-generated/modern-istanbul-consulting-firm-office-i_9_bo4yCvTYualLYYC2c2UQ_GXKWuC9nToqbLA7UBntobg_cover_sd.jpeg",
+        src: "/img/vsc/home-why-vsc-skyline.jpg",
+        srcMobile: "/img/vsc/home-why-vsc-skyline.jpg",
         width: 1000,
         height: 742,
         loading: "lazy",
-        alt: "VSC Danışmanlık ofis"
+        alt: "VSC Danışmanlık şehir görünümü",
+        objectFit: "cover",
+        objectPosition: "center center"
     },
     subheading: "Neden VSC?",
     heading: "Stratejik Danışmanlıkta Güvenilir İş Ortağınız",
@@ -42,10 +44,12 @@ export const WhyChooseUsGridData: SectionProps = {
         },
     ],
     promoImage: {
-        src: "/ai-generated/professional-business-meeting-in-modern-_cdKaNB6PRVCN38XuyqFKdw_aocR0YSfRTCW7dMk6XScWw_sd.jpeg",
+        src: "/img/vsc/home-why-vsc-office-corner.jpg",
         width: 800,
         height: 834,
         loading: "lazy",
-        alt: "VSC Danışmanlık ekip toplantısı"
+        alt: "VSC Danışmanlık ofis çalışma alanı",
+        objectFit: "cover",
+        objectPosition: "center center"
     },
 }

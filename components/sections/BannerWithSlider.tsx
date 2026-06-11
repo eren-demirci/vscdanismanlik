@@ -185,6 +185,10 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
                                                         height={717}
                                                         loading="lazy"
                                                         alt={`Slider image ${index}`}
+                                                        style={{
+                                                            objectFit: "cover",
+                                                            objectPosition: slide.objectPosition,
+                                                        }}
                                                     />
                                                 </div>
                                             }
@@ -225,6 +229,10 @@ const BannerWithSlider = ({ data }: { data: BannerSliderType }) => {
                                                         height={140}
                                                         loading="lazy"
                                                         alt={`Slider thumb image ${index}`}
+                                                        style={{
+                                                            objectFit: "cover",
+                                                            objectPosition: slide.thumbObjectPosition,
+                                                        }}
                                                     />
                                                 </div>
                                             }

@@ -13,9 +13,13 @@ export interface SlideType {
   imageTablet?: string;
   imageMobile?: string;
   thumb?: string;
+  objectPosition?: string;
+  thumbObjectPosition?: string;
 }
 
 export interface SlideWithThumbType {
   image?: string;
   thumb?: string;
+  objectPosition?: string;
+  thumbObjectPosition?: string;
 }

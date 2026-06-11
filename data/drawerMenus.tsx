@@ -43,8 +43,8 @@ export const MenuContact = {
             icon: <Icons.Location />
         },
         {
-            title: "0555 555 55 55",
-            path: "tel:+905555555555",
+            title: "+90 (536) 976 81 57",
+            path: "tel:+905369768157",
             icon: <Icons.Phone />
         },
         {

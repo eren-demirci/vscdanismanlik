@@ -33,6 +33,10 @@ const ImageText = ({ data }: { data: SectionProps }) => {
                                     height={image.height}
                                     loading={image.loading}
                                     alt={image.alt ? image.alt : 'Image'}
+                                    style={{
+                                        objectFit: image.objectFit,
+                                        objectPosition: image.objectPosition,
+                                    }}
                                 />
                             </div>
                         }

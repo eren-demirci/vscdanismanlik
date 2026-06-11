@@ -1,8 +1,5 @@
 import { SectionProps } from "@/types/sectionProps";
 import WhyChooseUsBg from "@/public/img/image-text/img1.png";
-import WhyChooseUsImage from "@/public/img/why-choose-us/1.jpg";
-import WhyChooseUsImageMobile from "@/public/img/why-choose-us/575.jpg";
-import PromoImage from "@/public/img/why-choose-us/2.jpg";
 import Icons from "@/components/Icons";
 
 export const WhyChooseUsGridBgData: SectionProps = {
@@ -16,12 +13,14 @@ export const WhyChooseUsGridBgData: SectionProps = {
         alt: "Background image"
     },
     image: {
-        src: WhyChooseUsImage.src,
-        srcMobile: WhyChooseUsImageMobile.src,
+        src: "/img/vsc/about-workspace-wide.jpg",
+        srcMobile: "/img/vsc/about-workspace-wide.jpg",
         width: 1000,
         height: 742,
         loading: "lazy",
-        alt: "Choose us image"
+        alt: "VSC Danışmanlık çalışma alanı",
+        objectFit: "cover",
+        objectPosition: "center center"
     },
     subheading: "Neden Biz?",
     heading: "Stratejik Ortaklık, Kalıcı Değer",
@@ -53,10 +52,12 @@ export const WhyChooseUsGridBgData: SectionProps = {
         },
     ],
     promoImage: {
-        src: PromoImage.src,
+        src: "/img/vsc/about-workspace-document.jpg",
         width: 800,
         height: 834,
         loading: "lazy",
-        alt: "Choose us image"
+        alt: "VSC Danışmanlık doküman inceleme",
+        objectFit: "cover",
+        objectPosition: "center center"
     },
 }

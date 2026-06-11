@@ -9,4 +9,6 @@ export interface ImageProps {
     cls?: string;
     href?: string;
     title?: string;
+    objectFit?: "cover" | "contain";
+    objectPosition?: string;
 }

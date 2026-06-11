@@ -61,3 +61,5 @@ Bağımsız denetim dışarıdan verilen objektif güvence hizmetidir. İç dene
 ## Kazandığınız Değer
 
 Denetim süreçlerinizi yalnızca kontrol noktası olmaktan çıkarıp, kurumsal güven ve sürdürülebilir performans üreten bir yönetim sistemine dönüştürüyoruz. Böylece şirketiniz; daha sağlam finansal raporlama, daha düşük operasyonel risk ve paydaşlar nezdinde daha güçlü bir güven zemini elde eder.
+
+### Bağımsız denetim hizmetlerimiz iş ortaklarımızla birlikte yürütülmektedir.
