@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "VSC Danışmanlık A.Ş.",
     description:
-      "Sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, bağımsız denetim ve yönetim danışmanlığında güvenilir iş ortağınız.",
+      "Sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı ve yönetim danışmanlığında güvenilir iş ortağınız.",
     url: "https://vscdanismanlik.com",
     type: "website",
   },

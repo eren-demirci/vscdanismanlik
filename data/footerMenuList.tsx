@@ -1,6 +1,6 @@
 interface MenuType {
-  title: string;
-  path: string;
+    title: string;
+    path: string;
 }
 
 export const QuickLink: MenuType[] = [
@@ -38,10 +38,6 @@ export const Services: MenuType[] = [
     {
         title: 'Vergi Danışmanlığı',
         path: '/services/vergi-danismanligi'
-    },
-    {
-        title: 'Bağımsız Denetim',
-        path: '/services/bagimsiz-denetim'
     },
     {
         title: 'Muhasebe ve Mali Danışmanlık',

@@ -28,7 +28,6 @@ Her şirketin büyüklüğü, işlem yapısı ve raporlama ihtiyacı farklıdır
 - **Bordro ve Personel Hizmetleri:** Bordro, SGK ve personel süreçlerinin doğru hesaplama ve zamanında bildirimle yönetilmesi.
 - **Genel Muhasebe Hizmetleri:** Günlük kayıt, hesap mutabakatı ve dönem kapanış süreçlerinin düzenli yürütülmesi.
 - **TTK Hazırlık ve Danışmanlığı:** Türk Ticaret Kanunu kapsamındaki yükümlülüklere uyum için süreç ve dokümantasyon desteği.
-- **Beyanname Kontrol, E-Beyanname, E-Bildirge Hizmetleri:** Beyan ve bildirim süreçlerinin doğruluk, süre ve mevzuat uyumu açısından yönetimi.
 - **Teşvik Hizmetleri:** Yararlanılabilecek destek ve teşviklerin tespit edilmesi, başvuru ve takip süreçlerinin yürütülmesi.
 - **Yönetim Muhasebe Denetimi:** Maliyet, karlılık ve süreç verimliliği odaklı iç muhasebe kontrolünün güçlendirilmesi.
 
@@ -49,10 +48,6 @@ Artan mevzuat karmaşıklığı, dijital beyan sistemleri ve hızlanan iş döng
 ### Muhasebe hizmeti sadece kayıt tutma ile mi sınırlıdır?
 
 Hayır. Etkin bir muhasebe hizmeti; kayıt tutmanın yanında raporlama, kontrol, risk yönetimi ve yönetime karar desteği fonksiyonlarını da kapsar.
-
-### E-beyanname ve e-bildirge süreçlerinde en kritik nokta nedir?
-
-Doğru veri akışı ve zamanında bildirimdir. Hatalı veya geciken bildirimler cezai risk oluşturabileceği için süreç disiplinli şekilde yönetilmelidir.
 
 ### Yönetim muhasebe denetimi şirkete ne sağlar?
 

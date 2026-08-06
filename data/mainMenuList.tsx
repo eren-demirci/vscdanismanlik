@@ -33,10 +33,6 @@ const Menus: NavMenuItem[] = [
                 path: '/services/vergi-danismanligi'
             },
             {
-                title: 'Bağımsız Denetim',
-                path: '/services/bagimsiz-denetim'
-            },
-            {
                 title: 'Muhasebe ve Mali Danışmanlık',
                 path: '/services/muhasebe-ve-mali-danismanlik'
             },

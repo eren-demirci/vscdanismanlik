@@ -11,7 +11,6 @@ Navbar istenen linkler:
 -- Sürdürülebilirlik
 -- Kurumsal Finansman
 -- Vergi Danışmanlığı
--- Bağımsız Denetim
 -- Muhasebe ve Mali Danışmanlık
 -- İş Hukuku ve Sosyal Güvenlik Danışmanlığı
 -- Yönetim Danışmanlığı
@@ -48,31 +47,23 @@ Kurumsal Finansman
 •	Finansal Modelleme ve Analiz
 •	Finansal Fizibilite
 •	Girişim ve Start-Up Danışmanlığı
+•	UFRS Raporlaması
+•	Hata, Hile, Usülsüzlük Denetimi
+•	Mali Analiz ve Değerleme
+•	Kurumsal Raporlama
 
 Vergi Danışmanlığı
 •	Vergi Denetimi
 •	Vergi, İade Mahsup
 •	Vergi Hukuku Danışmanlığı
-•	Teşvik, Muafiyet, İstisna Tasdik Hizmeti
+•	Teşvik, Muafiyet, İstisna Danışmanlığı
 •	Transfer Fiyatlandırması / Örtülü Sermaye
 •	Vergi Planlaması ve Yapılandırması
-•	Tam Tasdik (YMM) Hizmeti
 •	Servet ve Varlık İncelemesi
 •	Uluslararası/Yabancı Yatırım Vergi Danışmanlığı
 •	Gerçek Kişilerin Vergilendirilmesinde Danışmanlık Hizmeti
 •	Kurumsal Vergi Danışmanlığı
 •	Vergi Uyuşmazlık Danışmanlığı
-Bağımsız Denetim
-•	Mali Tablo Denetim Hizmeti
-•	UFRS Raporlaması
-•	Muhasebe Denetimi
-•	Hata, Hile, Usülsüzlük Denetimi
-•	Mali Analiz ve Değerleme
-•	Uygunluk Denetimi
-•	Faaliyet Denetimi
-•	İç Denetim Hizmetleri
-•	Kurumsal Raporlama
-•	Yasal Denetim
 Muhasebe ve Mali Danışmanlık 
 •	Ticaret Sicil İşlemleri
 •	Yabancı Sermaye Kuruluş İşlemleri Hizmetleri
@@ -81,7 +72,6 @@ Muhasebe ve Mali Danışmanlık
 •	Bordro ve Personel Hizmetleri
 •	Genel Muhasebe Hizmetleri
 •	TTK Hazırlık ve Danışmanlığı
-•	Beyanname Kontrol, E-Beyanname, E-Bildirge Hizmetleri
 •	Teşvik Hizmetleri
 •	Yönetim Muhasebe Denetimi
 

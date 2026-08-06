@@ -9,7 +9,6 @@ list:
   - title: Vergi Denetimi
   - title: Vergi Planlaması ve Yapılandırması
   - title: Transfer Fiyatlandırması ve Örtülü Sermaye
-  - title: Tam Tasdik (YMM) ve Tasdik Hizmetleri
   - title: Vergi Uyuşmazlık Danışmanlığı
 phone: "0536 976 81 57"
 created_at: "2026-01-01"
@@ -21,12 +20,11 @@ Vergi danışmanlığı, yalnızca beyan dönemlerinde destek almak değil; şir
 Her mükellefin sektörü, işlem hacmi ve risk profili farklıdır. Bu nedenle ilk aşamada mevcut vergi süreçlerini, beyan altyapısını ve potansiyel risk alanlarını analiz ediyoruz. Sonrasında uyum düzeyini artıran, maliyetleri optimize eden ve denetime hazır bir vergi yönetim modeli kuruyoruz.
 
 - **Vergi Denetimi:** Beyan, kayıt ve uygulamaların mevzuata uygunluk açısından incelenmesi ve risklerin erken tespiti.
-- **Vergi, İade Mahsup Hizmetleri:** İade ve mahsup süreçlerinde belge, süreç ve başvuru yönetiminin hızlandırılması.
+- **Vergi, İade Mahsup Danışmanlığı:** İade ve mahsup süreçlerinde belge, süreç ve başvuru yönetiminin hızlandırılması.
 - **Vergi Hukuku Danışmanlığı:** Vergi uyuşmazlıkları ve hukuki süreçlerde teknik görüş, strateji ve temsil desteği.
-- **Teşvik, Muafiyet, İstisna Tasdik Hizmeti:** Yararlanılabilecek avantajların tespiti ve uygunluk koşullarının doğru uygulanması.
+- **Teşvik, Muafiyet, İstisna Danışmanlığı:** Yararlanılabilecek avantajların tespiti ve uygunluk koşullarının doğru uygulanması.
 - **Transfer Fiyatlandırması / Örtülü Sermaye:** Grup içi işlemlerin emsallere uygunluk analizi ve belgelendirme süreçlerinin yönetimi.
 - **Vergi Planlaması ve Yapılandırması:** İş modelinize uygun vergi yükü optimizasyonu ve sürdürülebilir planlama kurgusu.
-- **Tam Tasdik (YMM) Hizmeti:** Mevzuata uyumun güçlendirilmesi ve denetim süreçlerinde güvence sağlayan tasdik desteği.
 - **Servet ve Varlık İncelemesi:** Varlık yapısının vergi etkileriyle birlikte analiz edilerek risklerin azaltılması.
 - **Uluslararası/Yabancı Yatırım Vergi Danışmanlığı:** Sınır ötesi işlemlerde yerel ve uluslararası düzenlemelere uyumlu yapılandırma.
 - **Gerçek Kişilerin Vergilendirilmesinde Danışmanlık:** Bireysel gelir ve varlık vergilemesinde doğru beyan ve planlama desteği.
@@ -55,9 +53,6 @@ Hayır. Etkin vergi danışmanlığı yıl boyunca devam eden bir süreçtir. D�
 
 Grup şirketleriyle işlem yapan, yurt içi veya yurt dışı ilişkili taraf hacmi yüksek olan firmalar için transfer fiyatlandırması belgelendirmesi kritik önemdedir.
 
-### Tam tasdik hizmeti işletmeye ne kazandırır?
-
-Tam tasdik, vergi uygulamalarının mevzuata uygunluğunu güçlendirir, denetim süreçlerinde güven sağlar ve olası uyuşmazlık risklerini azaltır.
 
 ## Kazandığınız Değer
 
