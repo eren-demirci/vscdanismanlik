@@ -20,7 +20,7 @@ const FooterBrand = () => {
                 loading="lazy"
             />
             <p className="text text-16">
-                Sürdürülebilirlik, kurumsal finansman, vergi, denetim ve yönetim danışmanlığında güvenilir iş ortağınız.
+                Bağımsız denetim, sürdürülebilirlik, kurumsal finansman ve vergi danışmanlığında güvenilir iş ortağınız.
             </p>
             <Social 
                 wrapperCls="social-icons"

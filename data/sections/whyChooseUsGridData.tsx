@@ -16,7 +16,7 @@ export const WhyChooseUsGridData: SectionProps = {
     },
     subheading: "Neden VSC?",
     heading: "Stratejik Danışmanlıkta Güvenilir İş Ortağınız",
-    text: "VSC Danışmanlık Grubu olarak, ortaklarımızın farklı kurumsal yapılarda edindiği bilgi birikimini ve saha deneyimini tek bir çatı altında birleştiriyoruz.",
+    text: "Ortaklarımızın farklı kurumsal yapılarda edindiği bilgi birikimini ve saha deneyimini tek bir çatı altında birleştiriyoruz.",
     button: {
         label: "Daha Fazla Bilgi",
         href: "/about-us",
@@ -40,7 +40,7 @@ export const WhyChooseUsGridData: SectionProps = {
         {
             icon: <Icons.Awards />,
             title: "Uzmanlığımız",
-            text: "Sürdürülebilirlik'ten kurumsal finansa, vergi danışmanlığından yönetim danışmanlığına geniş uzmanlık yelpazesi.",
+            text: "Bağımsız denetimden sürdürülebilirliğe, kurumsal finanstan yatırım teşviklerine geniş uzmanlık yelpazesi.",
         },
     ],
     promoImage: {

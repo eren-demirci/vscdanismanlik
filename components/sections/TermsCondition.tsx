@@ -21,10 +21,7 @@ const TermsConditionSection = () => {
 
                                 <h3>1. Hizmetin Kapsamı</h3>
                                 <p>
-                                    VSC Danışmanlık A.Ş. bu site üzerinden sürdürülebilirlik,
-                                    kurumsal finansman, vergi danışmanlığı,
-                                    muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik,
-                                    yönetim danışmanlığı alanlarına ilişkin tanıtım ve iletişim
+                                    VSC Danışmanlık A.Ş. bu site üzerinden bağımsız denetim, sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, yönetim danışmanlığı, dış ticaret ve yatırım, yatırım ve teşvik danışmanlığı alanlarına ilişkin tanıtım ve iletişim
                                     hizmeti sunar.
                                 </p>
 
@@ -88,7 +85,7 @@ const TermsConditionSection = () => {
                                     Maslak Mah. Bilim Sk. Sun Plaza No: 5A İç Kapı No: 40
                                     Sarıyer / İstanbul
                                     <br />
-                                    Telefon: 0555 555 55 55
+                                    Telefon: +90 536 976 81 57
                                 </p>
                             </div>
                         </div>

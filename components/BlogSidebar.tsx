@@ -3,7 +3,6 @@ import SidebarSearch from "./SidebarSearch";
 import SidebarCategories from "./SidebarCategories";
 import RecentPost from "./RecentPost";
 import SidebarTags from "./SidebarTags";
-import Posts from "@/data/posts.json";
 import DrawerOpener from "./DrawerOpener";
 import { getAllServices } from "@/lib/services";
 import { getNewsArticles, getNewsSourceLabels } from "@/lib/news";
@@ -27,14 +26,12 @@ const BlogSidebar = async ({
     selectedNewsTags = [],
     hideTagsSection = false,
 }: BlogSidebarType) => {
-    const posts = Posts;
-    const defaultTags: string[] = Array.from(new Set(posts.flatMap(post => post.tags)));
     const services = await getAllServices();
     const newsSources = isNewsPage ? await getNewsSourceLabels() : [];
     const recentNews = !isNewsPage ? await getNewsArticles(3) : [];
     const recentAnnouncements = isNewsPage ? await getAnnouncementArticles() : [];
     const crossPosts = isNewsPage ? recentAnnouncements.slice(0, 3) : recentNews;
-    const tags = isNewsPage && newsSources.length > 0 ? newsSources : defaultTags;
+    const tags = isNewsPage && newsSources.length > 0 ? newsSources : [];
     const serviceCategories = services
         .filter((service) => Boolean(service.title && service.slug))
         .map((service) => ({

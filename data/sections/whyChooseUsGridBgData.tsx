@@ -43,12 +43,12 @@ export const WhyChooseUsGridBgData: SectionProps = {
         {
             icon: <Icons.Vision />,
             title: "Vizyonumuz",
-            text: "Türkiye'nin lider çok disiplinli danışmanlık grubu olmak; şeffaflık ve sürdürülebilirlik ilkeleriyle büyümek.",
+            text: "Şeffaflık ve sürdürülebilirlik ilkeleriyle müşterilerimizin uzun vadeli kurumsal değerine katkı sağlamak.",
         },
         {
             icon: <Icons.Awards />,
             title: "Değerlerimiz",
-            text: "Güvenilirlik, bağımsızlık ve uzman iş ortaklığı anlayışıyla her müşteriye özel çözümler.",
+            text: "Bağımsızlık ve tarafsızlık, dürüstlük ve etik, mesleki yetkinlik, gizlilik, mesleki şüphecilik ve kamu güveni.",
         },
     ],
     promoImage: {

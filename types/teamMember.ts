@@ -3,6 +3,7 @@ export interface TeamMemberType {
   slug?: string;
   name?: string;
   designation?: string;
+  group?: string;
   social?: {
     facebook?: string;
     facebook_url?: string;

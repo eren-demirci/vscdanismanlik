@@ -42,12 +42,12 @@ const TeamMemberDetails = ({
                                             width="1000"
                                             height="1133"
                                             loading="lazy"
-                                            alt="Image"
+                                            alt={name || "Ekip üyesi"}
                                         />
                                     </div>
                                     {year_of_expertise &&
                                         <div className="text-absolute heading text-24">
-                                            {year_of_expertise} years of experience
+                                            {year_of_expertise} yıl deneyim
                                         </div>
                                     }
                                 </>
@@ -165,19 +165,19 @@ const TeamMemberDetails = ({
 
                 {biography &&
                     <div className="team-bio mt-100">
-                        <h2 className="heading text-36" data-aos="fade-up">Short Biography</h2>
+                        <h2 className="heading text-36" data-aos="fade-up">Biyografi</h2>
                         <p className="text text-18" data-aos="fade-up" data-aos-delay="50">
                             {parser(biography)}
                         </p>
                     </div>
                 }
 
-                <div className="about-me-container mt-100">
+                {(about || about_skills || skills) && <div className="about-me-container mt-100">
                     <div className="grid grid-cols-2 lg:gap-1">
                         <div className="lg:col-span-1 col-span-2">
                             {about &&
                                 <div className="team-about">
-                                    <h2 className="heading text-36" data-aos="fade-up">About Me</h2>
+                                    <h2 className="heading text-36" data-aos="fade-up">Hakkında</h2>
                                     <p 
                                         className="text text-18" 
                                         data-aos="fade-up" 
@@ -193,7 +193,7 @@ const TeamMemberDetails = ({
                             {about_skills &&
                                 <div className="team-progress">
                                     <h2 className="heading text-36" data-aos="fade-up">
-                                        Professional skills
+                                        Mesleki Yetkinlikler
                                     </h2>
                                     <p className="text text-18" data-aos="fade-up">
                                         {parser(about_skills)}
@@ -233,7 +233,7 @@ const TeamMemberDetails = ({
                             }
                         </div>
                     </div>
-                </div>                
+                </div>}
             </div>
         </div>
     )

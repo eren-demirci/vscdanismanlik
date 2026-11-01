@@ -11,15 +11,14 @@ export const ContactData: SectionProps = {
         {
             icon: <Icons.Location />,
             title: "Adres",
-            text: "Sun Plaza, Bilim Sokak No:5 Kat:7, 34398 Maslak/İstanbul",
+            text: "Maslak, Bilim Sk., Sun Plaza, No:5A/40 Sarıyer/İstanbul",
         },
         {
             icon: <Icons.Phone />,
             title: "Telefon",
             text: (
                 <>
-                    <a href="tel:+905539811698">+90 553 981 16 98</a><br />
-                    <a href="tel:+905369768157">+90 536 976 81 57</a><br />
+                                        <a href="tel:+905369768157">+90 536 976 81 57</a><br />
                     <a href="tel:+905309119986">+90 530 911 99 86</a>
                 </>
             ),

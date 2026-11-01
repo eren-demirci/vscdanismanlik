@@ -1,234 +1,244 @@
 [
   {
     "id": 1,
-    "slug": "ethan-reynolds",
-    "name": "Ethan Reynolds",
-    "designation": "Managing Director",
-    "image": "/img/team/1.jpg",
-    "social": {
-      "facebook": "Ethan Reynolds",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@ethan_reynolds",
-      "twitter_url": "https://x.com",
-      "instagram": "@ethan.reynolds",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Ethan Reynolds",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "15",
-    "expertise": "Specialized in strategic business planning, leadership development, and corporate restructuring. Ethan drives organizational growth through data-driven insights, innovative leadership models, and sustainable business strategies that align company goals with market opportunities for long-term success.",
-    "phone": "+1 202 555 0147",
-    "email": "ethan@consultcorp.com",
-    "biography": "Ethan Reynolds brings over 15 years of management consulting experience across industries including finance, technology, and manufacturing. He has led multiple large-scale transformation initiatives, guiding executive teams toward operational excellence and improved profitability. His expertise lies in balancing strategic foresight with practical execution, helping organizations navigate complex market environments. Ethan is known for fostering collaborative cultures and implementing scalable solutions that drive measurable impact while maintaining integrity and innovation as his core leadership values.",
-    "about": "Ethan believes that exceptional leadership stems from clarity, empathy, and purpose. He focuses on empowering professionals to make informed decisions that inspire growth and accountability. His vision is to build organizations where innovation thrives, collaboration drives progress, and strategic foresight ensures long-term success for both clients and teams alike.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 95,
-      "client_relationship": 90,
-      "soft_skill": 92
-    }
+    "slug": "metin-kocabay",
+    "name": "Metin Kocabay",
+    "designation": "Kurucu Ortak · Yeminli Mali Müşavir, Bağımsız Denetçi, Hukukçu",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/metin-kocabay.jpg",
+    "biography": "Metin Kocabay, 1999 yılında İstanbul Üniversitesi Maliye Bölümü'nden bölüm ikincisi olarak mezun olmuştur. Kariyerine kamuda başlayan Kocabay, uzun yıllar vergi denetmeni olarak görev yapmış; ardından Malatya Büyükşehir Belediyesi ile İnönü Üniversitesi'nde iç denetçi olarak çalışmalarını sürdürmüştür. 2012 yılında kamu görevinden ayrılarak Yeminli Mali Müşavir olarak çalışmaya başlamış, 2013 yılında ise Bağımsız Denetçi unvanını almıştır. Mesleki uzmanlığını hukuk alanında da geliştirmek amacıyla eğitimine devam eden Kocabay, 2018 yılında İstanbul Aydın Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Vergi denetimi, iç denetim, yeminli mali müşavirlik ve bağımsız denetim alanlarında derin uzmanlığa sahip olan Metin Kocabay, 2026 yılında ekibimize kurucu ortak olarak katılmıştır."
   },
   {
     "id": 2,
-    "slug": "olivia-carter",
-    "name": "Olivia Carter",
-    "designation": "Business Consultant",
-    "image": "/img/team/2.jpg",
-    "social": {
-      "facebook": "Olivia Carter",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@oliviac_consult",
-      "twitter_url": "https://x.com",
-      "instagram": "@olivia.carter",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Olivia Carter",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "10",
-    "expertise": "Focused on optimizing business operations, driving process efficiency, and enabling sustainable performance growth. Olivia blends analytical insights with creative problem-solving to enhance productivity, reduce costs, and align operational frameworks with organizational goals and evolving client expectations across industries.",
-    "phone": "+1 202 555 0179",
-    "email": "olivia@consultcorp.com",
-    "biography": "With over a decade in business consulting, Olivia Carter has transformed underperforming operations into streamlined, profitable systems. She has successfully managed organizational change projects in logistics, healthcare, and technology sectors. Olivia is known for her sharp analytical mindset and deep understanding of operational efficiency. Her consulting approach prioritizes transparency, collaboration, and measurable outcomes. She has guided numerous executive teams in implementing sustainable business processes, ensuring adaptability in rapidly shifting markets. Olivia remains passionate about empowering businesses to thrive through innovation, disciplined execution, and continuous improvement that builds lasting competitive advantages in every engagement.",
-    "about": "Olivia's consulting philosophy centers on strategic clarity and operational excellence. She strives to uncover inefficiencies, design adaptive frameworks, and deliver actionable recommendations that create tangible results. Her goal is to help businesses achieve consistency, agility, and measurable impact while nurturing teams to perform at their highest potential in dynamic corporate environments.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 88,
-      "client_relationship": 85,
-      "soft_skill": 90
-    }
+    "slug": "engin-celik",
+    "name": "Engin Çelik",
+    "designation": "Kurucu Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/engin-celik.jpg",
+    "biography": "Engin Çelik, Erciyes Üniversitesi Maliye Bölümü mezunu olup kariyerine 2006 yılında başlamıştır. 2013 yılı itibarıyla Sermaye Piyasası Bağımsız Denetim Lisansı ve Bağımsız Denetçi unvanı almaya hak kazanan Çelik, 20 yıllık kariyerinde bağımsız denetim, tasdik, vergi mevzuatı, muhasebe uygulamaları ve mali danışmanlık alanlarında hizmet vermiştir. Meslek hayatı boyunca farklı sektörlerde faaliyet gösteren şirketlerin vergi denetimi ve vergi danışmanlığı süreçlerinde aktif rol almış; şirketlerin mevzuata uyumu, finansal şeffaflığın artırılması ve kurumsal yönetim uygulamalarının güçlendirilmesine yönelik çalışmalarda bulunmuştur. Ayrıca, finansal tabloların vergi mevzuatlarına uygun şekilde hazırlanması ve denetim süreçlerinin etkin bir şekilde yürütülmesi konularında önemli deneyim kazanmıştır. 2026 yılında ekibimize kurucu ortak olarak katılmıştır. Ekibimiz bünyesinde Türkiye Finansal Raporlama Standartları ve Türkiye Denetim Standartları çerçevesinde bağımsız denetim hizmetleri sunmakta; farklı ölçek ve sektörlerde faaliyet gösteren şirketlere güvenilir, şeffaf ve yüksek kalite standartlarında denetim hizmeti sağlamaktadır."
   },
   {
     "id": 3,
-    "slug": "liam-anderson",
-    "name": "Liam Anderson",
-    "designation": "Financial Advisor",
-    "image": "/img/team/3.jpg",
-    "social": {
-      "facebook": "Liam Anderson",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@liam_finance",
-      "twitter_url": "https://x.com",
-      "instagram": "@liam.analyst",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Liam Anderson",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "12",
-    "expertise": "Expert in corporate finance, risk analysis, and strategic investment management. Liam provides data-driven financial guidance, enabling organizations to maximize profitability, manage risk, and align investment strategies with evolving economic trends and long-term growth objectives.",
-    "phone": "+1 202 555 0193",
-    "email": "liam@consultcorp.com",
-    "biography": "Liam Anderson is a seasoned financial strategist with over 12 years of experience helping organizations make informed investment and capital allocation decisions. His work spans sectors including banking, manufacturing, and private equity. Liam has led financial restructuring programs and developed strategic frameworks that improved cost efficiency and shareholder value. Known for his analytical precision, he combines economic forecasting with pragmatic execution. Liam's client-centered approach ensures transparency, alignment, and measurable ROI. His commitment to financial innovation and sustainable growth continues to make him a trusted advisor to executives navigating complex fiscal challenges and opportunities worldwide.",
-    "about": "Liam believes financial success requires a balance of vision, discipline, and adaptability. His approach integrates market intelligence with customized strategic insights to strengthen organizational stability. He focuses on helping clients anticipate financial challenges, optimize capital efficiency, and build lasting resilience in dynamic business environments.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 85,
-      "client_relationship": 87,
-      "soft_skill": 80
-    }
+    "slug": "yasin-kocabay",
+    "name": "Yasin Kocabay",
+    "designation": "Kurucu Ortak · Mali Müşavir, Bağımsız Denetçi, Sürdürülebilirlik Denetçisi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/yasin-kocabay.jpg",
+    "email": "ykocabay@vscdanismanlik.com",
+    "biography": "Yasin Kocabay, İnönü Üniversitesi İktisat Bölümü mezunu olup, 2013 yılından itibaren muhasebe, finans, vergi denetimi ve bağımsız denetim alanlarında geniş bir iş deneyimine sahiptir. Şirket değerlemesi, finansal modelleme, fizibilite analizleri ve Uluslararası Finansal Raporlama Standartları (TFRS/TMS) uyumluluğu alanlarında stratejik danışmanlık hizmeti sunan Kocabay; bağımsız denetçi, serbest mali müşavir ve KGK yetkili sürdürülebilirlik denetçisi unvanlarına sahiptir. Başlıca uzmanlık alanları; kurumsal finansman ve şirket değerleme, stratejik finansal modelleme ve fizibilite çalışmaları, TFRS/TMS raporlama hizmetleri, vergi denetimi ve bağımsız denetim süreçleri ile ESG (çevresel, sosyal, yönetişim) ve sürdürülebilirlik raporlaması ve denetimi olup, 2026 yılında ekibimize bağımsız denetçi olarak katılmıştır. Aynı zamanda Kocabay, VSC Danışmanlık A.Ş. bünyesinde yürütülen sürdürülebilirlik faaliyetlerine sürdürülebilirlik denetçisi olarak katkı sunmaktadır."
   },
   {
     "id": 4,
-    "slug": "sophia-martinez",
-    "name": "Sophia Martinez",
-    "designation": "Operations Head",
-    "image": "/img/team/4.jpg",
-    "social": {
-      "facebook": "Sophia Martinez",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@sophiam_ops",
-      "twitter_url": "https://x.com",
-      "instagram": "@sophia.consults",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Sophia Martinez",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "11",
-    "expertise": "Experienced in process optimization, performance improvement, and lean transformation. Sophia helps companies enhance operational agility, eliminate inefficiencies, and establish data-backed workflows that improve productivity, reduce costs, and sustain organizational excellence long-term.",
-    "phone": "+1 202 555 0158",
-    "email": "sophia@consultcorp.com",
-    "biography": "Sophia Martinez has spent over 11 years helping businesses streamline their operations and implement high-performance process frameworks. She specializes in lean methodology, Six Sigma practices, and technology-driven efficiency models. Sophia has collaborated with multinational corporations to design process improvement programs that deliver tangible results and cultural alignment. Her expertise lies in bridging the gap between operations and innovation. Clients value her ability to translate complex data into actionable business insights. Sophia's deep understanding of cross-functional dynamics allows her to drive transformative change while maintaining operational integrity and employee engagement throughout every project phase.",
-    "about": "Sophia approaches every project with a balance of strategic insight and hands-on problem-solving. She believes operational excellence is achieved through clarity, consistency, and communication. Her passion lies in empowering organizations to evolve through sustainable process improvement and building systems that align people, performance, and innovation effectively.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 90,
-      "client_relationship": 86,
-      "soft_skill": 88
-    }
+    "slug": "ozdal-ozer",
+    "name": "Özdal Özer",
+    "designation": "Ortak · Yeminli Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/ozdal-ozer.jpg",
+    "biography": "Özdal Özer, lise eğitimini muhasebe bölümünde tamamlamış olup, 1999 yılında İstanbul Üniversitesi Maliye Bölümü’nden mezun olmuştur. 2001 yılında vergi müfettişi unvanını kazanmış olup 15 yıl boyunca kamuda vergi müfettişi olarak görev yapmıştır. 2015 yılında kamu görevinden ayrılan Özer, 11 yılı aşkın bir süredir Yeminli Mali Müşavirlik ve Sorumlu Bağımsız Denetçi olarak çalışma faaliyetlerini yürütmektedir. Vergi denetimi, yeminli mali müşavirlik ve bağımsız denetim alanlarında derin uzmanlığa sahip olup, 2026 yılında ekibimize bağımsız denetçi olarak katılmıştır. Aktif olarak ekibimiz bünyesinde Yeminli Mali Müşavir ve Bağımsız Denetçi olarak vergi denetimi, yeminli mali müşavirlik ve bağımsız denetim faaliyetlerini sürdürmektedir."
   },
   {
     "id": 5,
-    "slug": "noah-bennett",
-    "name": "Noah Bennett",
-    "designation": "Brand Specialist",
-    "image": "/img/team/5.jpg",
-    "social": {
-      "facebook": "Noah Bennett",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@noah_tech",
-      "twitter_url": "https://x.com",
-      "instagram": "@noah.codes",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Noah Bennett",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "10",
-    "expertise": "Specialist in digital transformation, IT modernization, and cloud integration. Noah helps businesses leverage emerging technologies to streamline operations, strengthen data infrastructure, and achieve scalable growth through innovative, customer-focused digital solutions.",
-    "phone": "+1 202 555 0135",
-    "email": "noah@consultcorp.com",
-    "biography": "With over 10 years in technology consulting, Noah Bennett has guided organizations through digital transformation initiatives that redefined their operational capabilities. His experience spans cloud architecture, enterprise software, and automation systems. Noah's passion for innovation drives him to design technology solutions that are both future-ready and human-centric. He has collaborated with C-suite leaders to align IT strategies with corporate vision, enabling greater agility and competitiveness. Noah's technical acumen, combined with his strategic insight, makes him a trusted partner for companies navigating modernization and digital disruption across complex business environments.",
-    "about": "Noah views technology as a strategic enabler for progress, not just efficiency. His goal is to help organizations evolve through meaningful innovation, bridging technical potential with business outcomes. He believes successful transformation requires foresight, adaptability, and collaboration across teams and disciplines to create lasting digital value.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 92,
-      "client_relationship": 84,
-      "soft_skill": 87
-    }
+    "slug": "arslan-yildiz",
+    "name": "Arslan Yıldız",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/arslan-yildiz.jpg",
+    "biography": "Arslan Yıldız, 1999 yılında Kütahya Dumlupınar Üniversitesi İktisat Bölümü’nden mezun olmuştur. Mali Müşavirlik ve Bağımsız Denetim alanlarında 26 yılı aşan deneyime sahiptir. Kariyerinin son 10 yılında büyük ölçekli firmalarda üst düzey mali işler yönetici danışmanlığı yürütmüştür. Finansal yönetim alanlarında yerli ve yabancı şirketlerde önemli sorumluluklar üstlenen Yıldız; vergi denetçiliği, yönetim raporlaması ve danışmanlığı, yatırım teşvik uygulamaları, teknopark ve Ar-Ge mevzuatı, serbest bölge mevzuatı, şirket değerleme ve TFRS kapsamında finansal raporlama süreçlerinde derin uzmanlığa sahiptir. 2026 yılında ekibimize mali müşavir ve bağımsız denetçi olarak katılmış olup, ekibimiz bünyesinde mali müşavirlik ve bağımsız denetim faaliyetlerini sürdürmektedir."
   },
   {
     "id": 6,
-    "slug": "ava-mitchell",
-    "name": "Ava Mitchell",
-    "designation": "Human Resource",
-    "image": "/img/team/6.jpg",
-    "social": {
-      "facebook": "Ava Mitchell",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@avam_hr",
-      "twitter_url": "https://x.com",
-      "instagram": "@ava.people",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Ava Mitchell",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "9",
-    "expertise": "Expert in human capital management, employee engagement, and leadership development. Ava helps companies design people-centered strategies that enhance culture, improve retention, and drive organizational performance through talent optimization and HR innovation.",
-    "phone": "+1 202 555 0186",
-    "email": "ava@consultcorp.com",
-    "biography": "Ava Mitchell brings over 9 years of experience in human resources consulting, partnering with organizations to strengthen their people strategies. She has advised clients across industries on workforce planning, leadership development, and change management. Ava's empathetic and analytical approach helps leaders create inclusive, high-performing environments. She is passionate about aligning organizational goals with employee well-being, fostering engagement, and driving measurable business outcomes. Ava has led HR transformation projects that improved talent retention and productivity. Her focus on communication, collaboration, and culture makes her a trusted partner in creating workplaces that inspire success and innovation.",
-    "about": "Ava believes that people are a company's most powerful asset. Her consulting work focuses on helping leaders cultivate meaningful employee experiences and resilient workplace cultures. She emphasizes empathy, growth, and accountability to empower organizations to adapt, inspire, and excel in an evolving business landscape built on trust and collaboration.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 80,
-      "client_relationship": 92,
-      "soft_skill": 95
-    }
+    "slug": "kamil-er",
+    "name": "Kamil Er",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/kamil-er.jpg",
+    "biography": "Kamil Er, 1991 yılında Dokuz Eylül Üniversitesi İktisadi ve İdari Bilimler Fakültesi Maliye Bölümü'nden mezun olmuştur. 2000 yılı itibariyle Konya'da Serbest Muhasebeci Mali Müşavir (SMMM) olarak bağımsız şekilde faaliyet göstermektedir. Başta hizmet, eğitim ve imalat sanayi sektörleri olmak üzere çok sayıda işletmeye maliyet muhasebesi, finansal muhasebe ve vergi mevzuatı konularında stratejik danışmanlık hizmeti sunmuş; işletmelerin mali yapılarını güçlendirmelerine ve vergisel yükümlülüklerini eksiksiz biçimde yerine getirmelerine katkı sağlamıştır. 2013 yılında Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu (KGK) tarafından verilen Bağımsız Denetçilik ruhsatını alarak 30 yılı aşkın mesleki birikimini kurumsal denetim alanına da taşımıştır. 2026 yılında ekibimize bağımsız denetçi olarak katılmış olup, mali müşavirlik ve bağımsız denetim alanlarında faaliyetlerini sürdürmektedir."
   },
   {
     "id": 7,
-    "slug": "james-collins",
-    "name": "James Collins",
-    "designation": "Marketing Specialist",
-    "image": "/img/team/7.jpg",
-    "social": {
-      "facebook": "James Collins",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@jamesgrowth",
-      "twitter_url": "https://x.com",
-      "instagram": "@james.branding",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "James Collins",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "11",
-    "expertise": "Specialized in digital marketing, growth strategy, and brand development. James empowers businesses to achieve measurable expansion through creative marketing campaigns, audience engagement, and strategic positioning that builds visibility and drives lasting client relationships.",
-    "phone": "+1 202 555 0124",
-    "email": "james@consultcorp.com",
-    "biography": "James Collins is an experienced marketing strategist with over 11 years helping companies strengthen brand identity and drive growth. His expertise includes digital campaign management, analytics-driven strategy, and integrated marketing solutions. James has worked with startups and established firms to craft data-backed narratives that resonate with target audiences. He emphasizes measurable results through innovative thinking and customer insights. His leadership in campaign execution and performance tracking ensures continuous optimization. James's holistic understanding of brand communication helps organizations sustain growth while maintaining authenticity, relevance, and competitive differentiation across all platforms and markets.",
-    "about": "James approaches marketing as both art and science. He focuses on creating authentic connections between brands and audiences through storytelling and data insights. His strategies are designed to inspire engagement, build credibility, and deliver sustainable growth by aligning creativity with measurable business performance outcomes.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 83,
-      "client_relationship": 88,
-      "soft_skill": 91
-    }
+    "slug": "suleyman-bayindir",
+    "name": "Süleyman Bayındır",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/suleyman-bayindir.jpg",
+    "biography": "Süleyman Bayındır, Atatürk Üniversitesi İktisat Bölümü mezunu olup, 2003 yılından itibaren Ankara’daki ofisinde Mali Müşavirlik faaliyetlerini sürdürmektedir. Muhasebe kayıtlarının düzenlenmesi, finansal tabloların hazırlanması, vergi planlaması ve mevzuata uyum süreçlerinin yönetimi konularında geniş bir tecrübeye sahip olan Bayındır, Bağımsız Denetçi unvanına da sahip olup; işletmelerin mali yapılarını güçlendirme ve vergisel yükümlülüklere uyum süreçlerinde derin bir uzmanlığa sahiptir. 2026 yılında ekibimize bağımsız denetçi olarak katılmış olup, bağımsız denetim hizmetlerine katkı sunmaktadır."
   },
   {
     "id": 8,
-    "slug": "isabella-turner",
-    "name": "Isabella Turner",
-    "designation": "Client Success Manager",
-    "image": "/img/team/8.jpg",
-    "social": {
-      "facebook": "Isabella Turner",
-      "facebook_url": "https://facebook.com",
-      "twitter": "@isabellat_csm",
-      "twitter_url": "https://x.com",
-      "instagram": "@isabella.turner",
-      "instagram_url": "https://instagram.com",
-      "linkedin": "Isabella Turner",
-      "linkedin_url": "https://linkedin.com"
-    },
-    "year_of_expertise": "10",
-    "expertise": "Specialist in client engagement, retention, and service optimization. Isabella ensures long-term client satisfaction by fostering communication, aligning goals, and implementing solutions that enhance value delivery and strengthen business partnerships.",
-    "phone": "+1 202 555 0169",
-    "email": "isabella@consultcorp.com",
-    "biography": "With a decade of experience in client relationship management, Isabella Turner leads initiatives that ensure exceptional customer experiences and measurable business outcomes. She has collaborated with clients from diverse industries to strengthen post-engagement success and streamline feedback systems. Isabella's dedication to transparency, responsiveness, and problem-solving makes her a trusted partner for long-term growth. Her analytical mindset helps identify opportunities for service improvement, while her interpersonal skills promote lasting collaboration. Isabella's approach blends empathy with accountability, ensuring clients not only meet but exceed their strategic objectives through ongoing partnership excellence.",
-    "about": "Isabella's approach to client success is rooted in empathy and communication. She believes meaningful relationships are the foundation of sustainable growth. Her focus is on creating win-win outcomes, driving customer satisfaction, and ensuring that every engagement leaves a lasting impression built on trust, responsiveness, and strategic alignment.",
-    "about_skills": "We begin with an in-depth consultation to understand your energy needs and goals. Our team then conducts a site assessment, analyzing sunlight exposure, roof condition, and energy usage to design the ideal solar solution for your property.",
-    "skills": {
-      "project_management": 82,
-      "client_relationship": 95,
-      "soft_skill": 94
-    }
+    "slug": "osman-camli",
+    "name": "Osman Çamlı",
+    "designation": "Ortak · Yeminli Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/osman-camli.jpg",
+    "biography": "Osman Çamlı 1999 yılında Marmara Üniversitesi İşletme bölümünden mezun olup, Yeminli Mali Müşavir ve Bağımsız Denetçi unvanlarına sahiptir. Kariyerine 2010 yılında Vergi Denetim Kurulu Başkanlığında müfettiş olarak başlayan Çamlı, 2018-2022 yılları arasında TRT bünyesinde Başmüfettiş olarak görev yapmıştır. 2022 yılından itibaren kendi ofisinde Yeminli Mali Müşavirlik faaliyetlerini sürdürürken 2026 yılında ekibimize yeminli mali müşavir ve bağımsız denetçi olarak katılmıştır. Başlıca uzmanlık alanları arasında şirket içi denetimler, değerleme çalışması, risk değerlendirmesi, mali denetimler, vergi hukuku ve muhasebesi, mali analiz ve raporlama, IFRS ile kurumlar ve gelir vergisi uygulamaları yer alan Çamlı, ekibimiz bünyesinde yeminli mali müşavirlik ve bağımsız denetim faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 9,
+    "slug": "berkan-turan",
+    "name": "Berkan Turan",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/berkan-turan.jpg",
+    "biography": "Berkan Turan, Anadolu Üniversitesi İşletme Bölümü mezunu olup, muhasebe, mali müşavirlik ve bağımsız denetim alanlarında geniş bir mesleki deneyime sahiptir. Farklı sektörlerde faaliyet gösteren gerçek ve tüzel kişilere hizmet sunan Turan; muhasebe organizasyonunun kurulması ve yürütülmesi, vergi ve diğer mali yükümlülüklere uyum, finansal tabloların hazırlanması ve değerlendirilmesi ile işletmelerin mali karar süreçlerinin desteklenmesi konularında uzmanlaşmıştır. 2013 yılında Sermaye Piyasasında Bağımsız Denetim Lisansını almış, 2022 yılında ise Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu (KGK) tarafından Bağımsız Denetçi olarak yetkilendirilmiştir; ayrıca TÜRMOB Bilirkişilik ve Uzlaştırmacı eğitimlerini tamamlamıştır. Başlıca uzmanlık alanları; muhasebe organizasyonu ve finansal raporlama, vergi uyumu, yasal kayıt düzeni ve bağımsız denetim süreçleridir. Mesleki çalışmalarında doğruluk, güvenilirlik, gizlilik ve mevzuata uyum ilkelerini esas almaktadır. 2026 yılında ekibimize bağımsız denetçi olarak katılmıştır."
+  },
+  {
+    "id": 10,
+    "slug": "osman-sari",
+    "name": "Osman Sarı",
+    "designation": "Ortak · Yeminli Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/osman-sari.jpg",
+    "biography": "Osman Sarı, İstanbul Üniversitesi İktisat Fakültesi Ekonometri Bölümü mezunu olup, kariyerine 2001 yılında İstanbul SMMM Odasına kayıt yaptırarak adım atmıştır. Staj süreleri dahil olmak üzere meslek hayatında yaklaşık 30 yılı geride bırakan Sarı; muhasebe, vergi mevzuatı, mali danışmanlık, tam tasdik ve bağımsız denetim alanlarında kapsamlı bir uzmanlığa sahiptir. 2016 yılında Yeminli Mali Müşavirlik (YMM) unvanını almaya hak kazanan, 2024 yılında ise Kamu Gözetimi Kurumu’ndan (KGK) Bağımsız Denetçi belgesini alan Sarı, kariyeri boyunca farklı sektörlerde faaliyet gösteren pek çok kurumsal şirketin mali yapılanma, vergi denetimi ve mevzuata uyum süreçlerine liderlik etmiştir. İşletmelerin finansal şeffaflığının artırılması, risk yönetimi ve kurumsal yönetim ilkelerinin güçlendirilmesi yönündeki çalışmalarıyla öne çıkmaktadır. Finansal tabloların ulusal ve uluslararası standartlara uygun olarak denetlenmesi, vergi planlaması ve karmaşık mali süreçlerin yönetimi konularında derin bir tecrübeye sahip olan Osman Sarı, ekibimiz bünyesinde bağımsız denetçi olarak faaliyetlerini sürdürmektedir. Orta derecede İngilizce bilmekte olup, evli ve beş çocuk babasıdır."
+  },
+  {
+    "id": 11,
+    "slug": "ahmet-gunduz",
+    "name": "Ahmet Gündüz",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/ahmet-gunduz.jpg",
+    "biography": "Ahmet Gündüz, Okan Üniversitesinden Muhasebe ve Denetim Yüksek Lisans ve Sakarya Üniversitesi’nden Denetim Yüksek Lisans programlarını tamamlamıştır. Turizm İşletmelerinde Yiyecek ve İçecek maliyetleri konularında Yüksek lisans ve Doktora tez çalışmaları ile birçok tesiste bu uygulamalar konusunda eğitim vermiştir. 1986 yılından itibaren Turizm tesislerinde, muhasebe ve finans departmanlarını yönetmiştir. 1994 Yılında SMMM Ruhsatını almıştır. 1997 yılında Kuşadası’nda Gündüz Serbest Muhasebeci ve Mali Müşavirlik Yönetim Danışmanlığını ofisini kurmuştur ve halen hizmetine devam etmektedir. 2000 yılından itibaren’de halka açık SPK 'ya kayıtlı 5 yıldızlı Turistik tesiste Denetim kurulu üyeliği, yönetim kurulu üyeliği Riskin Erken Saptanması komite üyelikleri ve yine 3-4 ve 5 yıldızlı Turizm tesislerinde Mali Müşavirlik hizmeti ve Danışmanlık görevinde bulunmuştur. 2013 yılında KGK’den Bağımsız Denetçisi belgesini almıştır. Vergi ile ilgili 100'den fazla makalenin yazarıdır. Turizm sektöründe Vergi ve Muhasebe Uygulamaları adlı kitabı yayınlanmıştır. Mesleğini aktif olarak sürdüren Gündüz, 2026 yılında ekibimize bağımsız denetçi olarak katılmış olup, bağımsız denetim hizmetlerine katkı sunmaktadır."
+  },
+  {
+    "id": 12,
+    "slug": "murat-okun",
+    "name": "Murat Okun",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/murat-okun.jpg",
+    "biography": "Murat Okun, Anadolu Üniversitesi İktisat Fakültesi ve Hacettepe Üniversitesi Ereğli MYO Muhasebe Bölümü mezunu olup, akademik gelişimini İstanbul Ticaret Üniversitesi Sosyal Bilimler Enstitüsü Uluslararası Ticaret bölümünde yüksek lisans yaparak tamamlamıştır. Kariyerine 1994 yılında adım atan Okun; staj süreleri dahil olmak üzere meslek hayatında 30 yılı aşkın köklü bir tecrübeye sahiptir. 2005 yılında S.M. Mali Müşavir ruhsatını alan, 2025 yılında ise KGK’dan Bağımsız Denetçi belgesini almaya hak kazanan Okun, kariyeri boyunca uluslararası otel zincirlerinden lojistik ve üretim sektörlerinin önde gelen kurumsal şirketlerinde (Renaissance Polat İstanbul Hotel, LSG Sky Chefs, ASIS Automation vb.) Finans ve Muhasebe Yöneticisi olarak kritik görevler üstlenmiştir. 2024 yılında kurduğu DKO Audit & Advisory bünyesinde kurucu ortak olarak faaliyetlerini sürdüren Okun; vergi danışmanlığı, Ar-Ge ve Teknopark teşvikleri, tam tasdik, UFRS/TDHP uyumlu muhasebe denetimleri, hile ve suistimal denetimleri ile iç kontrol sistemlerinin oluşturulması alanlarında uzmanlaşmıştır. Şirketlerin finansal yapılandırılması, bütçe ve raporlama sistemlerinin kurulması, mali tabloların analizi ve stratejik yönetim danışmanlığı konularında derin bir birikime sahiptir. Profesyonel çalışmalarını Mali Müşavir ve Bağımsız Denetçi unvanlarıyla sürdürmekte olup, orta düzeyde İngilizce bilmektedir; evli ve bir çocuk babasıdır. Ekibimiz bünyesinde bağımsız denetçi olarak faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 13,
+    "slug": "mustafa-cakar",
+    "name": "Mustafa Çakar",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/mustafa-cakar.jpg",
+    "biography": "Mustafa Çakar, Hacettepe Üniversitesi İktisat Bölümü mezunu olup kariyerine özel sektörün muhasebe ve finans departmanlarında adım atmıştır. 1996 yılında VakıfBank’ta Mali Analist Yardımcısı olarak göreve başlayan Çakar, bankacılık ve finans sektöründe 30 yılı aşan üst düzey bir deneyime sahiptir. VakıfBank bünyesinde; 7 yıl Genel Müdürlük Mali Tahlil Biriminde Mali Analist ve Yöneticisi, 4 yıl İç Kontrol Biriminde Kontrolör ve Yönetici Kontrolör olarak görev yapmış; ardından 16 yıl boyunca İstanbul’un stratejik sanayi bölgeleri ile en son Tekirdağ/Çorlu Şubesi'nde Şube Müdürü olarak başarıyla hizmet vererek 2023 yılında emekliye ayrılmıştır. Kariyeri boyunca İstanbul (Davutpaşa, Bayrampaşa, İkitelli, İstoç, Masko, Hadımköy vb.) ve Trakya’nın (Çorlu, Çerkezköy, Velimeşe, Muratlı OSB vb.) tüm önemli sanayi bölgelerinde binlerce firma ziyareti gerçekleştirmiş; mali tahlil, finansal inceleme, kredi değerlendirmesi ve kurumsal kredibilite çalışmalarında aktif rol oynamıştır. Genel Müdürlük birimlerindeki mali tahlil ve denetim tecrübesini, şubelerdeki ticari krediler ve operasyonel yönetim uzmanlığıyla birleştirmiştir. TÜRMOB üyesi olarak Serbest Muhasebeci Mali Müşavir (SMMM) ruhsatına ve Kamu Gözetimi Kurumu (KGK) tescilli Bağımsız Denetçi belgesine sahip olan Çakar; finans, iç kontrol, muhasebe, bağımsız denetim ve üst düzey yöneticilik yetkinlikleriyle şirketlerin mali yapı ve operasyonel süreçlerinin yapılandırılması ve yönetilmesinde derin bir uzmanlığa sahiptir. Ekibimiz bünyesinde bağımsız denetim faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 14,
+    "slug": "mehmet-unlusoy",
+    "name": "Mehmet Ünlüsoy",
+    "designation": "Ortak · Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/mehmet-unlusoy.jpg",
+    "biography": "Mehmet Ünlüsoy, Dokuz Eylül Üniversitesi, İktisadi ve Ticari İlimler Fakültesi, Muğla İşletmecilik Yüksek Okulundan Lisans seviyesinde 1985 yılında mezun olmuştur. 2026 yılında İzmir Katip Çelebi Üniversitesinden İşletme dalında Yüksek Lisans yapmıştır. 1989-1993 yıllarında İzmir’de 2 değişik İnşaat Şirketinde, Muhasebe Müdürlüğü görevlerinde bulunmuştur. 1993 yılında İzmir-Karşıyaka’da kendi SMMM Ofisini açmış ve bu güne kadar da burada SMMM olarak çalışmaktadır. Ayrıca, 2013 yılında, KGK Bağımsız Denetçi sınavlarını kazanarak “Bağımsız Denetçi” unvanını almaya hak kazanmıştır. 2025-2026 yılları arasında özel bir Bağımsız Denetim Şirketinin ortağı olarak faaliyet göstermiştir. 2026 yılında bu Bağımsız Denetim Şirketinden istifa ederek VSC Danışmanlık A.Ş. bünyesine, Mali Müşavir ve Bağımsız Denetçi olarak katılmıştır. Aynı zamanda Konkordato Komiseridir."
+  },
+  {
+    "id": 15,
+    "slug": "hulya-ozkocak",
+    "name": "Hülya Özkoçak",
+    "designation": "Mali Müşavir, Bağımsız Denetçi",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/hulya-ozkocak.jpg",
+    "biography": "Hülya Özkoçak, Süleyman Demirel Üniversitesi Muhasebe ve Anadolu Üniversitesi İşletme Bölümlerinden mezun olmuştur. 2005 yılında kariyerine başlayan Özkoçak, 2010 yılında mali müşavir ruhsatını almıştır. İşletme, mali müşavirlik ve bağımsız denetim alanlarında deneyim sahibi olup, 2022 yılında bağımsız denetçi unvanını kazanmış olup, 2025 yılında ise Konkordato Komiserliği ve Bilirkişilik Eğitim Sertifikalarına sahip olmuştur. 2026 yılında ekibimize mali müşavir ve bağımsız denetçi olarak katılmıştır. Ekibimiz bünyesinde bağımsız denetim ve mali müşavirlik faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 16,
+    "slug": "okan-celik",
+    "name": "Okan Çelik",
+    "designation": "Denetçi, Mali Müşavir",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/okan-celik.jpg",
+    "biography": "Okan Çelik, Akdeniz Üniversitesi İktisadi ve İdari Bilimler Fakültesi İşletme Bölümü mezunu olup, akademik gelişimini sürdürerek Çukurova Üniversitesi İşletme alanında tezli yüksek lisans eğitimine devam etmektedir. Yaklaşık 15 yıldır mali müşavirlik sektöründe faal olarak danışmanlık ve müşavirlik hizmetleri sunmaktadır. Kariyeri boyunca farklı ölçeklerdeki işletmelerin muhasebe, mali yapı, vergi mevzuatı ve kurumsal mali süreçlerinin yönetilmesinde önemli bir tecrübe edinmiştir. İş dünyasındaki mali ve stratejik birikimini, şirketlerin finansal dönüşüm, mevzuata uyum ve operasyonel verimlilik süreçlerinde aktif olarak değerlendirmektedir. Profesyonel çalışmalarını Serbest Muhasebeci Mali Müşavir unvanıyla sürdürmekte olup, ileri düzeyde İngilizce bilmektedir. Ekibimiz bünyesinde bağımsız denetim faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 17,
+    "slug": "hamit-akbulut",
+    "name": "Hamit Akbulut",
+    "designation": "Kıdemli Denetçi, Mali Müşavir Stajyeri",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/hamit-akbulut.jpg",
+    "biography": "Hamit Akbulut İstanbul Üniversitesi İşletme Fakültesi mezunu olup, kariyerine KPMG bünyesinde başlamıştır. 3 yıl boyunca üretim sektörlerinde uzmanlaşarak bağımsız denetim tecrübesi edinmiştir. Uzmanlık alanları arasında konsolidasyon ve grup raporlaması, SOX (Sarbanes-Oxley) denetimi, TFRS ve TMS yer almaktadır. TÜRMOB / Bursa SMMMO'ya bağlı SMMM Aday Meslek Mensubu olarak Ekim 2024'te staj sürecine başlamıştır. 2026 yılında KPMG’deki görevinden ayrılarak ekibimize Kıdemli Denetçi olarak katılmıştır."
+  },
+  {
+    "id": 18,
+    "slug": "musa-ercan",
+    "name": "Musa Ercan",
+    "designation": "Denetçi, Mali Müşavir",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/musa-ercan.jpg",
+    "email": "mercan@vscdanismanlik.com",
+    "biography": "Musa Ercan, İnönü Üniversitesi İktisat Bölümü mezunu olup, 8 yılı aşkın bir süredir muhasebe hizmeti vermektedir. Malatya ve İstanbul'da farklı sektörlerde faaliyet gösteren mükelleflerin muhasebe süreçlerinde görev almış; genel muhasebe, vergi beyannameleri (KDV, muhtasar, geçici vergi, gelir/kurumlar vergisi), bordro ve SGK işlemleri, e-dönüşüm uygulamaları (e-defter, e-fatura, e-arşiv), dönem sonu kapanış ve mali tablo hazırlığı konularında deneyim kazanmıştır. Ayrıca ticaret odası ve şirket işlemleri, teşvik ve KOSGEB başvuruları, yabancı çalışma izinleri, KDV iade süreçleri, enflasyon muhasebesi kontrolleri ile muhasebe kayıtlarının mevzuata uygunluğunun denetimi gibi alanlarda uzmanlığa sahiptir. 2026 yılında VSC Danışmanlık A.Ş. bünyesine mali müşavir olarak katılmıştır."
+  },
+  {
+    "id": 19,
+    "slug": "aysun-sandal",
+    "name": "Aysun Sandal",
+    "designation": "Denetçi, Mali Müşavir",
+    "group": "Bağımsız Denetim Ekibimiz",
+    "image": "/img/team/vsc/aysun-sandal.jpg",
+    "biography": "Aysun Sandal, İnönü Üniversitesi İşletme Bölümü mezunu olup, Munzur Üniversitesi’nde muhasebe alanında yüksek lisans eğitimini tamamlamıştır. Ayrıca Polonya Lodz Üniversitesi'nde uluslararası ilişkiler ve ekonomi alanında akademik çalışmalar yürütmüştür. Meslek hayatına finans ve muhasebe alanlarında başlayan Sandal, farklı sektörlerde muhasebe, faturalandırma, stok takibi, mali müşavirlik ve denetim süreçlerinde görev almış; çalışmalarında birden fazla muhasebe, finans ve ofis programını etkin biçimde kullanmaktadır. SMMM'lerin finansal okuryazarlık ve finansal tablo okuryazarlığı düzeyine ilişkin akademik bir çalışması da bulunan Sandal, mesleki birikimini finansal raporlama, muhasebe uygulamaları ve denetim süreçlerine katkı sağlamak üzere sürdürmektedir. Sandal, 2026 yılında ekibimize mali müşavir olarak katılmıştır."
+  },
+  {
+    "id": 20,
+    "slug": "cihan-yavuz",
+    "name": "Cihan Yavuz",
+    "designation": "Mali Müşavir, Bağımsız Denetçi, Kurumsal Finansman ve Sermaye Piyasaları Danışmanı",
+    "group": "Kurumsal Finansman Ekibimiz",
+    "image": "/img/team/vsc/cihan-yavuz.jpg",
+    "email": "cyavuz@vscdanismanlik.com",
+    "biography": "Cihan Yavuz Kastamonu’nun Bozkurt ilçesinde doğmuştur. 2007 yılında Yıldız Teknik Üniversitesi İktisadi ve İdari Bilimler Fakültesi İşletme Bölümünden mezun olmuştur. Kariyeri boyunca şirketlerin büyüme ve kurumsallaşma süreçlerine liderlik etmiş; 2014 yılında İstanbul Arel Üniversitesi MBA programını yüksek lisans derecesiyle tamamlamıştır. Akademik ve profesyonel gelişimini sürdürerek 2017 yılında Koç Üniversitesi Turquality Yönetici Geliştirme Programı'ndan mezun olmuştur. 2008-2022 yılları arasında özel sektörün önde gelen kurumsal işletmelerinde mali işler departmanlarında üst düzey yönetici olarak görev yapmıştır. TÜRMOB tarafından düzenlenen Serbest Muhasebeci Mali Müşavirlik sınavını başarıyla tamamlayarak “Serbest Muhasebeci Mali Müşavir” unvanını almıştır. 2015-2016 yıllarında Londra’da dil eğitimi almış ve uluslararası vizyonunu genişleterek bir lojistik şirketinin mali işler yöneticiliğini üstlenmiştir. İş dünyasındaki mali ve stratejik birikimini, şirketlerin sermaye piyasalarına açılması ve büyüme finansmanı sağlaması amacıyla halka açılma danışmanlığı (IPO) alanında yoğunlaştırmıştır. Bu kapsamda işletmelerin finansal dönüşüm, UFRS/TFRS uyum, bağımsız denetim ve operasyonel hazırlık süreçlerinde stratejik danışmanlık hizmetleri sunmaktadır. Beşiktaş JK Divan Kurulu üyesi olup, 2022-2025 döneminde Denetim Kurulu Üyeliği görevini başarıyla yürütmüştür. İyi derecede İngilizce bilmekte olup, evli ve iki çocuk babasıdır. 2026 yılında VSC Danışmanlık A.Ş. bünyesine kurumsal finansman danışmanı olarak katılmış olup; Sermaye piyasası işlemleri danışmanı olarak faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 21,
+    "slug": "ahmet-tepedelen",
+    "name": "Ahmet Tepedelen",
+    "designation": "Kurumsal Finansman ve Sermaye Piyasaları Danışmanı · ACCA, CFA, Mali Müşavir, SPK İleri Düzey (Level 3)",
+    "group": "Kurumsal Finansman Ekibimiz",
+    "image": "/img/team/vsc/ahmet-tepedelen.jpg",
+    "biography": "Ahmet Tepedelen, İstanbul Üniversitesi İşletme Fakültesi mezunu olup, Marmara Üniversitesi Sermaye Piyasası ve Borsa alanında yüksek lisansını tamamlamış, ayrıca Queen Mary University of London'da Hukuk ve Finans alanında akademik eğitim almıştır. Kurumsal finansman, sermaye piyasaları ve yatırımcı ilişkileri alanlarında yaklaşık yirmi yıllık uluslararası deneyime sahiptir. Kariyerinin önemli bir bölümünü Londra finans merkezinde geçiren Tepedelen; Birleşik Krallık ve Türkiye'de faaliyet gösteren halka açık şirketlere, çok uluslu kuruluşlara, yönetim kurullarına ve kurumsal yatırımcılara kurumsal finansman, yatırımcı ilişkileri, finansal raporlama, kurumsal yönetim, risk yönetimi, ESG ve sınır ötesi işlemler alanlarında stratejik danışmanlık hizmeti sunmuştur. Sermaye piyasaları alanında lisanslı bir profesyonel ve Serbest Muhasebeci Mali Müşavir (SMMM) olan Tepedelen; Türkiye'de SPK İleri Düzey (Level 3), Kurumsal Yönetim ve Kredi Derecelendirme lisanslarına, uluslararası alanda ise ACCA, AAT, ETHICA Islamic Finance ve CFA mesleki yeterliliklerine sahiptir. Başlıca uzmanlık alanları; halka arz hazırlıkları (IPO Readiness), birleşme ve satın almalar (M&A), kurumsal yeniden yapılandırma, yönetim kurulu danışmanlığı, sermaye piyasası mevzuatı ve İslami finanstır. Ayrıca entegre raporlama ve bu yaklaşımın Türk bankacılık sektöründeki uygulamalarını konu alan akademik bir yayının yazarıdır. 2026 yılında ekibimize kurumsal finansman danışmanı olarak katılmıştır."
+  },
+  {
+    "id": 22,
+    "slug": "zafer-yalcinpinar",
+    "name": "Zafer Yalçınpınar",
+    "designation": "Kurumsal Sürdürülebilirlik Danışmanı",
+    "group": "Sürdürülebilirlik Ekibimiz",
+    "image": "/img/team/vsc/zafer-yalcinpinar.jpg",
+    "email": "zyalcinpinar@vscdanismanlik.com",
+    "biography": "Zafer Yalçınpınar, Marmara Üniversitesi Ekonometri Bölümü'nden mezun olmuş, aynı üniversitede Sermaye Piyasası ve Borsa alanında yüksek lisans eğitimini tamamlamıştır. Kariyerinin ilk döneminde yaklaşık 10 yıl boyunca TÜBİTAK'ta uzman araştırmacı olarak görev yapmış; kalite sistemleri, kurumsal yönetim ve stratejik planlama alanlarında önemli sorumluluklar üstlenmiştir. 11 yılı aşkın süredir özel sektörde ESG ve Sürdürülebilirlik Danışmanı olarak çalışan Yalçınpınar; sürdürülebilirliği yalnızca kurumsal yönetimin geleceği değil, aynı zamanda yaşamın temel bir yaklaşımı olarak değerlendirerek hem profesyonel hem de düşünsel düzeyde çalışmalarına devam etmektedir. S.E.Ç. Sürdürülebilirlik Danışmanlığı ile Sistem Global Danışmanlık’ın stratejik iş ortağı olan Zafer Yalçınpınar, 2026 yılında VSC Danışmanlık A.Ş. 'ye ortak olarak katılmış; şirketin iş geliştirme ve sürdürülebilirlik projelerinin liderliğini üstlenmiştir."
+  },
+  {
+    "id": 23,
+    "slug": "murat-kahvecioglu",
+    "name": "Murat Kahvecioğlu",
+    "designation": "Kurumsal Sürdürülebilirlik ve Çevre Danışmanı",
+    "group": "Sürdürülebilirlik Ekibimiz",
+    "image": "/img/team/vsc/murat-kahvecioglu.jpg",
+    "email": "mkahvecioglu@vscdanismanlik.com",
+    "biography": "Murat Kahvecioğlu, Kocaeli Üniversitesi Çevre Mühendisliği Bölümü mezunu olup, Gedik Üniversitesinde İş Sağlığı ve Güvenliği Bölümünde Yüksek Lisans eğitimini tamamlamıştır. Yaklaşık 15 yıldır küçük, orta ve büyük ölçekli şirketlere çevre, karbon ayak izi, sürdürülebilirlik, iş sağlığı ve güvenliği, sosyal uygunluk ve kalite yönetim sistemleri (ISO) danışmanlığı faaliyetleri yürütmektedir. Karbon yönetimi, kurumsal karbon ve su ayak izi, sınırda karbon düzenleme mekanizması (CBAM) ve ISO denetim desteği alanlarında derin uzmanlığa sahiptir. Murat, 2026 yılında VSC Danışmanlık A.Ş. bünyesine ortak olarak katılmıştır ve karbon yönetimi süreçlerinin liderliğini yürütmektedir."
+  },
+  {
+    "id": 24,
+    "slug": "bahattin-can-dursun",
+    "name": "Bahattin Can Dursun",
+    "designation": "Kurumsal Sürdürülebilirlik Danışmanı",
+    "group": "Sürdürülebilirlik Ekibimiz",
+    "image": "/img/team/vsc/bahattin-can-dursun.jpg",
+    "email": "cdursun@vscdanismanlik.com",
+    "biography": "Bahattin Can Dursun, İstanbul Teknik Üniversitesi Meteoroloji Mühendisliği Bölümü mezunu olup, aktif olarak İstanbul Teknik Üniversitesi bünyesinde Sürdürülebilirlik Yüksek Lisans Programında eğitimine devam etmektedir. Hem uzmanlık hem de danışmanlık seviyesinde sürdürülebilirlik faaliyetleri yürüten Bahattin Can iklimle mücadele stratejileri senaryo analizleri, sürdürülebilirlik raporlaması ve sürdürülebilirlik performans değerlendirmesi süreçlerinde hem akademik uzmanlığa hem de sektörel deneyime sahiptir. 2026 yılında VSC Danışmanlık A.Ş. bünyesine kurucu ortak olarak katılmış olup; sürdürülebilirlik raporlaması, karbon yönetimi ve EcoVadis süreçlerinde kurumsal sürdürülebilirlik danışmanı olarak faaliyetlerini sürdürmektedir."
+  },
+  {
+    "id": 25,
+    "slug": "dilan-demir",
+    "name": "Dilan Demir",
+    "designation": "Kurumsal Sürdürülebilirlik ve Sosyal Sorumluluk Proje Danışmanı",
+    "group": "Sürdürülebilirlik Ekibimiz",
+    "image": "/img/team/vsc/dilan-demir.jpg",
+    "email": "ddemir@vscdanismanlik.com",
+    "biography": "Dilan Demir, Sağlık Bilimleri Üniversitesi (GATA) Çocuk Gelişimi Bölümü mezunu olup, kariyerine Aile ve Sosyal Hizmetler Bakanlığı Çocuk Hizmetleri Genel Müdürlüğü Ar-Ge Biriminde başlamıştır. UNICEF ortaklığında yürütülen projelerde proje yürütücüsü olarak görev alan Dilan, sosyal sürdürülebilirlik, sosyal uygunluk ve kurumsal sosyal sorumluluk alanlarında derin uzmanlığa sahiptir. Dilan, 2026 yılında VSC Danışmanlık A.Ş. bünyesine kurucu ortak olarak katılmış olup, sosyal sürdürülebilirlik projelerinin liderliğini yürütmekte ve sürdürülebilirlik raporlama süreçlerine katkı sunmaktadır."
+  },
+  {
+    "id": 26,
+    "slug": "gurkan-sabri-sakrak",
+    "name": "Gürkan Sabri Şakrak",
+    "designation": "Kurumsal Sürdürülebilirlik Danışmanı",
+    "group": "Sürdürülebilirlik Ekibimiz",
+    "image": "/img/team/vsc/gurkan-sabri-sakrak.jpg",
+    "email": "gsakrak@vscdanismanlik.com",
+    "biography": "Gürkan Sabri Şakrak, Sakarya Üniversitesi İktisat Bölümü mezunu olup, aynı zamanda İstanbul Üniversitesi Kültürel Miras Yönetimi ve Politika Analizi ve Mimar Sinan Güzel Sanatlar Üniversitesi Müzebillim ve Müze Çalışmaları programlarında yüksek lisans eğitimini tamamlamıştır. Mimar Sinan Üniversitesinde \"Bir Kamusal Alan Olarak Müzenin Sürdürülebilirlik Kavramı Açısından Değerlendirilmesi\" adlı tez çalışmasını yürütmüştür. Yaklaşık 6 yıl boyunca finans sektöründe kurumsal bankacılık ve kurumsal kredi tahsis yöneticisi olarak görev yapmış olup, 9 yıl boyunca Sait Fait Abasıyanık Müzesi ve Darüşşafaka Müzesi’nde yöneticilik yapmıştır. Finansal raporlama, kurumsal müşteri portföyü finansal değerlendirmesi, kurumsal müşteri yönetimi ve müze yönetimi alanlarında deneyime sahip olan Gürkan, 2026 yılında VSC Danışmanlık A.Ş. bünyesine sürdürülebilirlik projelerine ve kurumsal iletişim süreçlerine destek vermek amacıyla kurumsal sürdürülebilirlik danışmanı olarak katılmıştır."
   }
 ]

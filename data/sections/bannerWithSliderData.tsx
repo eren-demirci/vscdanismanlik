@@ -8,8 +8,8 @@ export const BannerWithSliderData: BannerSliderType = {
     subheading: "VSC Danışmanlık A.Ş.",
     heading: "Geleceğe Güçlü, Şeffaf ve Sürdürülebilir Adımlarla",
     styledText: "",
-    text: "Sürdürülebilirlik, kurumsal finans, vergi, denetim ve yönetim danışmanlığında bütüncül çözümler. Stratejik bakış açısı, güvenilir iş ortaklığı.",
-    phones: ["+90 553 981 16 98", "+90 536 976 81 57", "+90 530 911 99 86"],
+    text: "Bağımsız denetim, sürdürülebilirlik, kurumsal finans, vergi, muhasebe, dış ticaret ve yatırım teşvik alanlarında bütüncül çözümler. Stratejik bakış açısı, güvenilir iş ortaklığı.",
+    phones: ["+90 536 976 81 57", "+90 530 911 99 86"],
     button: {
         label: "Hizmetlerimiz",
         href: "/services",

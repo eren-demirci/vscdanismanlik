@@ -1,7 +1,7 @@
 
 Firma Adı: VSC Danışmanlık A.Ş.
 Adres: MASLAK MAH. BİLİM SK. SUN PLAZA NO: 5A İÇ KAPI NO: 40 SARIYER / İSTANBUL
-Telefon: 0555 555 55 55
+Telefon: +90 536 976 81 57
 
 Sitenin deploy edileceği domain: vscdanismanlik.com
 
@@ -14,6 +14,9 @@ Navbar istenen linkler:
 -- Muhasebe ve Mali Danışmanlık
 -- İş Hukuku ve Sosyal Güvenlik Danışmanlığı
 -- Yönetim Danışmanlığı
+-- Bağımsız Denetim
+-- Dış Ticaret ve Yatırım Danışmanlığı
+-- Yatırım ve Teşvik Danışmanlığı
 - Duyurular
 - Haberler
 - İletişim

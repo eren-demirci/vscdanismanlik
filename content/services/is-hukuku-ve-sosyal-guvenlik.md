@@ -7,11 +7,13 @@ image: /img/service/covers/is-hukuku-ve-sosyal-guvenlik-cover.svg
 description: İş hukuku danışmanlığı, sigorta prim teşvikleri, bordrolama ve emeklilik planlama hizmetleri.
 list:
   - title: İş Hukuku ve Sosyal Güvenlik Danışmanlığı
+  - title: Toplu İş Hukuku ve Alt İşveren Danışmanlığı
+  - title: İdari Para Cezaları ve Uyuşmazlık Danışmanlığı
   - title: Sigorta Prim Teşvikleri ve İŞKUR Destekleri
-  - title: Denetim ve Uyum Hizmetleri
+  - title: Denetim Hizmetleri (İş ve SGK Alanı)
   - title: Bordrolama Hizmetleri
-  - title: Emeklilik ve Asgari İşçilik Planlama
-  - title: Yabancı Uyruklu Çalışma İzni
+  - title: Emeklilik Planlaması ve Asgari İşçilik
+  - title: Yabancı Personel Çalışma İzinleri ve Kurumsal Eğitimler
 phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
@@ -21,14 +23,13 @@ created_at: "2026-01-01"
 
 Her şirketin çalışan yapısı, sektör dinamiği ve hukuki risk düzeyi farklıdır. Bu nedenle ilk aşamada sözleşme, bordro, teşvik ve sosyal güvenlik süreçlerinin mevcut durumunu analiz ediyoruz. Sonrasında mevzuata uyumlu, denetime hazır ve operasyonel sürdürülebilirliği yüksek bir insan kaynakları-hukuk altyapısı kuruyoruz.
 
-- **İş Hukuku ve Sosyal Güvenlik Danışmanlık Hizmetleri:** İşveren yükümlülükleri, çalışan hakları ve sözleşme süreçlerinde sürekli hukuki danışmanlık.
-- **Sigorta Prim Teşvikleri ve İŞKUR Program Destekleri:** Uygun teşviklerin tespiti, başvuru süreçlerinin yönetimi ve maliyet avantajının sürdürülebilir hale getirilmesi.
-- **Denetim Hizmetleri:** İş hukuku ve SGK uygulamalarının mevzuata uygunluğunun kontrolü ve risk alanlarının erken tespiti.
-- **Bordrolama Hizmetleri:** Ücret, yan hak, kesinti ve bildirim süreçlerinin doğru, zamanında ve mevzuata uygun yürütülmesi.
-- **Emeklilik Planlama:** Çalışanların emeklilik süreçlerine ilişkin hak, zamanlama ve mali etki analizlerinin yönetilmesi.
-- **Asgari İşçilik ve Uzlaşma:** Asgari işçilik hesaplamaları, inceleme süreçleri ve uzlaşma adımlarında teknik danışmanlık.
-- **Yabancı Uyruklu Çalışma İzni:** Yabancı personel istihdamında izin, bildirim ve yasal takip süreçlerinin eksiksiz yönetimi.
-- **Eğitim:** İnsan kaynakları ve yönetim ekiplerine yönelik iş hukuku ve sosyal güvenlik uygulama eğitimleri.
+- **İş Hukuku ve Sosyal Güvenlik Danışmanlık Hizmetleri:** İş hukuku ve sosyal güvenlik alanında şirketlere kapsamlı danışmanlık sunularak yasal uyum süreçlerinin doğru ve etkin şekilde yönetilmesi sağlanır. İş sözleşmeleri, fesih süreçleri, kıdem ve ihbar hesaplamaları, SGK işlemleri ve iç yönetmeliklerin hazırlanması gibi konularda destek verilir. Düzenli mevzuat bilgilendirmeleriyle şirketlerin güncel yasal düzenlemelere uyumu güçlendirilir.
+- **Toplu İş Hukuku ve Alt İşveren Danışmanlığı:** Toplu iş sözleşmesi süreçleri, pazarlık stratejileri ve uygulama aşamalarında kapsamlı danışmanlık sunulur. Alt işveren–asıl işveren ilişkilerinin ilgili mevzuata uygun şekilde yapılandırılması, sözleşmelerin hazırlanması ve süreçlerin etkin yönetimi desteklenerek hukuki risklerin en aza indirilmesi hedeflenir.
+- **İdari Para Cezaları ve Uyuşmazlık Danışmanlığı:** İş hukuku ve sosyal güvenlik mevzuatı kapsamında ortaya çıkabilecek idari para cezaları ve uyuşmazlıklara yönelik stratejik danışmanlık sağlanır. Denetim, itiraz ve dava süreçlerinde teknik destek sunularak risklerin etkin şekilde yönetilmesi ve en uygun çözüm yollarının belirlenmesi desteklenir.
+- **Sigorta Prim Teşvikleri ve İŞKUR Destekleri:** SGK prim teşvikleri ve İŞKUR destekleri analiz edilerek şirketlerin mevcut teşviklerden en yüksek düzeyde yararlanması sağlanır. Geçmiş dönem ve cari dönem teşvik uygulamaları değerlendirilirken, nitelikli iş gücüne erişimi destekleyen programlardan faydalanılmasıyla iş gücü maliyetlerinin optimize edilmesine katkı sunulur.
+- **Denetim Hizmetleri (İş ve SGK Alanı):** İş ve sosyal güvenlik uygulamaları mevzuata uygunluk açısından kapsamlı şekilde denetlenerek şirketlerin kamu denetimlerine hazır hale gelmesi sağlanır. Bordro süreçleri, özlük dosyaları ve işyeri uygulamaları detaylı olarak incelenir, tespit edilen gelişim alanlarına yönelik iyileştirme önerileri sunulur.
+- **Bordrolama Hizmetleri:** Bordrolama süreçleri dijital ve entegre sistemlerle yönetilerek operasyonel yük azaltılır ve süreç verimliliği artırılır. Bordro hesaplamaları, SGK ve İŞKUR bildirimleri, teşvik yönetimi ile izin ve yan hak süreçleri uçtan uca yürütülerek yasal yükümlülüklerin doğru ve zamanında yerine getirilmesi sağlanır.
+- **Diğer Hizmetler:** Emeklilik planlaması, asgari işçilik danışmanlığı, yabancı personel çalışma izinleri ve kurumsal eğitimler gibi tamamlayıcı alanlarda danışmanlık hizmetleri sunulur. Bu hizmetler sayesinde çalışan süreçlerinin daha etkin yönetilmesi, yasal risklerin azaltılması ve kurumsal sürdürülebilirliğin güçlendirilmesi desteklenir.
 
 ## Neden İş Hukuku ve Sosyal Güvenlik Yönetimi Gereklidir?
 

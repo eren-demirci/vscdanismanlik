@@ -1,3 +1,5 @@
+import { ServiceMenuList } from "./serviceMenuList";
+
 interface MenuType {
     title: string;
     path: string;
@@ -13,6 +15,10 @@ export const QuickLink: MenuType[] = [
         path: '/services'
     },
     {
+        title: 'Ekibimiz',
+        path: '/teams'
+    },
+    {
         title: 'Duyurular',
         path: '/blogs/category/duyurular'
     },
@@ -26,32 +32,7 @@ export const QuickLink: MenuType[] = [
     }
 ];
 
-export const Services: MenuType[] = [
-    {
-        title: 'Sürdürülebilirlik',
-        path: '/services/surdurulebilirlik'
-    },
-    {
-        title: 'Kurumsal Finansman',
-        path: '/services/kurumsal-finansman'
-    },
-    {
-        title: 'Vergi Danışmanlığı',
-        path: '/services/vergi-danismanligi'
-    },
-    {
-        title: 'Muhasebe ve Mali Danışmanlık',
-        path: '/services/muhasebe-ve-mali-danismanlik'
-    },
-    {
-        title: 'İş Hukuku ve Sosyal Güvenlik',
-        path: '/services/is-hukuku-ve-sosyal-guvenlik'
-    },
-    {
-        title: 'Yönetim Danışmanlığı',
-        path: '/services/yonetim-danismanligi'
-    }
-];
+export const Services: MenuType[] = ServiceMenuList;
 
 export const Information: MenuType[] = [
     {
@@ -74,11 +55,11 @@ export const MenuContact: MenuType[] = [
         path: 'mailto:info@vscdanismanlik.com'
     },
     {
-        title: '0555 555 55 55',
-        path: 'tel:+905555555555'
+        title: '+90 536 976 81 57',
+        path: 'tel:+905369768157'
     },
     {
-        title: 'Maslak Mah. Bilim Sk. Sun Plaza No:5A İç Kapı No:40 Sarıyer / İstanbul',
+        title: 'Maslak, Bilim Sk., Sun Plaza, No:5A/40 Sarıyer/İstanbul',
         path: '#'
     }
 ];

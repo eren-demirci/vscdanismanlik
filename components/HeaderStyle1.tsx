@@ -20,8 +20,8 @@ const Header = () => {
             height={25}
             url="/"
             cls="header-logo"
-            alt="Consulo logo"
-            ariaLabel="Consulo logo"
+            alt="VSC Danışmanlık logo"
+            ariaLabel="VSC Danışmanlık logo"
             loading="eager"
           />
           

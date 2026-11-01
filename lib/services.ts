@@ -14,6 +14,7 @@ type Frontmatter = {
   phone?: string;
   list?: { title: string }[];
   created_at?: string;
+  hidden?: boolean;
 };
 
 const servicesDir = path.join(process.cwd(), "content", "services");
@@ -229,6 +230,7 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
       else if (key === "brochure_label") frontmatter.brochure_label = value;
       else if (key === "phone") frontmatter.phone = value;
       else if (key === "created_at") frontmatter.created_at = value;
+      else if (key === "hidden") frontmatter.hidden = value === "true";
     }
     i += 1;
   }
@@ -250,6 +252,7 @@ function parseServiceMarkdown(fileContent: string): ServiceProps {
     list: frontmatter.list ?? [],
     faqs,
     created_at: frontmatter.created_at,
+    hidden: frontmatter.hidden,
     content: markdownToHtml(bodyWithoutFaq),
   };
 }
@@ -279,7 +282,7 @@ export async function getAllServices(): Promise<ServiceProps[]> {
     if (service.slug) slugs.add(service.slug);
   }
 
-  return services.sort((a, b) => a.id - b.id);
+  return services.filter((service) => !service.hidden).sort((a, b) => a.id - b.id);
 }
 
 export async function getServiceBySlug(slug: string): Promise<ServiceProps | undefined> {

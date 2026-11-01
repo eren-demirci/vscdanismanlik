@@ -7,12 +7,14 @@ import { ImageTextData } from "@/data/sections/imageTextData";
 import { WhyChooseUsGridBgData } from "@/data/sections/whyChooseUsGridBgData";
 import { TestimonialData } from "@/data/sections/testimonialData";
 import { Faq2Data } from "@/data/sections/faq2Data";
+import { ValuesPolicyData } from "@/data/sections/valuesPolicyData";
 
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import ImageText from "@/components/sections/ImageText";
 import WhyChooseUsGrid from "@/components/sections/WhyChooseUsGrid";
 import Testimonials from "@/components/sections/Testimonials";
 import Faq from "@/components/sections/Faq";
+import ValuesPolicy from "@/components/sections/ValuesPolicy";
 
 const PAGE_TITLE: string = "Hakkımızda";
 export const metadata: Metadata = {
@@ -42,6 +44,9 @@ const About = () => {
 
       {/* Why Choose Us */}
       <WhyChooseUsGrid data={WhyChooseUsGridBgData} />
+
+      {/* Values and Policy */}
+      <ValuesPolicy data={ValuesPolicyData} />
 
       {/* Testimonials 
             <Testimonials data={TestimonialData} />

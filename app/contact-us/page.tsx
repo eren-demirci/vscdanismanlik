@@ -3,10 +3,12 @@ import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
 import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg';
 import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
 import { ContactData } from '@/data/sections/contactData';
+import { OfficesData } from '@/data/sections/officesData';
 
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import ContactSection from '@/components/sections/Contact';
 import MapSection from '@/components/sections/Map';
+import Offices from '@/components/sections/Offices';
 
 const PAGE_TITLE: string = 'İletişim';
 export const metadata: Metadata = {
@@ -33,6 +35,9 @@ const Contact = () => {
 
             {/* Contact Form */}
             <ContactSection data={ContactData} />
+
+            {/* Offices */}
+            <Offices data={OfficesData} />
 
             {/* Google Map */}
             <MapSection />

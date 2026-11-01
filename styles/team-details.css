@@ -160,3 +160,13 @@
     padding: 16px;
   }
 }
+
+.team-details .td-media-wrap {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.team-details .td-media img {
+  width: 100%;
+  height: auto;
+}

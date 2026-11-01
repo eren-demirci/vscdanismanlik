@@ -1,14 +1,14 @@
 export const FaqAccordion = [
     {
         title: "VSC Danışmanlık hangi hizmetleri sunmaktadır?",
-        text: "VSC Danışmanlık A.Ş.; sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik ile yönetim danışmanlığı alanlarında kapsamlı hizmetler sunmaktadır. Farklı sektörlerdeki uzman ortaklarımızla işletmenizin tüm ihtiyaçlarına tek çatı altında yanıt veriyoruz."
+        text: "VSC Danışmanlık A.Ş.; kurumsal finansman, vergi danışmanlığı, bağımsız denetim, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, yönetim danışmanlığı, dış ticaret ve yatırım, sürdürülebilirlik ile yatırım ve teşvik danışmanlığı alanlarında kapsamlı hizmetler sunmaktadır. Farklı sektörlerdeki uzman ortaklarımızla işletmenizin tüm ihtiyaçlarına tek çatı altında yanıt veriyoruz."
     },
     {
         title: "Sürdürülebilirlik raporlaması için hangi standartlara göre hizmet veriyorsunuz?",
         text: "GRI ve TSRS standartlarına uyumlu sürdürülebilirlik raporlaması, entegre ve etki raporlaması, kurumsal karbon ve su ayak izi hesaplamaları, CBAM danışmanlığı ile EcoVadis süreçlerinde destek sağlıyoruz. Ayrıca sürdürülebilirlik strateji geliştirme ve eğitim hizmetleri de sunmaktayız."
     },
     {
-        title: "Şirket birleşme ve satın alma süreçlerinde nasıl destek alabilirm?",
+        title: "Şirket birleşme ve satın alma süreçlerinde nasıl destek alabilirim?",
         text: "Kurumsal finansman ekibimiz; alıcı veya satıcı tarafında şirket birleşme ve satın alma danışmanlığı, şirket değerleme, ticari durum tespiti, borç ve sermaye danışmanlığı ile finansal modelleme hizmetleri sunmaktadır. Halka arz ve finansal yeniden yapılandırma süreçlerinde de yanınızdayız."
     },
     {
@@ -21,11 +21,19 @@ export const FaqAccordion = [
     },
 
     {
+        title: "Bağımsız denetim kapsamında hangi hizmetleri sunuyorsunuz?",
+        text: "Mali tablo denetimi, UFRS raporlaması, muhasebe denetimi, hata, hile ve usulsüzlük denetimi, mali analiz ve değerleme, uygunluk denetimi, faaliyet denetimi, iç denetim, kurumsal raporlama ve yasal denetim hizmetlerini kapsar."
+    },
+    {
+        title: "Dış ticaret ve yatırım teşvikleri konusunda destek veriyor musunuz?",
+        text: "Evet. İhracat ve ithalat danışmanlığı, ihracat teşvikleri ve yatırım danışmanlığının yanı sıra Sanayi ve Teknoloji Bakanlığı destekleri, Ar-Ge ve teknoloji geliştirme bölgesi destekleri ile bölgesel ve stratejik yatırım uygulamalarında başvurudan takibe kadar danışmanlık sunuyoruz."
+    },
+    {
         title: "Yönetim danışmanlığı hizmetlerinizden nasıl yararlanabilirim?",
         text: "Strateji planlama, süreç yönetimi, marka ve pazarlama yönetimi, proje yönetimi ve proje yönetim ofisi kurulumu, insan kaynakları dönüşümü, Turquality hazırlık ve birleşme sonrası entegrasyon alanlarında danışmanlık sunuyoruz. İletişim formu aracılığıyla bizimle iletişime geçerek ihtiyaçlarınızı paylaşabilirsiniz."
     },
     {
         title: "VSC Danışmanlık ile çalışmaya nasıl başlayabilirim?",
-        text: "Web sitemiz üzerindeki iletişim formu aracılığıyla veya doğrudan telefonla (0555 555 55 55) bize ulaşabilirsiniz. İstanbul Maslak ofisimizde yüz yüze görüşme talep edebilir ya da uzaktan danışmanlık hizmetinden yararlanabilirsiniz. Ön görüşmelerimiz ücretsizdir."
+        text: "Web sitemiz üzerindeki iletişim formu aracılığıyla veya doğrudan telefonla (+90 536 976 81 57) bize ulaşabilirsiniz. Ofislerimizde yüz yüze görüşme talep edebilir ya da uzaktan danışmanlık hizmetinden yararlanabilirsiniz. Ön görüşmelerimiz ücretsizdir."
     }
 ]

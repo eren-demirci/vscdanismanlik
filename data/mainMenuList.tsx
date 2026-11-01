@@ -10,41 +10,31 @@ interface NavMenuItem {
 }
 
 import React from "react";
+import { ServiceMenuList } from "./serviceMenuList";
 
 const Menus: NavMenuItem[] = [
     {
         title: 'Hakkımızda',
-        path: '/about-us'
+        path: '/about-us',
+        dropdown: [
+            {
+                title: 'Biz Kimiz',
+                path: '/about-us'
+            },
+            {
+                title: 'Değerlerimiz ve Politikamız',
+                path: '/about-us#degerlerimiz'
+            },
+            {
+                title: 'Ekibimiz',
+                path: '/teams'
+            }
+        ]
     },
     {
         title: 'Hizmetlerimiz',
         path: '/services',
-        dropdown: [
-            {
-                title: 'Sürdürülebilirlik',
-                path: '/services/surdurulebilirlik'
-            },
-            {
-                title: 'Kurumsal Finansman',
-                path: '/services/kurumsal-finansman'
-            },
-            {
-                title: 'Vergi Danışmanlığı',
-                path: '/services/vergi-danismanligi'
-            },
-            {
-                title: 'Muhasebe ve Mali Danışmanlık',
-                path: '/services/muhasebe-ve-mali-danismanlik'
-            },
-            {
-                title: 'İş Hukuku ve Sosyal Güvenlik Danışmanlığı',
-                path: '/services/is-hukuku-ve-sosyal-guvenlik'
-            },
-            {
-                title: 'Yönetim Danışmanlığı',
-                path: '/services/yonetim-danismanligi'
-            }
-        ]
+        dropdown: ServiceMenuList
     },
     {
         title: 'Duyurular',

@@ -4,7 +4,7 @@ export const ImageTextData: SectionProps = {
     container: "container",
     subheading: "Hakkımızda",
     heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
-    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle kurulmuştur. Amacımız; şirketlerin bugünkü performanslarını güçlendirirken, geleceğe daha dirençli, şeffaf ve sürdürülebilir bir yapıyla ilerlemelerine rehberlik etmektir.",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle tek bir çatı altında toplanmıştır. Bağımsız denetim, sürdürülebilirlik, kurumsal finans, mali müşavirlik, muhasebe ve vergi alanlarında bütüncül ve katma değer yaratan hizmetler sunmayı amaçlayan şirketimiz; değişen iş dünyasının dinamiklerine uyum sağlayan, stratejik bakış açısına sahip çözümler geliştirmektedir. Amacımız; şirketlerin bugünkü performanslarını güçlendirirken, geleceğe daha dirençli, şeffaf ve sürdürülebilir bir yapıyla ilerlemelerine rehberlik etmektir.",
     button: {
         label: "İletişime Geçin",
         href: "/contact-us",
@@ -21,7 +21,7 @@ export const ImageTextData: SectionProps = {
     },
     textList: [
         {
-            text: "Sürdürülebilirlik, kurumsal finans ve vergi alanlarında bütüncül hizmet"
+            text: "Bağımsız denetim, sürdürülebilirlik, kurumsal finans ve vergi alanlarında bütüncül hizmet"
         },
         {
             text: "Değer odaklı yaklaşım ve analitik bakış açısı"

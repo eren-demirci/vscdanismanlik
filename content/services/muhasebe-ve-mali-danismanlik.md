@@ -6,12 +6,15 @@ icon: "<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0
 image: /img/service/covers/muhasebe-ve-mali-danismanlik-cover.svg
 description: Genel muhasebe, bordro, raporlama ve ticaret sicil işlemlerine yönelik kapsamlı mali danışmanlık.
 list:
-  - title: Genel Muhasebe Hizmetleri
+  - title: Ticaret Sicil İşlemleri
+  - title: Yabancı Sermaye Kuruluş İşlemleri
+  - title: Muhasebe Personel Destek Hizmetleri
+  - title: Raporlama Hizmetleri
   - title: Bordro ve Personel Hizmetleri
-  - title: Ticaret Sicil ve Kuruluş İşlemleri
-  - title: E-Beyanname ve Yasal Bildirim Süreçleri
-  - title: TTK Uyum ve Teşvik Danışmanlığı
-  - title: Yönetim Muhasebe Denetimi ve Raporlama
+  - title: Genel Muhasebe Hizmetleri
+  - title: TTK Hazırlık ve Danışmanlığı
+  - title: Beyanname Kontrol, E-Beyanname ve E-Bildirge Hizmetleri
+  - title: Teşvik Hizmetleri
 phone: "+90 553 981 16 98"
 created_at: "2026-01-01"
 ---
@@ -21,15 +24,17 @@ Muhasebe ve mali danışmanlık, yalnızca kayıt tutma faaliyeti değil; şirke
 
 Her şirketin büyüklüğü, işlem yapısı ve raporlama ihtiyacı farklıdır. Bu nedenle ilk aşamada mevcut muhasebe akışını, insan kaynağı yapısını ve yasal yükümlülük takvimini analiz ediyoruz. Sonrasında mevzuata uyumlu, kontrol edilebilir ve yönetime karar desteği sağlayan bir mali süreç altyapısı kuruyoruz.
 
-- **Ticaret Sicil İşlemleri:** Şirketin kuruluş, değişiklik ve tescil işlemlerinin doğru ve zamanında yürütülmesi.
-- **Yabancı Sermaye Kuruluş İşlemleri Hizmetleri:** Yabancı ortaklı yapıların kuruluş ve resmi süreçlerinin mevzuata uygun yönetimi.
-- **Muhasebe Personel Destek Hizmetleri:** Operasyonel yükü dengeleyen uzman insan kaynağı desteği ile süreç sürekliliğinin sağlanması.
-- **Raporlama:** Yönetim kararlarını destekleyen düzenli, karşılaştırılabilir ve anlaşılır finansal rapor setlerinin oluşturulması.
-- **Bordro ve Personel Hizmetleri:** Bordro, SGK ve personel süreçlerinin doğru hesaplama ve zamanında bildirimle yönetilmesi.
-- **Genel Muhasebe Hizmetleri:** Günlük kayıt, hesap mutabakatı ve dönem kapanış süreçlerinin düzenli yürütülmesi.
-- **TTK Hazırlık ve Danışmanlığı:** Türk Ticaret Kanunu kapsamındaki yükümlülüklere uyum için süreç ve dokümantasyon desteği.
-- **Teşvik Hizmetleri:** Yararlanılabilecek destek ve teşviklerin tespit edilmesi, başvuru ve takip süreçlerinin yürütülmesi.
-- **Yönetim Muhasebe Denetimi:** Maliyet, karlılık ve süreç verimliliği odaklı iç muhasebe kontrolünün güçlendirilmesi.
+- **Ticaret Sicil İşlemleri:** Şirket kuruluşundan ana sözleşme değişikliklerine, sermaye işlemlerinden hisse devirlerine kadar tüm ticaret sicil süreçleri mevzuata uygun şekilde yönetilir. Anonim şirket genel kurul işlemleri, hisse senedi uygulamaları ve diğer ticaret sicili süreçlerinde sağlanan danışmanlık sayesinde yasal yükümlülüklerin hızlı, doğru ve sorunsuz şekilde yerine getirilmesi desteklenir.
+- **Yabancı Sermaye Kuruluş İşlemleri:** Türkiye'de yatırım yapmak isteyen yabancı yatırımcılara şirket kuruluşu, irtibat bürosu açılışı ve gerekli izin süreçlerinde kapsamlı danışmanlık sunulur. Tüm işlemler ilgili mevzuat çerçevesinde yürütülerek yabancı sermayenin Türkiye'de güvenli, hızlı ve etkin şekilde yapılandırılması sağlanır.
+- **Muhasebe Personel Destek Hizmetleri:** Şirketlerin ihtiyaçlarına uygun muhasebe personelinin temini ve organizasyonu konusunda danışmanlık sağlanarak finansal süreçlerin doğru insan kaynağı ile etkin şekilde yürütülmesi desteklenir. İşletmenin organizasyon yapısına uygun çözümler geliştirilerek muhasebe süreçlerinin verimliliği ve sürekliliği güçlendirilir.
+- **Raporlama Hizmetleri:** Mali tablolar muhasebe standartlarına uygun şekilde hazırlanarak şirketlerin ihtiyaçlarına özel raporlama çözümleri sunulur. Faaliyet raporları ve resmi kurumlara sunulması gereken diğer mali raporların hazırlanması ve ilgili süreçlerin yürütülmesi desteklenerek doğru, güvenilir ve zamanında raporlama sağlanır.
+- **Bordro ve Personel Hizmetleri:** Bordro hazırlama, SGK işlemleri, işe giriş ve çıkış süreçleri ile personel özlük yönetimi kapsamlı şekilde yürütülür. İşverenlerin yasal yükümlülüklerini doğru ve zamanında yerine getirmesi sağlanırken insan kaynakları süreçlerinin etkin, güvenilir ve mevzuata uygun şekilde yönetilmesi desteklenir.
+- **Genel Muhasebe Hizmetleri:** Muhasebe kayıtları ilgili mevzuata uygun şekilde tutulurken dönem sonu işlemleri, mali tabloların hazırlanması ve vergi beyannamelerinin düzenlenmesi süreçleri uçtan uca yönetilir. Böylece şirketlerin finansal kayıtlarının doğruluğu, mevzuata uyumu ve sürdürülebilir mali yönetimi güvence altına alınır.
+- **TTK Hazırlık ve Danışmanlığı:** Türk Ticaret Kanunu kapsamında şirketlerin uyum süreçlerine yönelik danışmanlık sunularak kurumsal yönetim, şirket yapıları, birleşme ve bölünme işlemleri ile sermaye değişiklikleri gibi konularda kapsamlı destek sağlanır. Böylece şirketlerin yasal yükümlülüklerini eksiksiz yerine getirmesi ve kurumsal yapılarının güçlendirilmesi hedeflenir.
+- **Beyanname Kontrol, E-Beyanname ve E-Bildirge Hizmetleri:** Vergi ve SGK beyannameleri ilgili mevzuata uygun şekilde hazırlanarak elektronik ortamda güvenli ve zamanında beyan edilmesi sağlanır. Muhasebe kayıtlarının doğruluğu kontrol edilerek yasal yükümlülüklerin eksiksiz yerine getirilmesi ve olası vergisel risklerin azaltılması desteklenir.
+- **Teşvik Hizmetleri:** Yatırım teşvikleri kapsamında şirketlere stratejik danışmanlık sunularak vergi, gümrük, finansman ve diğer destek mekanizmalarından en yüksek düzeyde yararlanılması hedeflenir. Teşvik belgelerinin alınması, revizyonu ve kapatılması süreçleri uçtan uca yönetilerek yatırımların daha verimli, avantajlı ve mevzuata uygun şekilde gerçekleştirilmesi sağlanır.
+
+*Muhasebe ve mali danışmanlık hizmetlerimiz, ortaklarımız aracılığıyla yürütülmektedir.
 
 ## Neden Muhasebe ve Mali Süreç Yönetimi Gereklidir?
 
@@ -49,9 +54,9 @@ Artan mevzuat karmaşıklığı, dijital beyan sistemleri ve hızlanan iş döng
 
 Hayır. Etkin bir muhasebe hizmeti; kayıt tutmanın yanında raporlama, kontrol, risk yönetimi ve yönetime karar desteği fonksiyonlarını da kapsar.
 
-### Yönetim muhasebe denetimi şirkete ne sağlar?
+### E-beyanname ve e-bildirge süreçlerinde en kritik nokta nedir?
 
-Maliyet ve karlılık dinamiklerini daha net görmeyi sağlar, verimsizlik alanlarını ortaya çıkarır ve stratejik kararların finansal etkisini ölçülebilir hale getirir.
+Doğru veri akışı ve zamanında bildirimdir. Hatalı veya geciken bildirimler cezai risk oluşturabileceği için süreç disiplinli şekilde yönetilmelidir.
 
 ## Kazandığınız Değer
 

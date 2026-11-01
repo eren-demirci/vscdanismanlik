@@ -1,7 +1,6 @@
 import { RecentPostType } from "@/types/recentpost";
 import Link from "next/link";
 import Image from "next/image";
-import Posts from "@/data/posts.json";
 import { formatDate } from "@/utils/formatDate";
 
 const RecentPost = ({
@@ -9,7 +8,7 @@ const RecentPost = ({
     slug,
     posts,
 }: RecentPostType) => {
-    const sourcePosts = posts && posts.length > 0 ? posts : Posts;
+    const sourcePosts = posts ?? [];
     const recentPosts = sourcePosts
     .filter((post) => post.slug !== slug)
     .sort((a, b) => {

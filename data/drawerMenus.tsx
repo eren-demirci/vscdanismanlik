@@ -1,40 +1,16 @@
 import Icons from "../components/Icons";
+import { ServiceMenuList } from "./serviceMenuList";
 
 export const MenuService = {
     title: "Hizmetlerimiz",
-    menus: [
-        {
-            title: "Sürdürülebilirlik",
-            path: "/services/surdurulebilirlik"
-        },
-        {
-            title: "Kurumsal Finansman",
-            path: "/services/kurumsal-finansman"
-        },
-        {
-            title: "Vergi Danışmanlığı",
-            path: "/services/vergi-danismanligi"
-        },
-        {
-            title: "Muhasebe ve Mali Danışmanlık",
-            path: "/services/muhasebe-ve-mali-danismanlik"
-        },
-        {
-            title: "İş Hukuku ve Sosyal Güvenlik",
-            path: "/services/is-hukuku-ve-sosyal-guvenlik"
-        },
-        {
-            title: "Yönetim Danışmanlığı",
-            path: "/services/yonetim-danismanligi"
-        }
-    ]
+    menus: ServiceMenuList
 }
 
 export const MenuContact = {
     title: "Hızlı İletişim",
     menus: [
         {
-            title: "Maslak Mah. Bilim Sk. Sun Plaza No:5A İç Kapı No:40 Sarıyer / İstanbul",
+            title: "Maslak, Bilim Sk., Sun Plaza, No:5A/40 Sarıyer/İstanbul",
             path: null,
             icon: <Icons.Location />
         },

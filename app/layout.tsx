@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     default: "VSC Danışmanlık A.Ş.",
   },
   description:
-    "VSC Danışmanlık A.Ş., sürdürülebilirlik, kurumsal finans, vergi, denetim ve yönetim danışmanlığı alanlarında bütüncül çözümler sunar.",
+    "VSC Danışmanlık A.Ş., bağımsız denetim, sürdürülebilirlik, kurumsal finansman, vergi, muhasebe, dış ticaret ve yatırım teşvik alanlarında bütüncül çözümler sunar.",
   openGraph: {
     title: "VSC Danışmanlık A.Ş.",
     description:
-      "Sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı ve yönetim danışmanlığında güvenilir iş ortağınız.",
+      "Bağımsız denetim, sürdürülebilirlik, kurumsal finansman ve vergi danışmanlığında güvenilir iş ortağınız.",
     url: "https://vscdanismanlik.com",
     type: "website",
   },

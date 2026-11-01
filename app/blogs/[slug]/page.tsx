@@ -3,7 +3,6 @@ import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import BreadcrumbBannerImage from '@/public/img/banner/page-banner.jpg';
 import BreadcrumbBannerImageTablet from '@/public/img/banner/page-banner-991.jpg';
 import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg';
-import Posts from '@/data/posts.json';
 import BlogDetails from '@/components/sections/BlogDetails';
 import { ArticleType } from '@/types/article';
 import { notFound } from 'next/navigation';
@@ -11,11 +10,9 @@ import { getNewsArticleBySlug } from '@/lib/news';
 import { getAnnouncementBySlug } from '@/lib/announcements';
 
 async function getArticleBySlug(slug: string): Promise<ArticleType | undefined> {
-    const posts = Posts;
-    const staticArticle: ArticleType | undefined = posts.find((post: ArticleType) => post.slug === slug);
-    const newsArticle = staticArticle ? null : await getNewsArticleBySlug(slug);
-    const announcementArticle = staticArticle || newsArticle ? null : await getAnnouncementBySlug(slug);
-    return staticArticle ?? newsArticle ?? announcementArticle ?? undefined;
+    const newsArticle = await getNewsArticleBySlug(slug);
+    const announcementArticle = newsArticle ? null : await getAnnouncementBySlug(slug);
+    return newsArticle ?? announcementArticle ?? undefined;
 }
 
 function getDetailTitleByCategory(category?: string) {

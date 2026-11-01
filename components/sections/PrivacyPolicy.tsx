@@ -27,7 +27,7 @@ const PrivacyPolicySection = () => {
                   Adres: Maslak Mah. Bilim Sk. Sun Plaza No: 5A İç Kapı No: 40
                   Sarıyer / İstanbul
                   <br />
-                  Telefon: 0555 555 55 55
+                  Telefon: +90 536 976 81 57
                 </p>
 
                 <h3>2. Toplanan Veriler</h3>

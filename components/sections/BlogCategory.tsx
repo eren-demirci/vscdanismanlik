@@ -1,6 +1,5 @@
 import '@/styles/blog.css';
 import { AuthorType } from '@/types/author';
-import Posts from '@/data/posts.json';
 import Authors from '@/data/author.json';
 import CardBlog from "../CardBlog";
 import { notFound } from 'next/navigation';
@@ -29,7 +28,7 @@ const BlogCategory = async ({
         ? await getNewsArticles(100)
         : slug === "duyurular"
             ? await getAnnouncementArticles()
-            : Posts.filter(post => createHandle(post.category) === slug);
+            : [];
     const sourceFilteredPosts = slug === "haberler" && selectedNewsTags.length > 0
         ? posts.filter((article) => {
             const sourceTag = createHandle(article.tags?.[1] ?? "");

@@ -6,11 +6,15 @@ icon: "<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0
 image: /img/service/covers/kurumsal-finansman-cover.svg
 description: Kurumsal finansman danışmanlığı: M&A, değerleme, borç-sermaye yapısı, halka arz ve yeniden yapılandırma süreçlerinde stratejik destek.
 list:
-  - title: Şirket Birleşme ve Satın Alma (M&A)
-  - title: Şirket Değerleme ve Ticari Durum Tespiti
-  - title: Borç ve Sermaye Danışmanlığı
+  - title: Şirket Birleşme ve Satın Alma (Alıcı veya Satıcı Tarafında)
+  - title: Şirket Değerleme
+  - title: Borç-Sermaye Danışmanlığı
+  - title: Ticari Durum Tespiti
   - title: Halka Arz Danışmanlığı
-  - title: Finansal Yeniden Yapılandırma ve Modelleme
+  - title: Finansal Yeniden Yapılandırma
+  - title: Finansal Modelleme ve Analiz
+  - title: Finansal Fizibilite
+  - title: Girişim ve Start-Up Danışmanlığı
 phone: "0536 976 81 57"
 created_at: "2026-01-01"
 ---
@@ -20,15 +24,15 @@ Kurumsal finansman danışmanlığı, yalnızca bir işlem tamamlama hizmeti de�
 
 Her işlem tipi farklı hedef, farklı risk profili ve farklı zaman baskısı içerir. Bu nedenle ilk aşamada şirketinizin mevcut finansal durumunu, sektör dinamiklerini ve stratejik hedeflerini birlikte analiz ediyoruz. Ardından karar sürecini hızlandıran, yatırımcı ve kredi veren taraflarca anlaşılır bir işlem altyapısı kuruyoruz.
 
-- **Şirket Birleşme ve Satın Alma (Alıcı veya Satıcı Tarafında):** Hedef belirleme, işlem kurgusu, pazarlık desteği ve kapanışa kadar süreç yönetimi.
-- **Şirket Değerleme:** Gelir, piyasa ve varlık bazlı yöntemlerle şirket değerinin teknik ve savunulabilir şekilde hesaplanması.
-- **Borç ve Sermaye Danışmanlığı:** Büyüme planınıza uygun finansman kompozisyonu, maliyet analizi ve kaynak yapılandırması.
-- **Ticari Durum Tespiti:** Gelir kalitesi, karlılık sürdürülebilirliği, sözleşmesel riskler ve operasyonel kırılganlıkların incelenmesi.
-- **Halka Arz Danışmanlığı:** Halka arz öncesi kurumsal hazırlık, finansal hikaye kurgusu ve paydaş koordinasyonu.
-- **Finansal Yeniden Yapılandırma:** Nakit akışı baskısı yaşayan yapılarda borç vadeleri, maliyetler ve ödeme kapasitesi odaklı yeniden dengeleme.
-- **Finansal Modelleme ve Analiz:** Senaryo bazlı model kurulumları ile yatırım, büyüme ve finansman kararlarının sayısal test edilmesi.
-- **Finansal Fizibilite:** Yeni yatırım veya kapasite artışı kararlarında gelir, maliyet, geri dönüş ve risk analizinin bütüncül değerlendirilmesi.
-- **Girişim ve Start-Up Danışmanlığı:** Erken aşama girişimlerde iş modeli doğrulama, yatırımcı hazırlığı ve sürdürülebilir finansman planı.
+- **Şirket Birleşme ve Satın Alma (Alıcı veya Satıcı Tarafında):** Şirket birleşme ve satın alma süreçlerinde hem alıcı hem de satıcı tarafına, ilk stratejik planlamadan işlem kapanışına kadar uçtan uca danışmanlık sunulur. Şirketlerin büyüme, portföy optimizasyonu veya yatırım değişikliği hedefleri doğrultusunda değerleme, potansiyel tarafların belirlenmesi, teklif ve müzakere süreçleri, durum tespiti, sözleşme danışmanlığı ve süreç yönetimi gibi kritik adımlar yönetilir. Hız, değer, kesinlik ve risk odaklı yaklaşımla işlem verimliliğinin artırılması, daha yüksek değer yaratılması ve sürecin minimum operasyonel aksama ile başarıyla tamamlanması hedeflenir.
+- **Şirket Değerleme:** Şirket değerleme hizmeti kapsamında işletmenin mevcut durumu ve gelecekteki potansiyeli analiz edilerek stratejik karar süreçlerine güçlü bir temel oluşturulur. Satın alma, birleşme, ortaklık değişimleri, finansman süreçleri, hissedar anlaşmazlıkları ve çıkış stratejileri gibi farklı senaryolar için kapsamlı değerleme çalışmaları gerçekleştirilir. Gelir, piyasa ve maliyet yaklaşımları kullanılarak uluslararası standartlarda hazırlanan değerleme çalışmaları sayesinde şirketlerin gerçek değerini ortaya koyması, yatırımcı ilgisini artırması ve birleşme/devralma süreçlerinde daha güçlü bir konum elde etmesi desteklenir.
+- **Borç-Sermaye Danışmanlığı:** Güçlü yatırımcı ağı ve finansman kaynaklarına erişim sayesinde şirketlere borçlanma veya sermaye artırımı yoluyla en uygun finansman çözümleri sunulur. Büyüme, yeni pazarlara giriş veya satın alma hedefleri doğrultusunda mevcut durum analizi, finansal yapı değerlendirmesi, iş planı hazırlanması, yatırımcı belirleme, müzakere ve işlem yönetimi süreçleri uçtan uca yürütülür. Farklı senaryolar üzerinden gerçekleştirilen analizlerle en uygun finansman yapısı belirlenirken daha avantajlı koşullar, esnek çözümler ve bağımsız danışmanlık yaklaşımı sağlanır.
+- **Ticari Durum Tespiti:** Satın alma ve elden çıkarma süreçlerinde potansiyel riskler, pazar dinamikleri ve büyüme fırsatları kapsamlı şekilde analiz edilerek stratejik içgörüler sunulur. İşlem öncesinde hedef belirleme ve pazar değerlendirmesi, işlem sürecinde iş planı, finansal öngörüler ve risk analizleri, işlem sonrasında ise entegrasyon, büyüme ve sinerji fırsatlarına yönelik çalışmalar yürütülür. Gelişmiş analiz yöntemleri ve sektör deneyimi sayesinde daha güçlü pazarlık yapılması, risklerin etkin yönetilmesi ve işlem sonrası performansın artırılması desteklenir.
+- **Halka Arz Danışmanlığı:** Halka arz süreci, hazırlık aşamasından başvuru ve işlem tamamlanmasına kadar stratejik ve operasyonel açıdan uçtan uca yönetilir. Halka arz öncesinde şirketin hukuki, mali ve organizasyonel yapısı analiz edilerek gerekli yeniden yapılandırmalar planlanır; süreç boyunca değerleme, strateji belirleme, paydaş seçimi ve zamanlama gibi kritik kararlar desteklenir. Başvuru aşamasında ise gerekli dokümantasyon hazırlanır, ilgili kurumlarla koordinasyon sağlanır, yatırımcı iletişimi ve tanıtım faaliyetleri yürütülür. Böylece halka arz sürecinin mevzuata uyumlu, verimli ve maksimum değer yaratacak şekilde başarıyla tamamlanması hedeflenir.
+- **Finansal Yeniden Yapılandırma:** Finansal zorluk yaşayan şirketlere likidite yönetimi, borç yapılandırma ve operasyonel iyileştirme süreçlerinde kapsamlı danışmanlık sunulur. Nakit akışı analizi, bağımsız iş incelemesi ve paydaş müzakereleriyle şirketin mevcut durumu detaylı şekilde değerlendirilerek en uygun yeniden yapılandırma stratejisi oluşturulur. Alternatif senaryoların modellenmesi, optimal sermaye yapısının belirlenmesi, iş planı ve finansal model hazırlanması gibi kritik süreçler yönetilerek şirketlerin paydaş güvenini yeniden kazanması, finansal istikrarını sağlaması ve sürdürülebilir büyüme yoluna dönmesi desteklenir.
+- **Finansal Modelleme ve Analiz:** Üst yönetimin stratejik karar alma süreçlerini desteklemek ve hissedar değerini artırmak amacıyla güçlü ve esnek finansal modelleme çözümleri geliştirilir. Hazırlanan modeller, farklı senaryoların nakit akışı, kârlılık, vergi ve finansman yapısı üzerindeki etkilerini analiz ederek karar süreçlerine kapsamlı içgörü sağlar. Bütçeleme, nakit yönetimi, kârlılık analizi, fiyatlandırma ve raporlama süreçlerinde kullanılan modeller; stres testleri ve değer sürücü analizleriyle desteklenerek daha sağlıklı ve veriye dayalı karar alınmasına katkı sunar.
+- **Finansal Fizibilite:** Yeni ürün geliştirme, fabrika yatırımı veya yurt dışı genişleme gibi stratejik projelerde finansal fizibilite analizleri gerçekleştirilerek güvenilir ve tarafsız bir karar alma zemini oluşturulur. Projelerin uygulanabilirliği değerlendirilirken finansal modellemenin yanı sıra kapasite, teknoloji, ürün karması, fiyat beklentileri ile sermaye ve işletme maliyetleri kapsamlı şekilde analiz edilir. Gelişmiş nakit akışı modelleri ve hassasiyet analizleriyle desteklenen çalışmalar, projelerin risk ve getiri potansiyelini ortaya koyarken yatırımcılar ve finans kuruluşları nezdinde güvenilirliği artırır.
+- **Girişim ve Start-Up Danışmanlığı:** Girişim ve start-up'ların sürdürülebilir büyümesini desteklemek amacıyla stratejik planlamadan finansmana kadar uçtan uca danışmanlık sunulur. İş modeli geliştirme, pazar analizi, büyüme stratejileri, finansal planlama, modelleme, değerleme ve yatırımcı ilişkileri yönetimi süreçleri bütüncül bir yaklaşımla ele alınır. Güçlü yatırımcı ağı sayesinde doğru finansman kaynaklarına erişim kolaylaştırılırken yatırım turları, hisse satışları ve birleşme-devralma süreçlerinde profesyonel rehberlik sağlanır. Böylece girişimlerin sağlam temeller üzerinde büyümesi ve rekabetçi bir konuma ulaşması desteklenir.
 
 ## Neden Kurumsal Finansman Yönetimi Gereklidir?
 

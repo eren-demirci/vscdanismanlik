@@ -6,7 +6,7 @@ export const ImageText2Data: SectionProps = {
     container: "container",
     subheading: "Hakkımızda",
     heading: "Farklı Uzmanlıkları Tek Çatı Altında Buluşturuyoruz",
-    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle kurulmuştur. Değer odaklı yaklaşımımız ve güvenilir iş ortaklığı anlayışımızla müşterilerimizin uzun vadeli hedeflerine ulaşmalarını destekliyoruz.",
+    text: "VSC Danışmanlık A.Ş., farklı sektörlerde derin uzmanlık ve deneyime sahip ortaklarının bir araya gelmesiyle tek bir çatı altında toplanmıştır. Bağımsız denetim, sürdürülebilirlik, kurumsal finans, mali müşavirlik, muhasebe ve vergi alanlarında bütüncül ve katma değer yaratan hizmetler sunmayı amaçlayan şirketimiz; değişen iş dünyasının dinamiklerine uyum sağlayan, stratejik bakış açısına sahip çözümler geliştirmektedir.",
     textList: [
         {
             icon: <Icons.Ambition />,

@@ -6,7 +6,7 @@ import BreadcrumbBannerImageMobile from '@/public/img/banner/page-banner-575.jpg
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import OurTeam from '@/components/sections/OurTeam';
 
-const PAGE_TITLE: string = 'Our Team';
+const PAGE_TITLE: string = 'Ekibimiz';
 export const metadata: Metadata = {
   title: PAGE_TITLE,
 }

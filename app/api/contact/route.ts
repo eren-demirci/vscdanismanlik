@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
     const mailOptions = {
       from: `"${name}" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER, // Receiver
-      subject: `Consulo Contact Form Message`,
+      subject: `VSC Danışmanlık İletişim Formu Mesajı`,
       text: message,
       html: html,
     };

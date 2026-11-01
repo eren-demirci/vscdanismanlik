@@ -10,9 +10,19 @@ import { notFound } from 'next/navigation';
 import BreadcrumbBanner from "@/components/BreadcrumbBanner";
 import TeamMemberDetails from '@/components/sections/TeamMemberDetails';
 
-const PAGE_TITLE: string = 'Team Details';
-export const metadata: Metadata = {
-  title: PAGE_TITLE,
+const PAGE_TITLE: string = 'Ekip Üyesi';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const member = TeamMemberList.find((item) => item.slug === slug);
+  return {
+    title: member?.name ?? PAGE_TITLE,
+    description: member?.designation,
+  };
 }
 
 const Page = async ({ params }: {params: Promise<{slug: string}>}) => {
