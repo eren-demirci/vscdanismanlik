@@ -21,7 +21,7 @@ const TermsConditionSection = () => {
 
                                 <h3>1. Hizmetin Kapsamı</h3>
                                 <p>
-                                    VSC Danışmanlık A.Ş. bu site üzerinden bağımsız denetim, sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, yönetim danışmanlığı, dış ticaret ve yatırım, yatırım ve teşvik danışmanlığı alanlarına ilişkin tanıtım ve iletişim
+                                    VSC Danışmanlık A.Ş. bu site üzerinden bağımsız denetim, sürdürülebilirlik, kurumsal finansman, vergi danışmanlığı, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, dış ticaret ve yatırım, yatırım ve teşvik danışmanlığı alanlarına ilişkin tanıtım ve iletişim
                                     hizmeti sunar.
                                 </p>
 

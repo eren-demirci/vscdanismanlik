@@ -24,10 +24,6 @@ export const ServiceMenuList = [
         path: '/services/is-hukuku-ve-sosyal-guvenlik'
     },
     {
-        title: 'Yönetim Danışmanlığı',
-        path: '/services/yonetim-danismanligi'
-    },
-    {
         title: 'Dış Ticaret ve Yatırım Danışmanlığı',
         path: '/services/dis-ticaret-ve-yatirim-danismanligi'
     },

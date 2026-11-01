@@ -21,7 +21,6 @@ export interface ServiceProps {
     list?: ServiceListProps[];
     faqs?: ServiceFaqProps[];
     created_at?: string;
-    hidden?: boolean;
 }
 
 export interface ServiceDataType {

@@ -13,7 +13,6 @@ Navbar istenen linkler:
 -- Vergi Danışmanlığı
 -- Muhasebe ve Mali Danışmanlık
 -- İş Hukuku ve Sosyal Güvenlik Danışmanlığı
--- Yönetim Danışmanlığı
 -- Bağımsız Denetim
 -- Dış Ticaret ve Yatırım Danışmanlığı
 -- Yatırım ve Teşvik Danışmanlığı
@@ -88,16 +87,3 @@ Muhasebe ve Mali Danışmanlık
 •	Yabancı Uyruklu Çalışma İzni
 •	Eğitim
 
-Yönetim Danışmanlığı
-•	Strateji Planlama
-•	Süreç Yönetimi
-•	Marka ve Pazarlama Yönetimi
-•	Satış Operasyon Planlama 
-•	Proje Yönetimi ve Proje Yönetim Ofisi 
-•	Turquality Hazırlık ve Kurumsal Gelişim
-•	İnsan Kaynakları Dönüşümü 
-•	Hedef Operasyon Modeli
-•	Birleşme Sonrası Entegrasyon
-•	Ürün Geliştirme ve İnovasyon
-•	Kurumsal Yönetim 
-•	Uluslararası Büyüme

@@ -1,7 +1,7 @@
 export const FaqAccordion = [
     {
         title: "VSC Danışmanlık hangi hizmetleri sunmaktadır?",
-        text: "VSC Danışmanlık A.Ş.; kurumsal finansman, vergi danışmanlığı, bağımsız denetim, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, yönetim danışmanlığı, dış ticaret ve yatırım, sürdürülebilirlik ile yatırım ve teşvik danışmanlığı alanlarında kapsamlı hizmetler sunmaktadır. Farklı sektörlerdeki uzman ortaklarımızla işletmenizin tüm ihtiyaçlarına tek çatı altında yanıt veriyoruz."
+        text: "VSC Danışmanlık A.Ş.; kurumsal finansman, vergi danışmanlığı, bağımsız denetim, muhasebe ve mali danışmanlık, iş hukuku ve sosyal güvenlik, dış ticaret ve yatırım, sürdürülebilirlik ile yatırım ve teşvik danışmanlığı alanlarında kapsamlı hizmetler sunmaktadır. Farklı sektörlerdeki uzman ortaklarımızla işletmenizin tüm ihtiyaçlarına tek çatı altında yanıt veriyoruz."
     },
     {
         title: "Sürdürülebilirlik raporlaması için hangi standartlara göre hizmet veriyorsunuz?",
@@ -27,10 +27,6 @@ export const FaqAccordion = [
     {
         title: "Dış ticaret ve yatırım teşvikleri konusunda destek veriyor musunuz?",
         text: "Evet. İhracat ve ithalat danışmanlığı, ihracat teşvikleri ve yatırım danışmanlığının yanı sıra Sanayi ve Teknoloji Bakanlığı destekleri, Ar-Ge ve teknoloji geliştirme bölgesi destekleri ile bölgesel ve stratejik yatırım uygulamalarında başvurudan takibe kadar danışmanlık sunuyoruz."
-    },
-    {
-        title: "Yönetim danışmanlığı hizmetlerinizden nasıl yararlanabilirim?",
-        text: "Strateji planlama, süreç yönetimi, marka ve pazarlama yönetimi, proje yönetimi ve proje yönetim ofisi kurulumu, insan kaynakları dönüşümü, Turquality hazırlık ve birleşme sonrası entegrasyon alanlarında danışmanlık sunuyoruz. İletişim formu aracılığıyla bizimle iletişime geçerek ihtiyaçlarınızı paylaşabilirsiniz."
     },
     {
         title: "VSC Danışmanlık ile çalışmaya nasıl başlayabilirim?",

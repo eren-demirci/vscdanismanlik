@@ -2,7 +2,7 @@ export const HeroSlidesData = [
     {
       subheading: "VSC Danışmanlık A.Ş.",
       heading: "Geleceğe Güçlü, Şeffaf ve Sürdürülebilir Adımlarla",
-      text: "Sürdürülebilirlik, kurumsal finans, vergi, denetim ve yönetim danışmanlığında bütüncül çözümler. Stratejik bakış açısı, güvenilir iş ortaklığı.",
+      text: "Bağımsız denetim, sürdürülebilirlik, kurumsal finans ve vergi alanlarında bütüncül çözümler. Stratejik bakış açısı, güvenilir iş ortaklığı.",
       button: {
           label: "Bize Ulaşın",
           href: "/contact-us",
